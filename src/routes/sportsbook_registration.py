@@ -14,12 +14,35 @@ sportsbook_bp = Blueprint('sportsbook', __name__)
 DATABASE_PATH = 'src/database/app.db'
 
 def get_db_connection():
-    """Get database connection"""
-    conn = sqlite3.connect(DATABASE_PATH)
-    conn.row_factory = sqlite3.Row
-    return conn
+    """Get database connection with timeout and retry"""
+    max_retries = 3
+    retry_delay = 1  # seconds
+    
+    for attempt in range(max_retries):
+        try:
+            conn = sqlite3.connect(DATABASE_PATH, timeout=30.0)
+            conn.row_factory = sqlite3.Row
+            # Enable WAL mode for better concurrency
+            conn.execute("PRAGMA journal_mode=WAL")
+            conn.execute("PRAGMA synchronous=NORMAL")
+            return conn
+        except sqlite3.OperationalError as e:
+            if "database is locked" in str(e).lower() and attempt < max_retries - 1:
+                print(f"Database locked, retrying in {retry_delay} seconds... (attempt {attempt + 1}/{max_retries})")
+                import time
+                time.sleep(retry_delay)
+                retry_delay *= 2  # Exponential backoff
+                continue
+            else:
+                print(f"Database connection error after {max_retries} attempts: {e}")
+                raise
+        except Exception as e:
+            print(f"Database connection error: {e}")
+            raise
+    
+    raise Exception("Failed to connect to database after multiple attempts")
 
-def generate_subdomain(sportsbook_name, login):
+def generate_subdomain(conn, sportsbook_name, login):
     """Generate a unique subdomain from sportsbook name and login"""
     # Clean the sportsbook name and login
     clean_name = re.sub(r'[^a-zA-Z0-9]', '', sportsbook_name.lower())
@@ -34,8 +57,6 @@ def generate_subdomain(sportsbook_name, login):
         f"{clean_login}{clean_name[:5]}",
     ]
     
-    conn = get_db_connection()
-    
     for candidate in candidates:
         if len(candidate) >= 3:
             # Check if subdomain is available
@@ -45,7 +66,6 @@ def generate_subdomain(sportsbook_name, login):
             ).fetchone()
             
             if not existing:
-                conn.close()
                 return candidate
     
     # If all candidates are taken, append numbers
@@ -60,11 +80,9 @@ def generate_subdomain(sportsbook_name, login):
         ).fetchone()
         
         if not existing:
-            conn.close()
             return candidate
         counter += 1
     
-    conn.close()
     raise Exception("Unable to generate unique subdomain")
 
 @sportsbook_bp.route('/register-sportsbook', methods=['POST'])
@@ -145,7 +163,7 @@ def register_sportsbook():
         
         # Generate unique subdomain
         try:
-            subdomain = generate_subdomain(sportsbook_name, login)
+            subdomain = generate_subdomain(conn, sportsbook_name, login)
         except Exception as e:
             conn.close()
             return jsonify({
@@ -197,6 +215,17 @@ def register_sportsbook():
             'sportsbook_url': f'/{subdomain}'
         }), 201
         
+    except sqlite3.OperationalError as e:
+        if "database is locked" in str(e).lower():
+            return jsonify({
+                'success': False,
+                'error': 'Registration failed: database is locked. Please try again in a few seconds.'
+            }), 500
+        else:
+            return jsonify({
+                'success': False,
+                'error': f'Registration failed: database error - {str(e)}'
+            }), 500
     except Exception as e:
         return jsonify({
             'success': False,

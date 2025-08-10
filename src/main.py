@@ -142,11 +142,12 @@ init_websocket_handlers(socketio, live_odds_service)
 bet_settlement_service = BetSettlementService(app)
 
 # Start the bet settlement service automatically when the module is imported
+# Temporarily disabled to prevent database locking issues
 try:
-    bet_settlement_service.start()
-    logging.info("✅ Bet settlement service started automatically")
+    # bet_settlement_service.start()  # Temporarily disabled
+    logging.info("✅ Bet settlement service created but not started (disabled to prevent DB locks)")
 except Exception as e:
-    logging.error(f"❌ Failed to start bet settlement service automatically: {e}")
+    logging.error(f"❌ Failed to create bet settlement service: {e}")
 
 def ensure_settlement_service_running():
     """Ensure the settlement service is running, restart if needed"""

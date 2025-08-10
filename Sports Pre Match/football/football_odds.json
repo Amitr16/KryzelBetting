@@ -3,7 +3,7 @@
     "sport": "football",
     "display_name": "American Football",
     "icon": "🏈",
-    "fetch_timestamp": "2025-08-11T00:25:35.019774",
+    "fetch_timestamp": "2025-08-11T00:32:47.937974",
     "date_range": [
       "10.08.2025",
       "12.08.2025"
@@ -12,7 +12,7 @@
   "odds_data": {
     "scores": {
       "sport": "football",
-      "ts": "1754814177",
+      "ts": "1754814391",
       "categories": [
         {
           "name": "Usa: Nfl - Pre-Season",
@@ -6967,18 +6967,18 @@
                         {
                           "type": "total",
                           "name": "37.5",
-                          "ismain": "False",
-                          "stop": "True",
+                          "ismain": "True",
+                          "stop": "False",
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "2.08",
-                              "stop": "True"
+                              "value": "1.90",
+                              "stop": "False"
                             },
                             {
                               "name": "Under",
-                              "value": "1.67",
-                              "stop": "True"
+                              "value": "1.90",
+                              "stop": "False"
                             }
                           ]
                         },
@@ -7003,7 +7003,7 @@
                         {
                           "type": "total",
                           "name": "38.5",
-                          "ismain": "True",
+                          "ismain": "False",
                           "stop": "False",
                           "odds": [
                             {
@@ -8525,7 +8525,7 @@
                         },
                         {
                           "name": "Miami Dolphins/Draw",
-                          "value": "31.00",
+                          "value": "34.00",
                           "stop": "False"
                         },
                         {
@@ -9128,18 +9128,18 @@
                         {
                           "type": "handicap",
                           "name": "-2",
-                          "ismain": "True",
-                          "stop": "False",
+                          "ismain": "False",
+                          "stop": "True",
                           "odds": [
                             {
                               "name": "Home",
                               "value": "1.95",
-                              "stop": "False"
+                              "stop": "True"
                             },
                             {
                               "name": "Away",
                               "value": "1.86",
-                              "stop": "False"
+                              "stop": "True"
                             }
                           ]
                         },
@@ -9468,18 +9468,18 @@
                     {
                       "id": "16",
                       "name": "bet365",
-                      "stop": "False",
-                      "ts": "1754793052",
+                      "stop": "True",
+                      "ts": "1754814390",
                       "odds": [
                         {
                           "name": "Odd",
                           "value": "1.90",
-                          "stop": "False"
+                          "stop": "True"
                         },
                         {
                           "name": "Even",
                           "value": "1.90",
-                          "stop": "False"
+                          "stop": "True"
                         }
                       ]
                     }
@@ -10213,16 +10213,16 @@
                       "id": "16",
                       "name": "bet365",
                       "stop": "False",
-                      "ts": "1754808397",
+                      "ts": "1754814390",
                       "odds": [
                         {
                           "name": "Yes",
-                          "value": "5.50",
+                          "value": "5.00",
                           "stop": "False"
                         },
                         {
                           "name": "No",
-                          "value": "1.12",
+                          "value": "1.14",
                           "stop": "False"
                         }
                       ]

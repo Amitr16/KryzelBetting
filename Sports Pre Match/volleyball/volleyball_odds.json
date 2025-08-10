@@ -3,7 +3,7 @@
     "sport": "volleyball",
     "display_name": "Volleyball",
     "icon": "🏐",
-    "fetch_timestamp": "2025-08-11T00:25:30.969943",
+    "fetch_timestamp": "2025-08-11T00:32:45.697398",
     "date_range": [
       "10.08.2025",
       "12.08.2025"
@@ -12,7 +12,7 @@
   "odds_data": {
     "scores": {
       "sport": "volleyball",
-      "ts": "1754812539",
+      "ts": "1754814709",
       "categories": [
         {
           "name": "Europe: European Championships Women - Qualification",
@@ -568,7 +568,7 @@
             },
             {
               "id": "432842",
-              "status": "Set 1",
+              "status": "Set 2",
               "date": "10.08.2025",
               "time": "16:00",
               "localteam": {
@@ -1140,8 +1140,8 @@
         },
         {
           "name": "Europe: European Championships - Qualification",
-          "gid": "1107",
-          "id": "1107",
+          "gid": "1586",
+          "id": "1586",
           "matches": [
             {
               "id": "432788",
@@ -3426,24 +3426,24 @@
                     {
                       "id": "16",
                       "name": "bet365",
-                      "stop": "False",
-                      "ts": "1754798443",
+                      "stop": "True",
+                      "ts": "1754814708",
                       "odds": [
                         {
                           "type": "total",
                           "name": "40.5",
-                          "ismain": "True",
-                          "stop": "False",
+                          "ismain": "False",
+                          "stop": "True",
                           "odds": [
                             {
                               "name": "Over",
                               "value": "1.80",
-                              "stop": "False"
+                              "stop": "True"
                             },
                             {
                               "name": "Under",
                               "value": "1.90",
-                              "stop": "False"
+                              "stop": "True"
                             }
                           ]
                         },
@@ -3477,18 +3477,18 @@
                     {
                       "id": "16",
                       "name": "bet365",
-                      "stop": "False",
-                      "ts": "1754798443",
+                      "stop": "True",
+                      "ts": "1754814708",
                       "odds": [
                         {
                           "name": "Home",
                           "value": "1.01",
-                          "stop": "False"
+                          "stop": "True"
                         },
                         {
                           "name": "Away",
                           "value": "12.00",
-                          "stop": "False"
+                          "stop": "True"
                         }
                       ]
                     }
@@ -3502,24 +3502,24 @@
                     {
                       "id": "16",
                       "name": "bet365",
-                      "stop": "False",
-                      "ts": "1754798443",
+                      "stop": "True",
+                      "ts": "1754814708",
                       "odds": [
                         {
                           "type": "handicap",
                           "name": "-9.5",
-                          "ismain": "True",
-                          "stop": "False",
+                          "ismain": "False",
+                          "stop": "True",
                           "odds": [
                             {
                               "name": "Home",
                               "value": "1.90",
-                              "stop": "False"
+                              "stop": "True"
                             },
                             {
                               "name": "Away",
                               "value": "1.80",
-                              "stop": "False"
+                              "stop": "True"
                             }
                           ]
                         },
@@ -5473,8 +5473,8 @@
         },
         {
           "name": "World: Pan-American Cup Women - 5th-6th Places",
-          "gid": "1531",
-          "id": "1531",
+          "gid": "1900",
+          "id": "1900",
           "matches": [
             {
               "id": "457813",
@@ -5880,7 +5880,14 @@
                   ]
                 }
               ]
-            },
+            }
+          ]
+        },
+        {
+          "name": "World: Pan-American Cup Women - Play Offs",
+          "gid": "1532",
+          "id": "1532",
+          "matches": [
             {
               "id": "457815",
               "status": "Not Started",
