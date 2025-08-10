@@ -102,7 +102,7 @@ app.register_blueprint(sports_bp, url_prefix='/api')
 app.register_blueprint(betting_bp, url_prefix='/api/betting')
 app.register_blueprint(prematch_odds_bp, url_prefix='/api/prematch-odds')
 # app.register_blueprint(multitenant_bp)  # Disable old multitenant routing - REMOVED
-app.register_blueprint(clean_multitenant_bp)  # New clean URL routing - REGISTER BEFORE sportsbook_bp
+app.register_blueprint(clean_multitenant_bp)  # New clean URL routing - REGISTER BEFORE sportsbook_bp - FIXES ADMIN 404
 app.register_blueprint(sportsbook_bp, url_prefix='/api')  # Move this AFTER clean_multitenant_bp
 app.register_blueprint(superadmin_bp)
 # app.register_blueprint(tenant_admin_bp)  # Disable conflicting admin routes - REMOVED
