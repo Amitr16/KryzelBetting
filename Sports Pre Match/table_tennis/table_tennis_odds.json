@@ -3,7 +3,7 @@
     "sport": "table_tennis",
     "display_name": "Table Tennis",
     "icon": "🏓",
-    "fetch_timestamp": "2025-08-11T00:31:50.539227",
+    "fetch_timestamp": "2025-08-11T07:11:27.039386",
     "date_range": [
       "10.08.2025",
       "12.08.2025"
@@ -12,22 +12,22 @@
   "odds_data": {
     "scores": {
       "sport": "table_tennis",
-      "ts": "1754789507",
+      "ts": "1754836186",
       "categories": [
         {
-          "name": "Others - Women: Wtt Champions Yokohama (Japan)",
-          "gid": "55181",
-          "id": "55181",
+          "name": "Others - Men: Wtt Champions Yokohama (Japan)",
+          "gid": "55180",
+          "id": "55180",
           "matches": [
             {
-              "id": "2530016",
+              "id": "2530202",
               "tb": "false",
-              "time": "09:50",
-              "formatted_date": "10.08.2025",
-              "status": "Set 4",
+              "time": "02:15",
+              "formatted_date": "11.08.2025",
+              "status": "Not Started",
               "player_1": {
-                "id": "113723",
-                "name": "Y. Sun",
+                "id": "113941",
+                "name": "K. Jha",
                 "winner": "false",
                 "totalscore": "",
                 "s5": "",
@@ -39,8 +39,8 @@
                 "serve": "false"
               },
               "player_2": {
-                "id": "119235",
-                "name": "S. Odo",
+                "id": "113953",
+                "name": "T. Harimoto",
                 "winner": "false",
                 "totalscore": "",
                 "s5": "",
@@ -60,18 +60,18 @@
                     {
                       "id": "16",
                       "name": "bet365",
-                      "stop": "True",
-                      "ts": "1754781898",
+                      "stop": "False",
+                      "ts": "1754833837",
                       "odds": [
                         {
                           "name": "Home",
-                          "value": "1.83",
-                          "stop": "True"
+                          "value": "6.50",
+                          "stop": "False"
                         },
                         {
                           "name": "Away",
-                          "value": "1.83",
-                          "stop": "True"
+                          "value": "1.10",
+                          "stop": "False"
                         }
                       ]
                     }
@@ -86,214 +86,7 @@
                       "id": "16",
                       "name": "bet365",
                       "stop": "True",
-                      "ts": "1754719571",
-                      "odds": [
-                        {
-                          "type": "handicap",
-                          "name": "+0.5",
-                          "ismain": "False",
-                          "stop": "True",
-                          "odds": [
-                            {
-                              "name": "Home",
-                              "value": "1.80",
-                              "stop": "True"
-                            },
-                            {
-                              "name": "Away",
-                              "value": "1.90",
-                              "stop": "True"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "id": "5",
-                  "value": "Over/Under",
-                  "stop": "false",
-                  "bookmakers": [
-                    {
-                      "id": "16",
-                      "name": "bet365",
-                      "stop": "True",
-                      "ts": "1754719571",
-                      "odds": [
-                        {
-                          "type": "total",
-                          "name": "78.5",
-                          "ismain": "False",
-                          "stop": "True",
-                          "odds": [
-                            {
-                              "name": "Over",
-                              "value": "1.83",
-                              "stop": "True"
-                            },
-                            {
-                              "name": "Under",
-                              "value": "1.83",
-                              "stop": "True"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "id": "22608",
-                  "value": "Odd/Even",
-                  "stop": "false",
-                  "bookmakers": [
-                    {
-                      "id": "16",
-                      "name": "bet365",
-                      "stop": "True",
-                      "ts": "1754781898",
-                      "odds": [
-                        {
-                          "name": "Odd",
-                          "value": "1.83",
-                          "stop": "True"
-                        },
-                        {
-                          "name": "Even",
-                          "value": "1.83",
-                          "stop": "True"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "id": "22625",
-                  "value": "Odd/Even (1st Set)",
-                  "stop": "false",
-                  "bookmakers": [
-                    {
-                      "id": "16",
-                      "name": "bet365",
-                      "stop": "True",
-                      "ts": "1754781898",
-                      "odds": [
-                        {
-                          "name": "Odd",
-                          "value": "2.50",
-                          "stop": "True"
-                        },
-                        {
-                          "name": "Even",
-                          "value": "1.50",
-                          "stop": "True"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "id": "22627",
-                  "value": "Over/Under (1st Set)",
-                  "stop": "false",
-                  "bookmakers": [
-                    {
-                      "id": "16",
-                      "name": "bet365",
-                      "stop": "True",
-                      "ts": "1754719054",
-                      "odds": [
-                        {
-                          "type": "total",
-                          "name": "18.5",
-                          "ismain": "False",
-                          "stop": "True",
-                          "odds": [
-                            {
-                              "name": "Over",
-                              "value": "1.80",
-                              "stop": "True"
-                            },
-                            {
-                              "name": "Under",
-                              "value": "1.90",
-                              "stop": "True"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "id": "22628",
-                  "value": "Home/Away (1st Set)",
-                  "stop": "false",
-                  "bookmakers": [
-                    {
-                      "id": "16",
-                      "name": "bet365",
-                      "stop": "True",
-                      "ts": "1754781898",
-                      "odds": [
-                        {
-                          "name": "Home",
-                          "value": "1.83",
-                          "stop": "True"
-                        },
-                        {
-                          "name": "Away",
-                          "value": "1.83",
-                          "stop": "True"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "id": "22629",
-                  "value": "Asian Handicap (1st Set)",
-                  "stop": "false",
-                  "bookmakers": [
-                    {
-                      "id": "16",
-                      "name": "bet365",
-                      "stop": "True",
-                      "ts": "1754719054",
-                      "odds": [
-                        {
-                          "type": "handicap",
-                          "name": "+2.5",
-                          "ismain": "False",
-                          "stop": "True",
-                          "odds": [
-                            {
-                              "name": "Home",
-                              "value": "1.40",
-                              "stop": "True"
-                            },
-                            {
-                              "name": "Away",
-                              "value": "2.75",
-                              "stop": "True"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "id": "22630",
-                  "value": "Asian Handicap (Sets)",
-                  "stop": "false",
-                  "bookmakers": [
-                    {
-                      "id": "16",
-                      "name": "bet365",
-                      "stop": "True",
-                      "ts": "1754719571",
+                      "ts": "1754833837",
                       "odds": [
                         {
                           "type": "handicap",
@@ -303,229 +96,91 @@
                           "odds": [
                             {
                               "name": "Home",
-                              "value": "1.36",
+                              "value": "4.50",
                               "stop": "True"
                             },
                             {
                               "name": "Away",
-                              "value": "3.00",
+                              "value": "1.16",
                               "stop": "True"
                             }
                           ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "id": "22632",
-                  "value": "Set Betting",
-                  "stop": "false",
-                  "bookmakers": [
-                    {
-                      "id": "16",
-                      "name": "bet365",
-                      "stop": "True",
-                      "ts": "1754719571",
-                      "odds": [
-                        {
-                          "name": "3:0",
-                          "value": "6.50",
-                          "stop": "True"
                         },
-                        {
-                          "name": "3:1",
-                          "value": "4.75",
-                          "stop": "True"
-                        },
-                        {
-                          "name": "3:2",
-                          "value": "4.50",
-                          "stop": "True"
-                        },
-                        {
-                          "name": "0:3",
-                          "value": "6.50",
-                          "stop": "True"
-                        },
-                        {
-                          "name": "1:3",
-                          "value": "4.75",
-                          "stop": "True"
-                        },
-                        {
-                          "name": "2:3",
-                          "value": "4.50",
-                          "stop": "True"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "2530047",
-              "tb": "false",
-              "time": "10:40",
-              "formatted_date": "10.08.2025",
-              "status": "55",
-              "player_1": {
-                "id": "118994",
-                "name": "H. Hayata",
-                "winner": "false",
-                "totalscore": "",
-                "s5": "",
-                "s4": "",
-                "s3": "",
-                "s2": "",
-                "s1": "",
-                "game_score": "",
-                "serve": "false"
-              },
-              "player_2": {
-                "id": "135226",
-                "name": "X. Chen",
-                "winner": "false",
-                "totalscore": "",
-                "s5": "",
-                "s4": "",
-                "s3": "",
-                "s2": "",
-                "s1": "",
-                "game_score": "",
-                "serve": "false"
-              },
-              "odds": [
-                {
-                  "id": "2",
-                  "value": "Home/Away",
-                  "stop": "false",
-                  "bookmakers": [
-                    {
-                      "id": "16",
-                      "name": "bet365",
-                      "stop": "False",
-                      "ts": "1754745361",
-                      "odds": [
-                        {
-                          "name": "Home",
-                          "value": "3.50",
-                          "stop": "False"
-                        },
-                        {
-                          "name": "Away",
-                          "value": "1.28",
-                          "stop": "False"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "id": "4",
-                  "value": "Asian Handicap",
-                  "stop": "false",
-                  "bookmakers": [
-                    {
-                      "id": "16",
-                      "name": "bet365",
-                      "stop": "False",
-                      "ts": "1754745880",
-                      "odds": [
                         {
                           "type": "handicap",
-                          "name": "-0.5",
+                          "name": "+3.5",
                           "ismain": "False",
                           "stop": "False",
                           "odds": [
                             {
                               "name": "Home",
-                              "value": "3.75",
+                              "value": "5.00",
                               "stop": "False"
                             },
                             {
                               "name": "Away",
-                              "value": "1.25",
+                              "value": "1.14",
                               "stop": "False"
                             }
                           ]
                         },
                         {
                           "type": "handicap",
-                          "name": "-2.5",
+                          "name": "+6.5",
                           "ismain": "False",
                           "stop": "True",
                           "odds": [
                             {
                               "name": "Home",
-                              "value": "4.33",
+                              "value": "3.25",
                               "stop": "True"
                             },
                             {
                               "name": "Away",
-                              "value": "1.20",
+                              "value": "1.33",
                               "stop": "True"
                             }
                           ]
                         },
                         {
                           "type": "handicap",
-                          "name": "+2.5",
-                          "ismain": "False",
-                          "stop": "True",
-                          "odds": [
-                            {
-                              "name": "Home",
-                              "value": "3.00",
-                              "stop": "True"
-                            },
-                            {
-                              "name": "Away",
-                              "value": "1.36",
-                              "stop": "True"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "handicap",
-                          "name": "+4.5",
+                          "name": "+8.5",
                           "ismain": "False",
                           "stop": "False",
                           "odds": [
                             {
                               "name": "Home",
-                              "value": "2.62",
+                              "value": "3.40",
                               "stop": "False"
                             },
                             {
                               "name": "Away",
-                              "value": "1.44",
+                              "value": "1.30",
                               "stop": "False"
                             }
                           ]
                         },
                         {
                           "type": "handicap",
-                          "name": "+7.5",
+                          "name": "+11.5",
                           "ismain": "False",
                           "stop": "True",
                           "odds": [
                             {
                               "name": "Home",
-                              "value": "1.83",
+                              "value": "1.90",
                               "stop": "True"
                             },
                             {
                               "name": "Away",
-                              "value": "1.83",
+                              "value": "1.80",
                               "stop": "True"
                             }
                           ]
                         },
                         {
                           "type": "handicap",
-                          "name": "+9.5",
+                          "name": "+13.5",
                           "ismain": "True",
                           "stop": "False",
                           "odds": [
@@ -543,72 +198,72 @@
                         },
                         {
                           "type": "handicap",
-                          "name": "+12.5",
+                          "name": "+16.5",
                           "ismain": "False",
                           "stop": "True",
+                          "odds": [
+                            {
+                              "name": "Home",
+                              "value": "1.28",
+                              "stop": "True"
+                            },
+                            {
+                              "name": "Away",
+                              "value": "3.50",
+                              "stop": "True"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "handicap",
+                          "name": "+18.5",
+                          "ismain": "False",
+                          "stop": "False",
                           "odds": [
                             {
                               "name": "Home",
                               "value": "1.25",
-                              "stop": "True"
+                              "stop": "False"
                             },
                             {
                               "name": "Away",
                               "value": "3.75",
-                              "stop": "True"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "handicap",
-                          "name": "+14.5",
-                          "ismain": "False",
-                          "stop": "False",
-                          "odds": [
-                            {
-                              "name": "Home",
-                              "value": "1.30",
-                              "stop": "False"
-                            },
-                            {
-                              "name": "Away",
-                              "value": "3.40",
                               "stop": "False"
                             }
                           ]
                         },
                         {
                           "type": "handicap",
-                          "name": "+17.5",
+                          "name": "+21.5",
                           "ismain": "False",
                           "stop": "True",
                           "odds": [
                             {
                               "name": "Home",
-                              "value": "1.03",
+                              "value": "1.05",
                               "stop": "True"
                             },
                             {
                               "name": "Away",
-                              "value": "10.00",
+                              "value": "8.50",
                               "stop": "True"
                             }
                           ]
                         },
                         {
                           "type": "handicap",
-                          "name": "+19.5",
+                          "name": "+23.5",
                           "ismain": "False",
                           "stop": "False",
                           "odds": [
                             {
                               "name": "Home",
-                              "value": "1.06",
+                              "value": "1.04",
                               "stop": "False"
                             },
                             {
                               "name": "Away",
-                              "value": "8.00",
+                              "value": "9.00",
                               "stop": "False"
                             }
                           ]
@@ -625,48 +280,66 @@
                     {
                       "id": "16",
                       "name": "bet365",
-                      "stop": "True",
-                      "ts": "1754745194",
+                      "stop": "False",
+                      "ts": "1754833837",
                       "odds": [
                         {
                           "type": "total",
-                          "name": "62.5",
+                          "name": "81.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.40",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "2.75",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "85.5",
                           "ismain": "False",
                           "stop": "True",
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "1.44",
+                              "value": "1.40",
                               "stop": "True"
                             },
                             {
                               "name": "Under",
-                              "value": "2.62",
+                              "value": "2.75",
                               "stop": "True"
                             }
                           ]
                         },
                         {
                           "type": "total",
-                          "name": "67.5",
+                          "name": "90.5",
                           "ismain": "False",
                           "stop": "True",
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "1.57",
+                              "value": "1.61",
                               "stop": "True"
                             },
                             {
                               "name": "Under",
-                              "value": "2.25",
+                              "value": "2.20",
                               "stop": "True"
                             }
                           ]
                         },
                         {
                           "type": "total",
-                          "name": "72.5",
+                          "name": "95.5",
                           "ismain": "False",
                           "stop": "True",
                           "odds": [
@@ -684,54 +357,36 @@
                         },
                         {
                           "type": "total",
-                          "name": "77.5",
+                          "name": "86.5",
                           "ismain": "False",
-                          "stop": "True",
+                          "stop": "False",
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "2.50",
-                              "stop": "True"
+                              "value": "1.61",
+                              "stop": "False"
                             },
                             {
                               "name": "Under",
-                              "value": "1.50",
-                              "stop": "True"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "total",
-                          "name": "82.5",
-                          "ismain": "False",
-                          "stop": "True",
-                          "odds": [
-                            {
-                              "name": "Over",
-                              "value": "3.00",
-                              "stop": "True"
-                            },
-                            {
-                              "name": "Under",
-                              "value": "1.36",
-                              "stop": "True"
+                              "value": "2.20",
+                              "stop": "False"
                             }
                           ]
                         },
                         {
                           "type": "total",
                           "name": "91.5",
-                          "ismain": "False",
+                          "ismain": "True",
                           "stop": "False",
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "1.50",
+                              "value": "1.83",
                               "stop": "False"
                             },
                             {
                               "name": "Under",
-                              "value": "2.50",
+                              "value": "1.83",
                               "stop": "False"
                             }
                           ]
@@ -744,19 +399,37 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "1.66",
+                              "value": "2.25",
                               "stop": "False"
                             },
                             {
                               "name": "Under",
-                              "value": "2.10",
+                              "value": "1.57",
                               "stop": "False"
                             }
                           ]
                         },
                         {
                           "type": "total",
-                          "name": "111.5",
+                          "name": "105.5",
+                          "ismain": "False",
+                          "stop": "True",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "2.50",
+                              "stop": "True"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.50",
+                              "stop": "True"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "101.5",
                           "ismain": "False",
                           "stop": "False",
                           "odds": [
@@ -774,37 +447,19 @@
                         },
                         {
                           "type": "total",
-                          "name": "101.5",
-                          "ismain": "True",
-                          "stop": "False",
-                          "odds": [
-                            {
-                              "name": "Over",
-                              "value": "1.83",
-                              "stop": "False"
-                            },
-                            {
-                              "name": "Under",
-                              "value": "1.83",
-                              "stop": "False"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "total",
-                          "name": "106.5",
+                          "name": "100.5",
                           "ismain": "False",
-                          "stop": "False",
+                          "stop": "True",
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "2.20",
-                              "stop": "False"
+                              "value": "2.10",
+                              "stop": "True"
                             },
                             {
                               "name": "Under",
-                              "value": "1.61",
-                              "stop": "False"
+                              "value": "1.66",
+                              "stop": "True"
                             }
                           ]
                         }
@@ -821,26 +476,26 @@
                       "id": "16",
                       "name": "bet365",
                       "stop": "False",
-                      "ts": "1754751121",
+                      "ts": "1754820407",
                       "odds": [
                         {
-                          "name": "Xingtong Chen/Drawingtong Chen",
-                          "value": "1.72",
-                          "stop": "False"
-                        },
-                        {
-                          "name": "Hina Hayata/Hina Hayata",
-                          "value": "5.00",
-                          "stop": "False"
-                        },
-                        {
-                          "name": "Hina Hayata/Drawingtong Chen",
+                          "name": "Kanak Jha/Tomokazu Harimoto",
                           "value": "4.33",
                           "stop": "False"
                         },
                         {
-                          "name": "Xingtong Chen/Hina Hayata",
-                          "value": "9.50",
+                          "name": "Tomokazu Harimoto/Kanak Jha",
+                          "value": "17.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "Kanak Jha/Kanak Jha",
+                          "value": "9.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "Tomokazu Harimoto/Tomokazu Harimoto",
+                          "value": "1.36",
                           "stop": "False"
                         }
                       ]
@@ -856,11 +511,11 @@
                       "id": "16",
                       "name": "bet365",
                       "stop": "False",
-                      "ts": "1754754106",
+                      "ts": "1754834437",
                       "odds": [
                         {
                           "name": "11:9",
-                          "value": "11.00",
+                          "value": "13.00",
                           "stop": "False"
                         },
                         {
@@ -870,62 +525,62 @@
                         },
                         {
                           "name": "11:8",
-                          "value": "13.00",
+                          "value": "17.00",
                           "stop": "False"
                         },
                         {
                           "name": "8:11",
-                          "value": "8.50",
+                          "value": "8.00",
                           "stop": "False"
                         },
                         {
                           "name": "11:7",
-                          "value": "15.00",
-                          "stop": "False"
-                        },
-                        {
-                          "name": "7:11",
-                          "value": "8.50",
-                          "stop": "False"
-                        },
-                        {
-                          "name": "11:6",
                           "value": "19.00",
                           "stop": "False"
                         },
                         {
-                          "name": "6:11",
-                          "value": "9.50",
+                          "name": "7:11",
+                          "value": "7.50",
                           "stop": "False"
                         },
                         {
-                          "name": "11:5",
+                          "name": "11:6",
                           "value": "23.00",
                           "stop": "False"
                         },
                         {
-                          "name": "5:11",
-                          "value": "12.00",
+                          "name": "6:11",
+                          "value": "8.00",
                           "stop": "False"
                         },
                         {
-                          "name": "11:4",
+                          "name": "11:5",
                           "value": "34.00",
                           "stop": "False"
                         },
                         {
+                          "name": "5:11",
+                          "value": "9.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "11:4",
+                          "value": "41.00",
+                          "stop": "False"
+                        },
+                        {
                           "name": "4:11",
-                          "value": "15.00",
+                          "value": "12.00",
                           "stop": "False"
                         },
                         {
                           "name": "11:3",
-                          "value": "29.00",
+                          "value": "41.00",
                           "stop": "False"
                         },
                         {
                           "name": "3:11",
-                          "value": "12.00",
+                          "value": "8.50",
                           "stop": "False"
                         }
                       ]
@@ -940,30 +595,12 @@
                     {
                       "id": "16",
                       "name": "bet365",
-                      "stop": "True",
-                      "ts": "1754745194",
+                      "stop": "False",
+                      "ts": "1754836185",
                       "odds": [
                         {
                           "type": "total",
-                          "name": "33.5",
-                          "ismain": "False",
-                          "stop": "True",
-                          "odds": [
-                            {
-                              "name": "Over",
-                              "value": "1.83",
-                              "stop": "True"
-                            },
-                            {
-                              "name": "Under",
-                              "value": "1.83",
-                              "stop": "True"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "total",
-                          "name": "47.5",
+                          "name": "39.5",
                           "ismain": "True",
                           "stop": "False",
                           "odds": [
@@ -976,6 +613,24 @@
                               "name": "Under",
                               "value": "1.83",
                               "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "43.5",
+                          "ismain": "False",
+                          "stop": "True",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.83",
+                              "stop": "True"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.83",
+                              "stop": "True"
                             }
                           ]
                         }
@@ -991,30 +646,12 @@
                     {
                       "id": "16",
                       "name": "bet365",
-                      "stop": "True",
-                      "ts": "1754745194",
+                      "stop": "False",
+                      "ts": "1754836185",
                       "odds": [
                         {
                           "type": "total",
-                          "name": "39.5",
-                          "ismain": "False",
-                          "stop": "True",
-                          "odds": [
-                            {
-                              "name": "Over",
-                              "value": "1.83",
-                              "stop": "True"
-                            },
-                            {
-                              "name": "Under",
-                              "value": "1.83",
-                              "stop": "True"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "total",
-                          "name": "54.5",
+                          "name": "52.5",
                           "ismain": "True",
                           "stop": "False",
                           "odds": [
@@ -1027,6 +664,24 @@
                               "name": "Under",
                               "value": "1.80",
                               "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "53.5",
+                          "ismain": "False",
+                          "stop": "True",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.90",
+                              "stop": "True"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.80",
+                              "stop": "True"
                             }
                           ]
                         }
@@ -1043,7 +698,7 @@
                       "id": "16",
                       "name": "bet365",
                       "stop": "False",
-                      "ts": "1754751121",
+                      "ts": "1754821765",
                       "odds": [
                         {
                           "name": "Odd",
@@ -1068,60 +723,60 @@
                       "id": "16",
                       "name": "bet365",
                       "stop": "True",
-                      "ts": "1754745194",
+                      "ts": "1754833569",
                       "odds": [
                         {
                           "type": "total",
-                          "name": "72.5",
+                          "name": "95.5",
                           "ismain": "False",
                           "stop": "True",
                           "odds": [
                             {
                               "name": "Home/Over",
-                              "value": "5.50",
+                              "value": "6.50",
                               "stop": "True"
                             },
                             {
                               "name": "Away/Over",
-                              "value": "2.75",
+                              "value": "2.37",
                               "stop": "True"
                             },
                             {
                               "name": "Home/Under",
-                              "value": "8.50",
+                              "value": "13.00",
                               "stop": "True"
                             },
                             {
                               "name": "Away/Under",
-                              "value": "2.20",
+                              "value": "2.05",
                               "stop": "True"
                             }
                           ]
                         },
                         {
                           "type": "total",
-                          "name": "101.5",
+                          "name": "91.5",
                           "ismain": "False",
                           "stop": "False",
                           "odds": [
                             {
                               "name": "Home/Over",
-                              "value": "5.50",
+                              "value": "8.50",
                               "stop": "False"
                             },
                             {
                               "name": "Away/Over",
-                              "value": "2.62",
+                              "value": "2.25",
                               "stop": "False"
                             },
                             {
                               "name": "Home/Under",
-                              "value": "9.00",
+                              "value": "26.00",
                               "stop": "False"
                             },
                             {
                               "name": "Away/Under",
-                              "value": "2.25",
+                              "value": "1.90",
                               "stop": "False"
                             }
                           ]
@@ -1139,16 +794,16 @@
                       "id": "16",
                       "name": "bet365",
                       "stop": "False",
-                      "ts": "1754747425",
+                      "ts": "1754820407",
                       "odds": [
                         {
                           "name": "Odd",
-                          "value": "2.50",
+                          "value": "2.37",
                           "stop": "False"
                         },
                         {
                           "name": "Even",
-                          "value": "1.50",
+                          "value": "1.53",
                           "stop": "False"
                         }
                       ]
@@ -1164,7 +819,7 @@
                       "id": "16",
                       "name": "bet365",
                       "stop": "False",
-                      "ts": "1754745361",
+                      "ts": "1754834147",
                       "odds": [
                         {
                           "type": "total",
@@ -1174,12 +829,12 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "1.90",
+                              "value": "2.10",
                               "stop": "False"
                             },
                             {
                               "name": "Under",
-                              "value": "1.80",
+                              "value": "1.66",
                               "stop": "False"
                             }
                           ]
@@ -1197,16 +852,16 @@
                       "id": "16",
                       "name": "bet365",
                       "stop": "False",
-                      "ts": "1754745361",
+                      "ts": "1754834147",
                       "odds": [
                         {
                           "name": "Home",
-                          "value": "2.50",
+                          "value": "3.40",
                           "stop": "False"
                         },
                         {
                           "name": "Away",
-                          "value": "1.50",
+                          "value": "1.30",
                           "stop": "False"
                         }
                       ]
@@ -1222,7 +877,7 @@
                       "id": "16",
                       "name": "bet365",
                       "stop": "False",
-                      "ts": "1754745361",
+                      "ts": "1754834147",
                       "odds": [
                         {
                           "type": "handicap",
@@ -1232,12 +887,12 @@
                           "odds": [
                             {
                               "name": "Home",
-                              "value": "1.66",
+                              "value": "2.00",
                               "stop": "False"
                             },
                             {
                               "name": "Away",
-                              "value": "2.10",
+                              "value": "1.72",
                               "stop": "False"
                             }
                           ]
@@ -1254,23 +909,18 @@
                     {
                       "id": "16",
                       "name": "bet365",
-                      "stop": "True",
-                      "ts": "1754745194",
+                      "stop": "False",
+                      "ts": "1754833837",
                       "odds": [
                         {
                           "type": "handicap",
                           "name": "-1.5",
                           "ismain": "False",
-                          "stop": "True",
+                          "stop": "False",
                           "odds": [
                             {
-                              "name": "Home",
-                              "value": "5.00",
-                              "stop": "True"
-                            },
-                            {
                               "name": "Away",
-                              "value": "1.53",
+                              "value": "1.22",
                               "stop": "False"
                             }
                           ]
@@ -1283,26 +933,8 @@
                           "odds": [
                             {
                               "name": "Home",
-                              "value": "2.37",
+                              "value": "4.00",
                               "stop": "False"
-                            },
-                            {
-                              "name": "Away",
-                              "value": "1.14",
-                              "stop": "True"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "handicap",
-                          "name": "-2.5",
-                          "ismain": "False",
-                          "stop": "True",
-                          "odds": [
-                            {
-                              "name": "Away",
-                              "value": "3.25",
-                              "stop": "True"
                             }
                           ]
                         },
@@ -1314,12 +946,12 @@
                           "odds": [
                             {
                               "name": "Home",
-                              "value": "1.61",
+                              "value": "2.25",
                               "stop": "False"
                             },
                             {
                               "name": "Away",
-                              "value": "2.20",
+                              "value": "1.57",
                               "stop": "False"
                             }
                           ]
@@ -1332,7 +964,7 @@
                           "odds": [
                             {
                               "name": "Away",
-                              "value": "4.33",
+                              "value": "3.00",
                               "stop": "False"
                             }
                           ]
@@ -1345,7 +977,7 @@
                           "odds": [
                             {
                               "name": "Home",
-                              "value": "1.20",
+                              "value": "1.36",
                               "stop": "False"
                             }
                           ]
@@ -1362,77 +994,47 @@
                     {
                       "id": "16",
                       "name": "bet365",
-                      "stop": "True",
-                      "ts": "1754745194",
+                      "stop": "False",
+                      "ts": "1754833837",
                       "odds": [
                         {
-                          "name": "3:0",
-                          "value": "12.00",
-                          "stop": "True"
-                        },
-                        {
-                          "name": "3:1",
-                          "value": "9.50",
-                          "stop": "True"
-                        },
-                        {
-                          "name": "3:2",
-                          "value": "8.00",
-                          "stop": "True"
-                        },
-                        {
                           "name": "4:0",
-                          "value": "19.00",
+                          "value": "34.00",
                           "stop": "False"
                         },
                         {
                           "name": "4:1",
-                          "value": "13.00",
+                          "value": "23.00",
                           "stop": "False"
                         },
                         {
-                          "name": "0:3",
-                          "value": "3.00",
-                          "stop": "True"
-                        },
-                        {
-                          "name": "1:3",
-                          "value": "3.25",
-                          "stop": "True"
-                        },
-                        {
-                          "name": "2:3",
-                          "value": "4.75",
-                          "stop": "True"
-                        },
-                        {
                           "name": "0:4",
-                          "value": "4.50",
+                          "value": "2.87",
                           "stop": "False"
                         },
                         {
                           "name": "1:4",
-                          "value": "3.75",
+                          "value": "3.00",
                           "stop": "False"
                         },
                         {
                           "name": "2:4",
-                          "value": "4.33",
+                          "value": "4.50",
                           "stop": "False"
                         },
                         {
                           "name": "4:2",
-                          "value": "11.00",
+                          "value": "21.00",
                           "stop": "False"
                         },
                         {
                           "name": "3:4",
-                          "value": "6.00",
+                          "value": "8.50",
                           "stop": "False"
                         },
                         {
                           "name": "4:3",
-                          "value": "9.50",
+                          "value": "17.00",
                           "stop": "False"
                         }
                       ]
@@ -1448,16 +1050,16 @@
                       "id": "16",
                       "name": "bet365",
                       "stop": "False",
-                      "ts": "1754747696",
+                      "ts": "1754835296",
                       "odds": [
                         {
                           "name": "Yes",
-                          "value": "5.00",
+                          "value": "5.50",
                           "stop": "False"
                         },
                         {
                           "name": "No",
-                          "value": "1.14",
+                          "value": "1.12",
                           "stop": "False"
                         }
                       ]
@@ -1473,21 +1075,21 @@
                       "id": "16",
                       "name": "bet365",
                       "stop": "False",
-                      "ts": "1754747425",
+                      "ts": "1754833837",
                       "odds": [
                         {
                           "name": "3-4",
-                          "value": "7.50",
+                          "value": "9.50",
                           "stop": "False"
                         },
                         {
                           "name": "5+",
-                          "value": "7.00",
+                          "value": "10.00",
                           "stop": "False"
                         },
                         {
                           "name": "Away",
-                          "value": "6.00",
+                          "value": "7.50",
                           "stop": "False"
                         }
                       ]
@@ -1503,163 +1105,21 @@
                       "id": "16",
                       "name": "bet365",
                       "stop": "False",
-                      "ts": "1754747425",
+                      "ts": "1754833837",
                       "odds": [
                         {
                           "name": "3-4",
-                          "value": "4.50",
+                          "value": "4.00",
                           "stop": "False"
                         },
                         {
                           "name": "5+",
-                          "value": "3.40",
+                          "value": "2.62",
                           "stop": "False"
                         },
                         {
                           "name": "Away",
-                          "value": "4.50",
-                          "stop": "False"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Others - Men: Wtt Champions Yokohama (Japan)",
-          "gid": "55180",
-          "id": "55180",
-          "matches": [
-            {
-              "id": "2530030",
-              "tb": "false",
-              "time": "11:50",
-              "formatted_date": "10.08.2025",
-              "status": "Set 5",
-              "player_1": {
-                "id": "124192",
-                "name": "T. Moregard",
-                "winner": "false",
-                "totalscore": "",
-                "s5": "",
-                "s4": "",
-                "s3": "",
-                "s2": "",
-                "s1": "",
-                "game_score": "",
-                "serve": "false"
-              },
-              "player_2": {
-                "id": "2685",
-                "name": "J. An",
-                "winner": "false",
-                "totalscore": "",
-                "s5": "",
-                "s4": "",
-                "s3": "",
-                "s2": "",
-                "s1": "",
-                "game_score": "",
-                "serve": "false"
-              },
-              "odds": [
-                {
-                  "id": "2",
-                  "value": "Home/Away",
-                  "stop": "false",
-                  "bookmakers": [
-                    {
-                      "id": "16",
-                      "name": "bet365",
-                      "stop": "False",
-                      "ts": "1754788830",
-                      "odds": [
-                        {
-                          "name": "Home",
-                          "value": "1.36",
-                          "stop": "False"
-                        },
-                        {
-                          "name": "Away",
-                          "value": "3.00",
-                          "stop": "False"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "id": "22608",
-                  "value": "Odd/Even",
-                  "stop": "false",
-                  "bookmakers": [
-                    {
-                      "id": "16",
-                      "name": "bet365",
-                      "stop": "False",
-                      "ts": "1754748151",
-                      "odds": [
-                        {
-                          "name": "Odd",
-                          "value": "1.83",
-                          "stop": "False"
-                        },
-                        {
-                          "name": "Even",
-                          "value": "1.83",
-                          "stop": "False"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "id": "22625",
-                  "value": "Odd/Even (1st Set)",
-                  "stop": "false",
-                  "bookmakers": [
-                    {
-                      "id": "16",
-                      "name": "bet365",
-                      "stop": "False",
-                      "ts": "1754765970",
-                      "odds": [
-                        {
-                          "name": "Odd",
-                          "value": "2.50",
-                          "stop": "False"
-                        },
-                        {
-                          "name": "Even",
-                          "value": "1.50",
-                          "stop": "False"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "id": "22628",
-                  "value": "Home/Away (1st Set)",
-                  "stop": "false",
-                  "bookmakers": [
-                    {
-                      "id": "16",
-                      "name": "bet365",
-                      "stop": "False",
-                      "ts": "1754789506",
-                      "odds": [
-                        {
-                          "name": "Home",
-                          "value": "1.57",
-                          "stop": "False"
-                        },
-                        {
-                          "name": "Away",
-                          "value": "2.25",
+                          "value": "4.75",
                           "stop": "False"
                         }
                       ]
