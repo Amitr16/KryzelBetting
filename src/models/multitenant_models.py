@@ -165,8 +165,7 @@ class SportsbookTheme(db.Model):
     created_at = db.Column(db.DateTime, default=datetime.utcnow)
     updated_at = db.Column(db.DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
     
-    # Relationships
-    sportsbook_operator = db.relationship('SportsbookOperator', backref='themes')
+    # Relationships - handled by backref in SportsbookOperator model
 
 class ThemeTemplate(db.Model):
     """Pre-built theme templates for sportsbook operators"""
@@ -189,4 +188,25 @@ class ThemeTemplate(db.Model):
     custom_css = db.Column(db.Text)
     is_premium = db.Column(db.Boolean, default=False)
     created_at = db.Column(db.DateTime, default=datetime.utcnow)
+    
+    def to_dict(self):
+        return {
+            'id': self.id,
+            'template_name': self.template_name,
+            'display_name': self.display_name,
+            'description': self.description,
+            'preview_image_url': self.preview_image_url,
+            'primary_color': self.primary_color,
+            'secondary_color': self.secondary_color,
+            'accent_color': self.accent_color,
+            'background_color': self.background_color,
+            'text_color': self.text_color,
+            'font_family': self.font_family,
+            'layout_style': self.layout_style,
+            'button_style': self.button_style,
+            'card_style': self.card_style,
+            'custom_css': self.custom_css,
+            'is_premium': self.is_premium,
+            'created_at': self.created_at.isoformat() if self.created_at else None
+        }
 

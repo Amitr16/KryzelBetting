@@ -3,7 +3,7 @@
     "sport": "football",
     "display_name": "American Football",
     "icon": "🏈",
-    "fetch_timestamp": "2025-08-11T00:17:58.134628",
+    "fetch_timestamp": "2025-08-11T00:25:35.019774",
     "date_range": [
       "10.08.2025",
       "12.08.2025"
@@ -12,7 +12,7 @@
   "odds_data": {
     "scores": {
       "sport": "football",
-      "ts": "1754813789",
+      "ts": "1754814177",
       "categories": [
         {
           "name": "Usa: Nfl - Pre-Season",
@@ -5104,16 +5104,16 @@
                       "id": "16",
                       "name": "bet365",
                       "stop": "False",
-                      "ts": "1754813273",
+                      "ts": "1754814176",
                       "odds": [
                         {
                           "name": "Home",
-                          "value": "1.74",
+                          "value": "1.71",
                           "stop": "False"
                         },
                         {
                           "name": "Away",
-                          "value": "2.15",
+                          "value": "2.20",
                           "stop": "False"
                         }
                       ]
@@ -9147,17 +9147,17 @@
                           "type": "handicap",
                           "name": "-1.5",
                           "ismain": "False",
-                          "stop": "True",
+                          "stop": "False",
                           "odds": [
                             {
                               "name": "Home",
                               "value": "1.90",
-                              "stop": "True"
+                              "stop": "False"
                             },
                             {
                               "name": "Away",
                               "value": "1.90",
-                              "stop": "True"
+                              "stop": "False"
                             }
                           ]
                         },
@@ -10021,16 +10021,16 @@
                       "id": "16",
                       "name": "bet365",
                       "stop": "False",
-                      "ts": "1754808710",
+                      "ts": "1754814176",
                       "odds": [
                         {
                           "name": "Home",
-                          "value": "1.74",
+                          "value": "1.71",
                           "stop": "False"
                         },
                         {
                           "name": "Away",
-                          "value": "2.05",
+                          "value": "2.10",
                           "stop": "False"
                         }
                       ]

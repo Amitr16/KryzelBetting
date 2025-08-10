@@ -3,7 +3,7 @@
     "sport": "rugbyleague",
     "display_name": "Rugby League",
     "icon": "🏉",
-    "fetch_timestamp": "2025-08-11T00:18:05.063499",
+    "fetch_timestamp": "2025-08-11T00:25:41.481820",
     "date_range": [
       "10.08.2025",
       "12.08.2025"
@@ -184,7 +184,7 @@
             },
             {
               "id": "103957",
-              "status": "Not Started",
+              "status": "Finished",
               "date": "10.08.2025",
               "time": "14:00",
               "localteam": {
@@ -359,7 +359,7 @@
             },
             {
               "id": "103954",
-              "status": "Not Started",
+              "status": "Finished",
               "date": "10.08.2025",
               "time": "14:00",
               "localteam": {

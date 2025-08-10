@@ -3,7 +3,7 @@
     "sport": "cricket",
     "display_name": "Cricket",
     "icon": "🏏",
-    "fetch_timestamp": "2025-08-11T00:18:02.408658",
+    "fetch_timestamp": "2025-08-11T00:25:39.014333",
     "date_range": [
       "10.08.2025",
       "12.08.2025"
@@ -1136,8 +1136,8 @@
                         {
                           "id": "8766328432351215671567",
                           "name": "Home",
-                          "us": "130",
-                          "value": "2.30"
+                          "us": "140",
+                          "value": "2.40"
                         },
                         {
                           "id": "8766328432351215691569",
@@ -1148,8 +1148,8 @@
                         {
                           "id": "8766328432351215701570",
                           "name": "Away",
-                          "us": "-120",
-                          "value": "1.83"
+                          "us": "-125",
+                          "value": "1.80"
                         }
                       ],
                       "ts": "1754692219"
@@ -9737,7 +9737,7 @@
                 ]
               },
               "odds": {
-                "ts": "1754812653",
+                "ts": "1754813753",
                 "type": [
                   {
                     "bookmaker": {
@@ -9778,17 +9778,17 @@
                           {
                             "id": "877007617215671567",
                             "name": "Home",
-                            "us": "-102",
-                            "value": "1.98"
+                            "us": "-104",
+                            "value": "1.96"
                           },
                           {
                             "id": "877007617215701570",
                             "name": "Away",
-                            "us": "-135",
-                            "value": "1.74"
+                            "us": "-133",
+                            "value": "1.75"
                           }
                         ],
-                        "ts": "1754812653"
+                        "ts": "1754813753"
                       },
                       {
                         "id": "21",
@@ -9863,6 +9863,84 @@
             }
           },
           "name": "SLC T20 League"
+        },
+        {
+          "gid": "5630",
+          "id": "5630",
+          "matches": {
+            "match": {
+              "date": "12.08.2025",
+              "id": "13072003690",
+              "localteam": {
+                "id": "6137",
+                "name": "Birmingham Phoenix (Men)"
+              },
+              "match_num": "10th Match",
+              "matchinfo": {
+                "info": [
+                  {
+                    "name": "Toss",
+                    "value": ""
+                  },
+                  {
+                    "id": "",
+                    "name": "Man Of Match",
+                    "value": ""
+                  },
+                  {
+                    "name": "Referee",
+                    "value": ""
+                  },
+                  {
+                    "name": "Venue",
+                    "value": "Edgbaston, Birmingham"
+                  },
+                  {
+                    "name": "City",
+                    "value": "Birmingham"
+                  },
+                  {
+                    "name": "Country",
+                    "value": "England"
+                  }
+                ]
+              },
+              "odds": {
+                "ts": "1754814110",
+                "type": {
+                  "bookmaker": {
+                    "id": "17",
+                    "name": "Marathon",
+                    "odd": [
+                      {
+                        "id": "877035417215671567",
+                        "name": "Home",
+                        "us": "107",
+                        "value": "2.07"
+                      },
+                      {
+                        "id": "877035417215701570",
+                        "name": "Away",
+                        "us": "-139",
+                        "value": "1.72"
+                      }
+                    ],
+                    "ts": "1754814110"
+                  },
+                  "id": "2",
+                  "stop": "False",
+                  "value": "Home/Away"
+                }
+              },
+              "time": "17:30",
+              "type": "T20",
+              "visitorteam": {
+                "id": "6135",
+                "name": "Oval Invincibles (Men)"
+              }
+            }
+          },
+          "name": "The Hundred Men's Competition"
         },
         {
           "gid": "1118",
@@ -10780,7 +10858,7 @@
         }
       ],
       "sport": "cricket",
-      "ts": "1754813527"
+      "ts": "1754814110"
     }
   }
 }

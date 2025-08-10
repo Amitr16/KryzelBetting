@@ -3,7 +3,7 @@
     "sport": "volleyball",
     "display_name": "Volleyball",
     "icon": "🏐",
-    "fetch_timestamp": "2025-08-11T00:17:56.837565",
+    "fetch_timestamp": "2025-08-11T00:25:30.969943",
     "date_range": [
       "10.08.2025",
       "12.08.2025"
@@ -354,7 +354,7 @@
             },
             {
               "id": "432845",
-              "status": "Set 1",
+              "status": "Set 2",
               "date": "10.08.2025",
               "time": "16:00",
               "localteam": {
@@ -787,7 +787,7 @@
             },
             {
               "id": "432846",
-              "status": "Set 5",
+              "status": "Finished",
               "date": "10.08.2025",
               "time": "14:00",
               "localteam": {

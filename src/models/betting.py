@@ -34,7 +34,7 @@ class User(db.Model):
     is_active = db.Column(db.Boolean, default=True)
     
     # Multi-tenant support
-    sportsbook_operator_id = db.Column(db.Integer, nullable=True)  # Foreign key to sportsbook_operators
+    sportsbook_operator_id = db.Column(db.Integer, db.ForeignKey('sportsbook_operators.id'), nullable=True)  # Foreign key to sportsbook_operators
     
     # Relationships
     bets = db.relationship('Bet', backref='user', lazy=True, cascade='all, delete-orphan')
@@ -59,7 +59,7 @@ class Bet(db.Model):
     user_id = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)
     
     # Multi-tenant support
-    sportsbook_operator_id = db.Column(db.Integer, nullable=True)  # Foreign key to sportsbook_operators
+    sportsbook_operator_id = db.Column(db.Integer, db.ForeignKey('sportsbook_operators.id'), nullable=True)  # Foreign key to sportsbook_operators
     
     # Simplified fields for frontend compatibility
     match_id = db.Column(db.String(50))  # Match identifier
@@ -125,6 +125,9 @@ class Transaction(db.Model):
     user_id = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)
     bet_id = db.Column(db.Integer, db.ForeignKey('bets.id'), nullable=True)  # Null for deposits/withdrawals
     
+    # Multi-tenant support
+    sportsbook_operator_id = db.Column(db.Integer, db.ForeignKey('sportsbook_operators.id'), nullable=True)  # Foreign key to sportsbook_operators
+    
     # Transaction details
     amount = db.Column(db.Float, nullable=False)  # Positive for credits, negative for debits
     transaction_type = db.Column(db.String(20), nullable=False)  # bet, win, deposit, withdrawal
@@ -140,6 +143,7 @@ class Transaction(db.Model):
             'id': self.id,
             'user_id': self.user_id,
             'bet_id': self.bet_id,
+            'sportsbook_operator_id': self.sportsbook_operator_id,
             'amount': self.amount,
             'transaction_type': self.transaction_type,
             'description': self.description,
