@@ -147,11 +147,12 @@ def serve_rich_admin_template(subdomain):
     # Render the rich admin template with operator branding
     return render_template_string(RICH_ADMIN_TEMPLATE, operator=operator)
 
-@rich_admin_bp.route('/<subdomain>/admin')
-@rich_admin_bp.route('/<subdomain>/admin/')
-def rich_admin_dashboard(subdomain):
-    """Rich admin dashboard with tenant filtering"""
-    return serve_rich_admin_template(subdomain)
+# DISABLED: Conflicts with clean_multitenant_bp routes
+# @rich_admin_bp.route('/<subdomain>/admin')
+# @rich_admin_bp.route('/<subdomain>/admin/')
+# def rich_admin_dashboard(subdomain):
+#     """Rich admin dashboard with tenant filtering"""
+#     return serve_rich_admin_template(subdomain)
 
 @rich_admin_bp.route('/<subdomain>/admin/api/betting-events')
 def get_tenant_betting_events(subdomain):
