@@ -1,0 +1,5 @@
+[33m58e0410[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m Fix missing database models - add SportsbookOperator, SportsbookTheme, ThemeTemplate models and fix db instance conflicts
+[33md1c3c28[m Fix missing database models - add SportsbookOperator, SportsbookTheme, ThemeTemplate models and fix db instance conflicts
+[33m3ae7f4c[m Fix database path consistency and add debugging for Render deployment issues
+[33m4a55ceb[m Fix database path issues for Render deployment - use environment variables and create database directory
+[33ma8953d9[m Fix database locking issues in sportsbook registration
