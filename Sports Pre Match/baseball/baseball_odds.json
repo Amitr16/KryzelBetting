@@ -3,7 +3,7 @@
     "sport": "baseball",
     "display_name": "Baseball",
     "icon": "⚾",
-    "fetch_timestamp": "2025-08-11T00:08:44.819264",
+    "fetch_timestamp": "2025-08-11T00:18:00.997030",
     "date_range": [
       "10.08.2025",
       "12.08.2025"
@@ -12,7 +12,7 @@
   "odds_data": {
     "scores": {
       "sport": "baseball",
-      "ts": "1754813274",
+      "ts": "1754813789",
       "categories": [
         {
           "name": "Usa: Mlb",
@@ -307,12 +307,12 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "2.10",
+                              "value": "2.15",
                               "stop": "False"
                             },
                             {
                               "name": "Under",
-                              "value": "1.66",
+                              "value": "1.64",
                               "stop": "False"
                             }
                           ]
@@ -343,12 +343,12 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "2.75",
+                              "value": "2.80",
                               "stop": "False"
                             },
                             {
                               "name": "Under",
-                              "value": "1.42",
+                              "value": "1.41",
                               "stop": "False"
                             }
                           ]
@@ -361,12 +361,12 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "3.10",
+                              "value": "3.15",
                               "stop": "False"
                             },
                             {
                               "name": "Under",
-                              "value": "1.33",
+                              "value": "1.32",
                               "stop": "False"
                             }
                           ]
@@ -379,12 +379,12 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "1.57",
+                              "value": "1.60",
                               "stop": "False"
                             },
                             {
                               "name": "Under",
-                              "value": "2.30",
+                              "value": "2.25",
                               "stop": "False"
                             }
                           ]
@@ -397,12 +397,12 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "1.76",
+                              "value": "1.80",
                               "stop": "False"
                             },
                             {
                               "name": "Under",
-                              "value": "1.90",
+                              "value": "1.86",
                               "stop": "False"
                             }
                           ]
@@ -433,12 +433,12 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "1.33",
+                              "value": "1.36",
                               "stop": "False"
                             },
                             {
                               "name": "Under",
-                              "value": "3.10",
+                              "value": "3.00",
                               "stop": "False"
                             }
                           ]
@@ -451,12 +451,12 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "1.45",
+                              "value": "1.47",
                               "stop": "False"
                             },
                             {
                               "name": "Under",
-                              "value": "2.60",
+                              "value": "2.55",
                               "stop": "False"
                             }
                           ]
@@ -1558,7 +1558,7 @@
                             },
                             {
                               "name": "Under",
-                              "value": "6.25",
+                              "value": "6.00",
                               "stop": "False"
                             }
                           ]
@@ -1589,12 +1589,12 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "2.80",
+                              "value": "2.85",
                               "stop": "False"
                             },
                             {
                               "name": "Under",
-                              "value": "1.41",
+                              "value": "1.40",
                               "stop": "False"
                             }
                           ]
@@ -1607,7 +1607,7 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "8.50",
+                              "value": "9.00",
                               "stop": "False"
                             },
                             {
@@ -1661,7 +1661,7 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "19.00",
+                              "value": "20.00",
                               "stop": "False"
                             }
                           ]
@@ -9022,26 +9022,26 @@
                       "id": "16",
                       "name": "bet365",
                       "stop": "False",
-                      "ts": "1754811452",
+                      "ts": "1754813514",
                       "odds": [
                         {
                           "name": "Zack Wheeler - Over 1.5",
-                          "value": "1.62",
+                          "value": "1.64",
                           "stop": "False"
                         },
                         {
                           "name": "Zack Wheeler - Under 1.5",
-                          "value": "2.28",
+                          "value": "2.25",
                           "stop": "False"
                         },
                         {
                           "name": "Patrick Corbin - Over 2.5",
-                          "value": "1.83",
+                          "value": "1.86",
                           "stop": "False"
                         },
                         {
                           "name": "Patrick Corbin - Under 2.5",
-                          "value": "1.90",
+                          "value": "1.86",
                           "stop": "False"
                         }
                       ]
@@ -15441,7 +15441,7 @@
                         },
                         {
                           "name": "2/1",
-                          "value": "6.00",
+                          "value": "6.50",
                           "stop": "False"
                         },
                         {
@@ -15462,7 +15462,7 @@
                       "id": "16",
                       "name": "bet365",
                       "stop": "False",
-                      "ts": "1754797972",
+                      "ts": "1754813514",
                       "odds": [
                         {
                           "type": "total",
@@ -15472,22 +15472,22 @@
                           "odds": [
                             {
                               "name": "Away/Under",
-                              "value": "7.50",
+                              "value": "7.00",
                               "stop": "False"
                             },
                             {
                               "name": "Home/Over",
-                              "value": "2.30",
+                              "value": "2.40",
                               "stop": "False"
                             },
                             {
                               "name": "Away/Over",
-                              "value": "4.50",
+                              "value": "4.75",
                               "stop": "False"
                             },
                             {
                               "name": "Home/Under",
-                              "value": "2.90",
+                              "value": "2.75",
                               "stop": "False"
                             }
                           ]
@@ -15505,8 +15505,8 @@
                             },
                             {
                               "name": "Home/Over",
-                              "value": "2.75",
-                              "stop": "True"
+                              "value": "2.90",
+                              "stop": "False"
                             },
                             {
                               "name": "Away/Over",
@@ -15515,8 +15515,8 @@
                             },
                             {
                               "name": "Home/Under",
-                              "value": "2.35",
-                              "stop": "True"
+                              "value": "2.25",
+                              "stop": "False"
                             }
                           ]
                         },
@@ -15528,13 +15528,13 @@
                           "odds": [
                             {
                               "name": "Away/Under",
-                              "value": "5.25",
+                              "value": "5.00",
                               "stop": "False"
                             },
                             {
                               "name": "Home/Over",
                               "value": "3.30",
-                              "stop": "False"
+                              "stop": "True"
                             },
                             {
                               "name": "Away/Over",
@@ -15544,7 +15544,7 @@
                             {
                               "name": "Home/Under",
                               "value": "2.05",
-                              "stop": "False"
+                              "stop": "True"
                             }
                           ]
                         },
@@ -15552,17 +15552,17 @@
                           "type": "total",
                           "name": "7.5",
                           "ismain": "False",
-                          "stop": "True",
+                          "stop": "False",
                           "odds": [
                             {
                               "name": "Home/Over",
                               "value": "2.05",
-                              "stop": "True"
+                              "stop": "False"
                             },
                             {
                               "name": "Home/Under",
-                              "value": "3.40",
-                              "stop": "True"
+                              "value": "3.30",
+                              "stop": "False"
                             }
                           ]
                         }
@@ -16078,7 +16078,7 @@
                       "id": "16",
                       "name": "bet365",
                       "stop": "False",
-                      "ts": "1754788243",
+                      "ts": "1754813514",
                       "odds": [
                         {
                           "type": "total",
@@ -16088,7 +16088,7 @@
                           "odds": [
                             {
                               "name": "Under",
-                              "value": "23.00",
+                              "value": "21.00",
                               "stop": "False"
                             }
                           ]
@@ -16119,12 +16119,12 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "1.07",
+                              "value": "1.09",
                               "stop": "False"
                             },
                             {
                               "name": "Under",
-                              "value": "7.50",
+                              "value": "7.00",
                               "stop": "False"
                             }
                           ]
@@ -16137,12 +16137,12 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "1.50",
+                              "value": "1.55",
                               "stop": "False"
                             },
                             {
                               "name": "Under",
-                              "value": "2.50",
+                              "value": "2.35",
                               "stop": "False"
                             }
                           ]
@@ -16155,12 +16155,12 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "3.10",
+                              "value": "3.30",
                               "stop": "False"
                             },
                             {
                               "name": "Under",
-                              "value": "1.33",
+                              "value": "1.30",
                               "stop": "False"
                             }
                           ]
@@ -16173,12 +16173,12 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "1.22",
+                              "value": "1.23",
                               "stop": "False"
                             },
                             {
                               "name": "Under",
-                              "value": "4.00",
+                              "value": "3.90",
                               "stop": "False"
                             }
                           ]
@@ -16209,12 +16209,12 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "5.00",
+                              "value": "5.50",
                               "stop": "False"
                             },
                             {
                               "name": "Under",
-                              "value": "1.15",
+                              "value": "1.13",
                               "stop": "False"
                             }
                           ]
@@ -16227,12 +16227,12 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "9.00",
+                              "value": "9.50",
                               "stop": "False"
                             },
                             {
                               "name": "Under",
-                              "value": "1.06",
+                              "value": "1.05",
                               "stop": "False"
                             }
                           ]
@@ -16245,12 +16245,12 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "2.00",
+                              "value": "2.15",
                               "stop": "False"
                             },
                             {
                               "name": "Under",
-                              "value": "1.71",
+                              "value": "1.64",
                               "stop": "False"
                             }
                           ]
@@ -16564,12 +16564,12 @@
                           "odds": [
                             {
                               "name": "Home",
-                              "value": "1.30",
+                              "value": "1.29",
                               "stop": "False"
                             },
                             {
                               "name": "Away",
-                              "value": "3.30",
+                              "value": "3.40",
                               "stop": "False"
                             }
                           ]
@@ -17413,12 +17413,12 @@
                         {
                           "name": "Alek Thomas - Over 1.5",
                           "value": "2.45",
-                          "stop": "False"
+                          "stop": "True"
                         },
                         {
                           "name": "Alek Thomas - Under 1.5",
                           "value": "1.55",
-                          "stop": "False"
+                          "stop": "True"
                         },
                         {
                           "name": "Tyler Freeman - Over 1.5",
@@ -17513,22 +17513,22 @@
                         {
                           "name": "Blaze Alexander - Over 1.5",
                           "value": "2.55",
-                          "stop": "False"
+                          "stop": "True"
                         },
                         {
                           "name": "Blaze Alexander - Under 1.5",
                           "value": "1.52",
-                          "stop": "False"
+                          "stop": "True"
                         },
                         {
                           "name": "James McCann - Over 1.5",
                           "value": "2.65",
-                          "stop": "False"
+                          "stop": "True"
                         },
                         {
                           "name": "James McCann - Under 1.5",
                           "value": "1.47",
-                          "stop": "False"
+                          "stop": "True"
                         },
                         {
                           "name": "Warming Bernabel - Over 1.5",
@@ -18058,12 +18058,12 @@
                         {
                           "name": "Alek Thomas - Over 0.5",
                           "value": "9.50",
-                          "stop": "False"
+                          "stop": "True"
                         },
                         {
                           "name": "Alek Thomas - Under 0.5",
                           "value": "1.07",
-                          "stop": "False"
+                          "stop": "True"
                         },
                         {
                           "name": "Mickey Moniak - Over 0.5",
@@ -18088,12 +18088,12 @@
                         {
                           "name": "James McCann - Over 0.5",
                           "value": "11.00",
-                          "stop": "False"
+                          "stop": "True"
                         },
                         {
                           "name": "James McCann - Under 0.5",
                           "value": "1.05",
-                          "stop": "False"
+                          "stop": "True"
                         },
                         {
                           "name": "Yanquiel Fernandez - Over 0.5",
@@ -18108,12 +18108,12 @@
                         {
                           "name": "Blaze Alexander - Over 0.5",
                           "value": "10.50",
-                          "stop": "False"
+                          "stop": "True"
                         },
                         {
                           "name": "Blaze Alexander - Under 0.5",
                           "value": "1.05",
-                          "stop": "False"
+                          "stop": "True"
                         },
                         {
                           "name": "Adrian Del Castillo - Over 0.5",
@@ -30516,7 +30516,7 @@
                             },
                             {
                               "name": "Home/Over",
-                              "value": "3.30",
+                              "value": "3.25",
                               "stop": "False"
                             },
                             {
@@ -30526,7 +30526,7 @@
                             },
                             {
                               "name": "Home/Under",
-                              "value": "2.35",
+                              "value": "2.30",
                               "stop": "False"
                             }
                           ]
@@ -30539,7 +30539,7 @@
                           "odds": [
                             {
                               "name": "Away/Under",
-                              "value": "4.00",
+                              "value": "4.25",
                               "stop": "False"
                             },
                             {
@@ -30557,7 +30557,7 @@
                           "odds": [
                             {
                               "name": "Home/Over",
-                              "value": "2.30",
+                              "value": "2.25",
                               "stop": "False"
                             },
                             {
@@ -30608,12 +30608,12 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "1.16",
+                              "value": "1.18",
                               "stop": "False"
                             },
                             {
                               "name": "Under",
-                              "value": "4.75",
+                              "value": "4.50",
                               "stop": "False"
                             }
                           ]
@@ -30626,12 +30626,12 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "1.38",
+                              "value": "1.40",
                               "stop": "False"
                             },
                             {
                               "name": "Under",
-                              "value": "2.90",
+                              "value": "2.85",
                               "stop": "False"
                             }
                           ]
@@ -30662,12 +30662,12 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "5.75",
+                              "value": "6.00",
                               "stop": "False"
                             },
                             {
                               "name": "Under",
-                              "value": "1.12",
+                              "value": "1.11",
                               "stop": "False"
                             }
                           ]
@@ -30812,16 +30812,16 @@
                       "id": "16",
                       "name": "bet365",
                       "stop": "False",
-                      "ts": "1754811097",
+                      "ts": "1754813514",
                       "odds": [
                         {
                           "name": "Home",
-                          "value": "1.76",
+                          "value": "1.74",
                           "stop": "False"
                         },
                         {
                           "name": "Away",
-                          "value": "1.90",
+                          "value": "1.95",
                           "stop": "False"
                         }
                       ]
@@ -30837,16 +30837,16 @@
                       "id": "16",
                       "name": "bet365",
                       "stop": "False",
-                      "ts": "1754811097",
+                      "ts": "1754813514",
                       "odds": [
                         {
                           "name": "Home",
-                          "value": "1.76",
+                          "value": "1.74",
                           "stop": "False"
                         },
                         {
                           "name": "Away",
-                          "value": "1.90",
+                          "value": "1.95",
                           "stop": "False"
                         }
                       ]
@@ -31877,12 +31877,12 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "1.14",
+                              "value": "1.13",
                               "stop": "False"
                             },
                             {
                               "name": "Under",
-                              "value": "5.25",
+                              "value": "5.50",
                               "stop": "False"
                             }
                           ]
@@ -31895,12 +31895,12 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "1.33",
+                              "value": "1.32",
                               "stop": "False"
                             },
                             {
                               "name": "Under",
-                              "value": "3.10",
+                              "value": "3.15",
                               "stop": "False"
                             }
                           ]
@@ -31926,12 +31926,12 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "6.00",
+                              "value": "5.75",
                               "stop": "False"
                             },
                             {
                               "name": "Under",
-                              "value": "1.11",
+                              "value": "1.12",
                               "stop": "False"
                             }
                           ]
@@ -31962,12 +31962,12 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "1.71",
+                              "value": "1.66",
                               "stop": "False"
                             },
                             {
                               "name": "Under",
-                              "value": "2.10",
+                              "value": "2.20",
                               "stop": "False"
                             }
                           ]
@@ -31998,12 +31998,12 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "2.25",
+                              "value": "2.20",
                               "stop": "False"
                             },
                             {
                               "name": "Under",
-                              "value": "1.60",
+                              "value": "1.62",
                               "stop": "False"
                             }
                           ]
@@ -32016,12 +32016,12 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "3.10",
+                              "value": "3.00",
                               "stop": "False"
                             },
                             {
                               "name": "Under",
-                              "value": "1.33",
+                              "value": "1.36",
                               "stop": "False"
                             }
                           ]
@@ -32067,12 +32067,12 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "1.43",
+                              "value": "1.45",
                               "stop": "False"
                             },
                             {
                               "name": "Under",
-                              "value": "2.70",
+                              "value": "2.60",
                               "stop": "False"
                             }
                           ]
@@ -32175,7 +32175,7 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "6.50",
+                              "value": "6.75",
                               "stop": "False"
                             },
                             {
@@ -32193,12 +32193,12 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "3.50",
+                              "value": "3.60",
                               "stop": "False"
                             },
                             {
                               "name": "Under",
-                              "value": "1.28",
+                              "value": "1.27",
                               "stop": "False"
                             }
                           ]
@@ -33597,12 +33597,12 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "2.75",
+                              "value": "2.80",
                               "stop": "False"
                             },
                             {
                               "name": "Under",
-                              "value": "1.42",
+                              "value": "1.41",
                               "stop": "False"
                             }
                           ]
@@ -33615,12 +33615,12 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "5.75",
+                              "value": "6.00",
                               "stop": "False"
                             },
                             {
                               "name": "Under",
-                              "value": "1.12",
+                              "value": "1.11",
                               "stop": "False"
                             }
                           ]
@@ -33633,12 +33633,12 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "1.11",
+                              "value": "1.12",
                               "stop": "False"
                             },
                             {
                               "name": "Under",
-                              "value": "6.00",
+                              "value": "5.75",
                               "stop": "False"
                             }
                           ]
@@ -33651,12 +33651,12 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "1.95",
+                              "value": "2.00",
                               "stop": "False"
                             },
                             {
                               "name": "Under",
-                              "value": "1.80",
+                              "value": "1.76",
                               "stop": "False"
                             }
                           ]
@@ -33687,12 +33687,12 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "1.52",
+                              "value": "1.55",
                               "stop": "False"
                             },
                             {
                               "name": "Under",
-                              "value": "2.40",
+                              "value": "2.35",
                               "stop": "False"
                             }
                           ]
@@ -33769,12 +33769,12 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "5.00",
+                              "value": "4.75",
                               "stop": "False"
                             },
                             {
                               "name": "Under",
-                              "value": "1.15",
+                              "value": "1.16",
                               "stop": "False"
                             }
                           ]
@@ -33787,12 +33787,12 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "1.10",
+                              "value": "1.09",
                               "stop": "False"
                             },
                             {
                               "name": "Under",
-                              "value": "6.75",
+                              "value": "7.00",
                               "stop": "False"
                             }
                           ]
@@ -33805,12 +33805,12 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "1.83",
+                              "value": "1.80",
                               "stop": "False"
                             },
                             {
                               "name": "Under",
-                              "value": "1.90",
+                              "value": "1.95",
                               "stop": "False"
                             }
                           ]
@@ -33841,12 +33841,12 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "1.44",
+                              "value": "1.42",
                               "stop": "False"
                             },
                             {
                               "name": "Under",
-                              "value": "2.65",
+                              "value": "2.75",
                               "stop": "False"
                             }
                           ]
@@ -43088,12 +43088,12 @@
                         },
                         {
                           "name": "Vladimir Guerrero Jr. - Over 0.5",
-                          "value": "5.75",
+                          "value": "5.25",
                           "stop": "False"
                         },
                         {
                           "name": "Vladimir Guerrero Jr. - Under 0.5",
-                          "value": "1.15",
+                          "value": "1.17",
                           "stop": "False"
                         },
                         {
@@ -48976,12 +48976,12 @@
                         },
                         {
                           "name": "Nolan Schanuel - Over 0.5",
-                          "value": "1.40",
+                          "value": "1.41",
                           "stop": "False"
                         },
                         {
                           "name": "Mike Trout - Over 0.5",
-                          "value": "1.37",
+                          "value": "1.40",
                           "stop": "False"
                         },
                         {
@@ -49006,12 +49006,12 @@
                         },
                         {
                           "name": "Nolan Schanuel - Under 0.5",
-                          "value": "3.00",
+                          "value": "2.90",
                           "stop": "False"
                         },
                         {
                           "name": "Mike Trout - Under 0.5",
-                          "value": "3.10",
+                          "value": "3.00",
                           "stop": "False"
                         },
                         {
@@ -49021,52 +49021,62 @@
                         },
                         {
                           "name": "Javier Baez - Over 0.5",
-                          "value": "1.54",
+                          "value": "1.55",
                           "stop": "False"
                         },
                         {
                           "name": "Javier Baez - Under 0.5",
-                          "value": "2.50",
+                          "value": "2.45",
                           "stop": "False"
                         },
                         {
                           "name": "Dillon Dingler - Over 0.5",
-                          "value": "1.45",
+                          "value": "1.50",
                           "stop": "False"
                         },
                         {
                           "name": "Dillon Dingler - Under 0.5",
-                          "value": "2.70",
+                          "value": "2.60",
                           "stop": "False"
                         },
                         {
                           "name": "Gleyber Torres - Over 0.5",
                           "value": "1.37",
-                          "stop": "True"
+                          "stop": "False"
                         },
                         {
                           "name": "Gleyber Torres - Under 0.5",
                           "value": "3.10",
-                          "stop": "True"
+                          "stop": "False"
                         },
                         {
                           "name": "Zach Neto - Over 0.5",
                           "value": "1.37",
-                          "stop": "False"
+                          "stop": "True"
                         },
                         {
                           "name": "Zach Neto - Under 0.5",
                           "value": "3.10",
-                          "stop": "False"
+                          "stop": "True"
                         },
                         {
                           "name": "Riley Greene - Over 0.5",
-                          "value": "1.41",
+                          "value": "1.43",
                           "stop": "False"
                         },
                         {
                           "name": "Riley Greene - Under 0.5",
-                          "value": "2.90",
+                          "value": "2.80",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "Trey Sweeney - Over 0.5",
+                          "value": "1.71",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "Trey Sweeney - Under 0.5",
+                          "value": "2.10",
                           "stop": "False"
                         },
                         {
@@ -49082,21 +49092,21 @@
                         {
                           "name": "Zach Neto - Over 1.5",
                           "value": "3.10",
-                          "stop": "True"
+                          "stop": "False"
                         },
                         {
                           "name": "Zach Neto - Under 1.5",
                           "value": "1.37",
-                          "stop": "True"
+                          "stop": "False"
                         },
                         {
                           "name": "Spencer Torkelson - Over 0.5",
-                          "value": "1.55",
+                          "value": "1.58",
                           "stop": "False"
                         },
                         {
                           "name": "Spencer Torkelson - Under 0.5",
-                          "value": "2.45",
+                          "value": "2.40",
                           "stop": "False"
                         },
                         {
@@ -49121,23 +49131,23 @@
                         },
                         {
                           "name": "Christian Moore - Over 0.5",
-                          "value": "1.62",
+                          "value": "1.58",
                           "stop": "False"
                         },
                         {
                           "name": "Christian Moore - Under 0.5",
-                          "value": "2.30",
+                          "value": "2.40",
                           "stop": "False"
                         },
                         {
                           "name": "Gleyber Torres - Over 1.5",
                           "value": "3.10",
-                          "stop": "False"
+                          "stop": "True"
                         },
                         {
                           "name": "Gleyber Torres - Under 1.5",
                           "value": "1.37",
-                          "stop": "False"
+                          "stop": "True"
                         },
                         {
                           "name": "Kerry Carpenter - Over 0.5",
@@ -49146,7 +49156,7 @@
                         },
                         {
                           "name": "Colt Keith - Over 0.5",
-                          "value": "1.44",
+                          "value": "1.43",
                           "stop": "False"
                         },
                         {
@@ -49161,7 +49171,7 @@
                         },
                         {
                           "name": "Colt Keith - Under 0.5",
-                          "value": "2.75",
+                          "value": "2.80",
                           "stop": "False"
                         },
                         {
@@ -49171,12 +49181,12 @@
                         },
                         {
                           "name": "Bryce Teodosio - Over 0.5",
-                          "value": "1.71",
+                          "value": "1.74",
                           "stop": "False"
                         },
                         {
                           "name": "Bryce Teodosio - Under 0.5",
-                          "value": "2.10",
+                          "value": "2.05",
                           "stop": "False"
                         }
                       ]
@@ -54761,7 +54771,7 @@
                             },
                             {
                               "name": "Under",
-                              "value": "11.00",
+                              "value": "10.00",
                               "stop": "False"
                             }
                           ]
@@ -54774,12 +54784,12 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "1.13",
+                              "value": "1.14",
                               "stop": "False"
                             },
                             {
                               "name": "Under",
-                              "value": "5.50",
+                              "value": "5.25",
                               "stop": "False"
                             }
                           ]
@@ -54792,12 +54802,12 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "1.31",
+                              "value": "1.32",
                               "stop": "False"
                             },
                             {
                               "name": "Under",
-                              "value": "3.20",
+                              "value": "3.15",
                               "stop": "False"
                             }
                           ]
@@ -54900,12 +54910,12 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "2.00",
+                              "value": "2.05",
                               "stop": "False"
                             },
                             {
                               "name": "Under",
-                              "value": "1.71",
+                              "value": "1.68",
                               "stop": "False"
                             }
                           ]
@@ -54918,12 +54928,12 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "2.80",
+                              "value": "2.85",
                               "stop": "False"
                             },
                             {
                               "name": "Under",
-                              "value": "1.41",
+                              "value": "1.40",
                               "stop": "False"
                             }
                           ]
@@ -54941,22 +54951,22 @@
                       "id": "16",
                       "name": "bet365",
                       "stop": "False",
-                      "ts": "1754806896",
+                      "ts": "1754813514",
                       "odds": [
                         {
                           "type": "handicap",
                           "name": "-0.5",
-                          "ismain": "True",
+                          "ismain": "False",
                           "stop": "False",
                           "odds": [
                             {
                               "name": "Home",
-                              "value": "2.15",
+                              "value": "2.20",
                               "stop": "False"
                             },
                             {
                               "name": "Away",
-                              "value": "1.64",
+                              "value": "1.62",
                               "stop": "False"
                             }
                           ]
@@ -54982,17 +54992,17 @@
                         {
                           "type": "handicap",
                           "name": "+0.5",
-                          "ismain": "False",
+                          "ismain": "True",
                           "stop": "False",
                           "odds": [
                             {
                               "name": "Home",
-                              "value": "1.60",
+                              "value": "1.64",
                               "stop": "False"
                             },
                             {
                               "name": "Away",
-                              "value": "2.25",
+                              "value": "2.15",
                               "stop": "False"
                             }
                           ]
@@ -55005,12 +55015,12 @@
                           "odds": [
                             {
                               "name": "Home",
-                              "value": "3.00",
+                              "value": "3.10",
                               "stop": "False"
                             },
                             {
                               "name": "Away",
-                              "value": "1.36",
+                              "value": "1.33",
                               "stop": "False"
                             }
                           ]
@@ -55023,12 +55033,12 @@
                           "odds": [
                             {
                               "name": "Home",
-                              "value": "1.33",
+                              "value": "1.36",
                               "stop": "False"
                             },
                             {
                               "name": "Away",
-                              "value": "3.10",
+                              "value": "3.00",
                               "stop": "False"
                             }
                           ]
@@ -55046,7 +55056,7 @@
                       "id": "16",
                       "name": "bet365",
                       "stop": "False",
-                      "ts": "1754806649",
+                      "ts": "1754813514",
                       "odds": [
                         {
                           "type": "total",
@@ -55056,12 +55066,12 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "2.55",
+                              "value": "2.60",
                               "stop": "False"
                             },
                             {
                               "name": "Under",
-                              "value": "1.47",
+                              "value": "1.45",
                               "stop": "False"
                             }
                           ]
@@ -55092,12 +55102,12 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "1.95",
+                              "value": "2.00",
                               "stop": "False"
                             },
                             {
                               "name": "Under",
-                              "value": "1.74",
+                              "value": "1.71",
                               "stop": "False"
                             }
                           ]
@@ -55110,12 +55120,12 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "1.36",
+                              "value": "1.38",
                               "stop": "False"
                             },
                             {
                               "name": "Under",
-                              "value": "2.90",
+                              "value": "2.85",
                               "stop": "False"
                             }
                           ]
@@ -55128,12 +55138,12 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "1.62",
+                              "value": "1.64",
                               "stop": "False"
                             },
                             {
                               "name": "Under",
-                              "value": "2.20",
+                              "value": "2.15",
                               "stop": "False"
                             }
                           ]
@@ -55179,12 +55189,12 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "1.60",
+                              "value": "1.62",
                               "stop": "False"
                             },
                             {
                               "name": "Under",
-                              "value": "2.25",
+                              "value": "2.20",
                               "stop": "False"
                             }
                           ]
@@ -55274,22 +55284,22 @@
                       "id": "16",
                       "name": "bet365",
                       "stop": "False",
-                      "ts": "1754806325",
+                      "ts": "1754813514",
                       "odds": [
                         {
                           "type": "handicap",
                           "name": "-0.5",
-                          "ismain": "True",
+                          "ismain": "False",
                           "stop": "False",
                           "odds": [
                             {
                               "name": "Home",
-                              "value": "2.30",
+                              "value": "2.40",
                               "stop": "False"
                             },
                             {
                               "name": "Away",
-                              "value": "1.57",
+                              "value": "1.52",
                               "stop": "False"
                             }
                           ]
@@ -55315,17 +55325,17 @@
                         {
                           "type": "handicap",
                           "name": "+0.5",
-                          "ismain": "False",
+                          "ismain": "True",
                           "stop": "False",
                           "odds": [
                             {
                               "name": "Home",
-                              "value": "1.52",
+                              "value": "1.57",
                               "stop": "False"
                             },
                             {
                               "name": "Away",
-                              "value": "2.40",
+                              "value": "2.30",
                               "stop": "False"
                             }
                           ]
@@ -55338,7 +55348,7 @@
                           "odds": [
                             {
                               "name": "Home",
-                              "value": "3.75",
+                              "value": "3.80",
                               "stop": "False"
                             },
                             {
@@ -55356,12 +55366,12 @@
                           "odds": [
                             {
                               "name": "Home",
-                              "value": "1.23",
+                              "value": "1.25",
                               "stop": "False"
                             },
                             {
                               "name": "Away",
-                              "value": "3.90",
+                              "value": "3.75",
                               "stop": "False"
                             }
                           ]
@@ -55604,202 +55614,7 @@
                       "id": "16",
                       "name": "bet365",
                       "stop": "False",
-                      "ts": "1754807582",
-                      "odds": [
-                        {
-                          "type": "total",
-                          "name": "1.5",
-                          "ismain": "False",
-                          "stop": "False",
-                          "odds": [
-                            {
-                              "name": "Over",
-                              "value": "1.07",
-                              "stop": "False"
-                            },
-                            {
-                              "name": "Under",
-                              "value": "8.00",
-                              "stop": "False"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "total",
-                          "name": "2.5",
-                          "ismain": "False",
-                          "stop": "False",
-                          "odds": [
-                            {
-                              "name": "Over",
-                              "value": "1.22",
-                              "stop": "False"
-                            },
-                            {
-                              "name": "Under",
-                              "value": "4.00",
-                              "stop": "False"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "total",
-                          "name": "3.5",
-                          "ismain": "False",
-                          "stop": "False",
-                          "odds": [
-                            {
-                              "name": "Over",
-                              "value": "1.45",
-                              "stop": "False"
-                            },
-                            {
-                              "name": "Under",
-                              "value": "2.60",
-                              "stop": "False"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "total",
-                          "name": "0.5",
-                          "ismain": "False",
-                          "stop": "False",
-                          "odds": [
-                            {
-                              "name": "Over",
-                              "value": "1.01",
-                              "stop": "False"
-                            },
-                            {
-                              "name": "Under",
-                              "value": "17.00",
-                              "stop": "False"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "total",
-                          "name": "8.5",
-                          "ismain": "False",
-                          "stop": "False",
-                          "odds": [
-                            {
-                              "name": "Over",
-                              "value": "7.00",
-                              "stop": "False"
-                            },
-                            {
-                              "name": "Under",
-                              "value": "1.09",
-                              "stop": "False"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "total",
-                          "name": "9.5",
-                          "ismain": "False",
-                          "stop": "False",
-                          "odds": [
-                            {
-                              "name": "Over",
-                              "value": "9.50",
-                              "stop": "False"
-                            },
-                            {
-                              "name": "Under",
-                              "value": "1.05",
-                              "stop": "False"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "total",
-                          "name": "4.5",
-                          "ismain": "True",
-                          "stop": "False",
-                          "odds": [
-                            {
-                              "name": "Over",
-                              "value": "1.86",
-                              "stop": "False"
-                            },
-                            {
-                              "name": "Under",
-                              "value": "1.86",
-                              "stop": "False"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "total",
-                          "name": "7.5",
-                          "ismain": "False",
-                          "stop": "False",
-                          "odds": [
-                            {
-                              "name": "Over",
-                              "value": "5.00",
-                              "stop": "False"
-                            },
-                            {
-                              "name": "Under",
-                              "value": "1.15",
-                              "stop": "False"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "total",
-                          "name": "5.5",
-                          "ismain": "False",
-                          "stop": "False",
-                          "odds": [
-                            {
-                              "name": "Over",
-                              "value": "2.55",
-                              "stop": "False"
-                            },
-                            {
-                              "name": "Under",
-                              "value": "1.47",
-                              "stop": "False"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "total",
-                          "name": "6.5",
-                          "ismain": "False",
-                          "stop": "False",
-                          "odds": [
-                            {
-                              "name": "Over",
-                              "value": "3.70",
-                              "stop": "False"
-                            },
-                            {
-                              "name": "Under",
-                              "value": "1.26",
-                              "stop": "False"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "id": "22872",
-                  "value": "Away Team Total Goals (Including OT)",
-                  "stop": "False",
-                  "bookmakers": [
-                    {
-                      "id": "16",
-                      "name": "bet365",
-                      "stop": "False",
-                      "ts": "1754806325",
+                      "ts": "1754813514",
                       "odds": [
                         {
                           "type": "total",
@@ -55868,7 +55683,7 @@
                             },
                             {
                               "name": "Under",
-                              "value": "16.00",
+                              "value": "17.00",
                               "stop": "False"
                             }
                           ]
@@ -55881,12 +55696,12 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "6.50",
+                              "value": "7.25",
                               "stop": "False"
                             },
                             {
                               "name": "Under",
-                              "value": "1.10",
+                              "value": "1.08",
                               "stop": "False"
                             }
                           ]
@@ -55899,7 +55714,202 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "9.00",
+                              "value": "10.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.04",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "4.5",
+                          "ismain": "True",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.90",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.83",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "7.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "5.25",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.14",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "5.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "2.65",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.44",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "6.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "3.80",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.25",
+                              "stop": "False"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "22872",
+                  "value": "Away Team Total Goals (Including OT)",
+                  "stop": "False",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754813514",
+                      "odds": [
+                        {
+                          "type": "total",
+                          "name": "1.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.07",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "7.50",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "2.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.22",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "4.00",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "3.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.45",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "2.60",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "0.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.01",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "17.00",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "8.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "6.25",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.11",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "9.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "8.50",
                               "stop": "False"
                             },
                             {
@@ -55953,12 +55963,12 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "2.50",
+                              "value": "2.40",
                               "stop": "False"
                             },
                             {
                               "name": "Under",
-                              "value": "1.50",
+                              "value": "1.52",
                               "stop": "False"
                             }
                           ]
@@ -55971,12 +55981,12 @@
                           "odds": [
                             {
                               "name": "Over",
-                              "value": "3.40",
+                              "value": "3.30",
                               "stop": "False"
                             },
                             {
                               "name": "Under",
-                              "value": "1.29",
+                              "value": "1.30",
                               "stop": "False"
                             }
                           ]
@@ -55994,22 +56004,22 @@
                       "id": "16",
                       "name": "bet365",
                       "stop": "False",
-                      "ts": "1754806649",
+                      "ts": "1754813514",
                       "odds": [
                         {
                           "type": "handicap",
                           "name": "-0.5",
-                          "ismain": "True",
+                          "ismain": "False",
                           "stop": "False",
                           "odds": [
                             {
                               "name": "Home",
-                              "value": "2.05",
+                              "value": "2.15",
                               "stop": "False"
                             },
                             {
                               "name": "Away",
-                              "value": "1.68",
+                              "value": "1.64",
                               "stop": "False"
                             }
                           ]
@@ -56035,17 +56045,17 @@
                         {
                           "type": "handicap",
                           "name": "+0.5",
-                          "ismain": "False",
+                          "ismain": "True",
                           "stop": "False",
                           "odds": [
                             {
                               "name": "Home",
-                              "value": "1.64",
+                              "value": "1.68",
                               "stop": "False"
                             },
                             {
                               "name": "Away",
-                              "value": "2.15",
+                              "value": "2.05",
                               "stop": "False"
                             }
                           ]
@@ -56058,12 +56068,12 @@
                           "odds": [
                             {
                               "name": "Home",
-                              "value": "2.80",
+                              "value": "2.90",
                               "stop": "False"
                             },
                             {
                               "name": "Away",
-                              "value": "1.41",
+                              "value": "1.38",
                               "stop": "False"
                             }
                           ]
@@ -56076,12 +56086,12 @@
                           "odds": [
                             {
                               "name": "Home",
-                              "value": "1.38",
+                              "value": "1.41",
                               "stop": "False"
                             },
                             {
                               "name": "Away",
-                              "value": "2.90",
+                              "value": "2.80",
                               "stop": "False"
                             }
                           ]
@@ -61629,6 +61639,16 @@
                           "stop": "False"
                         },
                         {
+                          "name": "Alex Jackson - Over 0.5",
+                          "value": "9.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "Alex Jackson - Under 0.5",
+                          "value": "1.07",
+                          "stop": "False"
+                        },
+                        {
                           "name": "Darell Hernaiz - Over 0.5",
                           "value": "9.50",
                           "stop": "False"
@@ -61656,6 +61676,16 @@
                         {
                           "name": "Greg Allen - Under 0.5",
                           "value": "1.07",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "Jordyn Adams - Over 0.5",
+                          "value": "12.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "Jordyn Adams - Under 0.5",
+                          "value": "1.04",
                           "stop": "False"
                         }
                       ]
@@ -62535,16 +62565,16 @@
                       "id": "16",
                       "name": "bet365",
                       "stop": "False",
-                      "ts": "1754812363",
+                      "ts": "1754813514",
                       "odds": [
                         {
                           "name": "Jackson Holliday - Over 0.5",
-                          "value": "1.41",
+                          "value": "1.45",
                           "stop": "False"
                         },
                         {
                           "name": "Ryan Mountcastle - Over 0.5",
-                          "value": "1.40",
+                          "value": "1.37",
                           "stop": "False"
                         },
                         {
@@ -62554,12 +62584,12 @@
                         },
                         {
                           "name": "Jackson Holliday - Under 0.5",
-                          "value": "2.90",
+                          "value": "2.70",
                           "stop": "False"
                         },
                         {
                           "name": "Ryan Mountcastle - Under 0.5",
-                          "value": "3.00",
+                          "value": "3.10",
                           "stop": "False"
                         },
                         {
@@ -62579,7 +62609,7 @@
                         },
                         {
                           "name": "Giovanny Urshela - Over 0.5",
-                          "value": "1.45",
+                          "value": "1.47",
                           "stop": "False"
                         },
                         {
@@ -62594,12 +62624,12 @@
                         },
                         {
                           "name": "Giovanny Urshela - Under 0.5",
-                          "value": "2.70",
+                          "value": "2.65",
                           "stop": "False"
                         },
                         {
                           "name": "Jordan Westburg - Over 1.5",
-                          "value": "3.00",
+                          "value": "2.95",
                           "stop": "False"
                         },
                         {
@@ -62650,12 +62680,12 @@
                         {
                           "name": "Dylan Carlson - Over 0.5",
                           "value": "1.71",
-                          "stop": "False"
+                          "stop": "True"
                         },
                         {
                           "name": "Dylan Carlson - Under 0.5",
                           "value": "2.10",
-                          "stop": "False"
+                          "stop": "True"
                         },
                         {
                           "name": "Gunnar Henderson - Over 0.5",
@@ -62669,12 +62699,12 @@
                         },
                         {
                           "name": "Gunnar Henderson - Over 1.5",
-                          "value": "3.10",
+                          "value": "3.00",
                           "stop": "False"
                         },
                         {
                           "name": "Gunnar Henderson - Under 1.5",
-                          "value": "1.37",
+                          "value": "1.40",
                           "stop": "False"
                         },
                         {
@@ -62690,21 +62720,21 @@
                         {
                           "name": "Coby Mayo - Over 0.5",
                           "value": "1.68",
-                          "stop": "False"
+                          "stop": "True"
                         },
                         {
                           "name": "Coby Mayo - Under 0.5",
                           "value": "2.15",
-                          "stop": "False"
+                          "stop": "True"
                         },
                         {
                           "name": "Willie MacIver - Over 0.5",
-                          "value": "1.60",
+                          "value": "1.62",
                           "stop": "False"
                         },
                         {
                           "name": "Willie MacIver - Under 0.5",
-                          "value": "2.35",
+                          "value": "2.30",
                           "stop": "False"
                         },
                         {
@@ -62718,33 +62748,53 @@
                           "stop": "False"
                         },
                         {
+                          "name": "Alex Jackson - Over 0.5",
+                          "value": "1.86",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "Alex Jackson - Under 0.5",
+                          "value": "1.86",
+                          "stop": "False"
+                        },
+                        {
                           "name": "Darell Hernaiz - Over 0.5",
-                          "value": "1.44",
+                          "value": "1.47",
                           "stop": "False"
                         },
                         {
                           "name": "Darell Hernaiz - Under 0.5",
-                          "value": "2.75",
+                          "value": "2.65",
                           "stop": "False"
                         },
                         {
                           "name": "Jeremiah Jackson - Over 0.5",
-                          "value": "1.71",
+                          "value": "1.62",
                           "stop": "False"
                         },
                         {
                           "name": "Jeremiah Jackson - Under 0.5",
-                          "value": "2.10",
+                          "value": "2.30",
                           "stop": "False"
                         },
                         {
                           "name": "Greg Allen - Over 0.5",
-                          "value": "1.66",
+                          "value": "1.68",
                           "stop": "False"
                         },
                         {
                           "name": "Greg Allen - Under 0.5",
-                          "value": "2.20",
+                          "value": "2.15",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "Jordyn Adams - Over 0.5",
+                          "value": "1.68",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "Jordyn Adams - Under 0.5",
+                          "value": "2.15",
                           "stop": "False"
                         }
                       ]
@@ -73049,8 +73099,26 @@
                       "id": "16",
                       "name": "bet365",
                       "stop": "False",
-                      "ts": "1754812653",
+                      "ts": "1754813788",
                       "odds": [
+                        {
+                          "type": "total",
+                          "name": "12.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.80",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.95",
+                              "stop": "False"
+                            }
+                          ]
+                        },
                         {
                           "type": "total",
                           "name": "13.5",
@@ -74492,6 +74560,24 @@
                             {
                               "name": "Under",
                               "value": "1.86",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "7.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.76",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "2.00",
                               "stop": "False"
                             }
                           ]

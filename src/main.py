@@ -9,7 +9,7 @@ from flask_socketio import SocketIO
 from flask_session import Session
 # Import database and models
 from src.models.betting import db
-from src.models.multitenant_models import *  # Import all models including SportsbookOperator
+from src.models.multitenant_models import SportsbookOperator, SuperAdmin, BetSlip, SportsbookTheme, ThemeTemplate
 from src.routes.auth import auth_bp
 from src.routes.json_sports import json_sports_bp
 from src.routes.sports import sports_bp
