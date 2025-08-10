@@ -3,7 +3,7 @@
     "sport": "tennis",
     "display_name": "Tennis",
     "icon": "🎾",
-    "fetch_timestamp": "2025-08-11T07:10:33.812972",
+    "fetch_timestamp": "2025-08-11T07:12:32.474099",
     "date_range": [
       "10.08.2025",
       "12.08.2025"
@@ -12,7 +12,7 @@
   "odds_data": {
     "scores": {
       "sport": "tennis",
-      "ts": "1754838419",
+      "ts": "1754838753",
       "categories": [
         {
           "name": "Atp - Singles: Cincinnati (Usa), Hard",
@@ -46316,6 +46316,226 @@
               ]
             },
             {
+              "id": "2530199",
+              "tb": "false",
+              "time": "07:00",
+              "formatted_date": "11.08.2025",
+              "status": "1",
+              "player_1": {
+                "id": "4778",
+                "name": "F. Agamenone",
+                "winner": "false",
+                "totalscore": "",
+                "s5": "",
+                "s4": "",
+                "s3": "",
+                "s2": "",
+                "s1": "",
+                "game_score": "",
+                "serve": "false"
+              },
+              "player_2": {
+                "id": "240988",
+                "name": "A. Mazdrashki",
+                "winner": "false",
+                "totalscore": "",
+                "s5": "",
+                "s4": "",
+                "s3": "",
+                "s2": "",
+                "s1": "",
+                "game_score": "",
+                "serve": "false"
+              },
+              "odds": [
+                {
+                  "id": "2",
+                  "value": "Home/Away",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754838752",
+                      "odds": [
+                        {
+                          "name": "Home",
+                          "value": "1.30",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "Away",
+                          "value": "3.40",
+                          "stop": "False"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "22628",
+                  "value": "Home/Away (1st Set)",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754838752",
+                      "odds": [
+                        {
+                          "name": "Home",
+                          "value": "1.36",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "Away",
+                          "value": "3.00",
+                          "stop": "False"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "22632",
+                  "value": "Set Betting",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754838752",
+                      "odds": [
+                        {
+                          "name": "2:0",
+                          "value": "1.80",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "2:1",
+                          "value": "4.33",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "0:2",
+                          "value": "5.50",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "1:2",
+                          "value": "6.50",
+                          "stop": "False"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "23610",
+                  "value": "Home First Service Game - Winners Winner",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754838752",
+                      "odds": [
+                        {
+                          "name": "Home",
+                          "value": "1.22",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "Away",
+                          "value": "4.00",
+                          "stop": "False"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "23611",
+                  "value": "Away First Service Game - Winners Winner",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754838752",
+                      "odds": [
+                        {
+                          "name": "Home",
+                          "value": "2.50",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "Away",
+                          "value": "1.50",
+                          "stop": "False"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "23612",
+                  "value": "Away First Service Game - Winners First Point",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754838752",
+                      "odds": [
+                        {
+                          "name": "Home",
+                          "value": "2.10",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "Away",
+                          "value": "1.66",
+                          "stop": "False"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "23613",
+                  "value": "Home First Service Game - Winners First Point",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754838752",
+                      "odds": [
+                        {
+                          "name": "Home",
+                          "value": "1.50",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "Away",
+                          "value": "2.50",
+                          "stop": "False"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "id": "2530268",
               "tb": "false",
               "time": "08:30",
@@ -55476,16 +55696,16 @@
                       "id": "16",
                       "name": "bet365",
                       "stop": "False",
-                      "ts": "1754833837",
+                      "ts": "1754838646",
                       "odds": [
                         {
                           "name": "Home",
-                          "value": "1.16",
+                          "value": "1.22",
                           "stop": "False"
                         },
                         {
                           "name": "Away",
-                          "value": "4.50",
+                          "value": "4.00",
                           "stop": "False"
                         }
                       ]
@@ -55501,26 +55721,26 @@
                       "id": "16",
                       "name": "bet365",
                       "stop": "False",
-                      "ts": "1754833837",
+                      "ts": "1754838646",
                       "odds": [
                         {
                           "name": "2:0",
-                          "value": "1.36",
+                          "value": "1.44",
                           "stop": "False"
                         },
                         {
                           "name": "2:1",
-                          "value": "4.75",
+                          "value": "4.50",
                           "stop": "False"
                         },
                         {
                           "name": "0:2",
-                          "value": "9.00",
+                          "value": "8.00",
                           "stop": "False"
                         },
                         {
                           "name": "1:2",
-                          "value": "11.00",
+                          "value": "9.00",
                           "stop": "False"
                         }
                       ]
@@ -55536,16 +55756,16 @@
                       "id": "16",
                       "name": "bet365",
                       "stop": "False",
-                      "ts": "1754833837",
+                      "ts": "1754838646",
                       "odds": [
                         {
                           "name": "Home",
-                          "value": "1.16",
+                          "value": "1.20",
                           "stop": "False"
                         },
                         {
                           "name": "Away",
-                          "value": "4.50",
+                          "value": "4.33",
                           "stop": "False"
                         }
                       ]
@@ -55561,16 +55781,16 @@
                       "id": "16",
                       "name": "bet365",
                       "stop": "False",
-                      "ts": "1754833837",
+                      "ts": "1754838646",
                       "odds": [
                         {
                           "name": "Home",
-                          "value": "2.00",
+                          "value": "2.10",
                           "stop": "False"
                         },
                         {
                           "name": "Away",
-                          "value": "1.72",
+                          "value": "1.66",
                           "stop": "False"
                         }
                       ]
@@ -55611,16 +55831,16 @@
                       "id": "16",
                       "name": "bet365",
                       "stop": "False",
-                      "ts": "1754833837",
+                      "ts": "1754838646",
                       "odds": [
                         {
                           "name": "Home",
-                          "value": "1.44",
+                          "value": "1.50",
                           "stop": "False"
                         },
                         {
                           "name": "Away",
-                          "value": "2.62",
+                          "value": "2.50",
                           "stop": "False"
                         }
                       ]

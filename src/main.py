@@ -52,6 +52,14 @@ app.config['SECRET_KEY'] = os.getenv('SECRET_KEY', 'goalserve-sportsbook-secret-
 
 # Database configuration - use environment variable or default to local path
 database_path = os.getenv('DATABASE_PATH', os.path.join(os.path.dirname(__file__), 'database', 'app.db'))
+
+# Resolve absolute path for consistency
+if not os.path.isabs(database_path):
+    database_path = os.path.abspath(database_path)
+
+print(f"🔍 Main app database path: {database_path}")
+print(f"🔍 Main app working directory: {os.getcwd()}")
+
 app.config['SQLALCHEMY_DATABASE_URI'] = f"sqlite:///{database_path}"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
@@ -108,31 +116,45 @@ app.register_blueprint(tenant_auth_bp)
 # Initialize database
 db.init_app(app)
 
-# Initialize database for deployment
-try:
-    from src.init_db import init_database
-    database_path = init_database()
-    print(f"✅ Database initialized at: {database_path}")
+# Initialize database for deployment (only once)
+_database_initialized = False
+
+def initialize_database_once():
+    global _database_initialized
+    if _database_initialized:
+        print("✅ Database already initialized, skipping...")
+        return
     
-    # Ensure database is ready before creating tables
-    with app.app_context():
-        # Force database connection to ensure file exists
-        db.engine.connect()
-        print("✅ Database connection established")
+    try:
+        from src.init_db import init_database
+        database_path = init_database()
+        print(f"✅ Database initialized at: {database_path}")
         
-        # Create all tables
-        db.create_all()
-        print("✅ Database tables created")
-        
-except Exception as e:
-    print(f"❌ Database initialization failed: {e}")
-    # Try to create tables anyway
-    with app.app_context():
-        try:
+        # Ensure database is ready before creating tables
+        with app.app_context():
+            # Force database connection to ensure file exists
+            db.engine.connect()
+            print("✅ Database connection established")
+            
+            # Create all tables
             db.create_all()
-            print("✅ Database tables created (fallback)")
-        except Exception as e2:
-            print(f"❌ Fallback table creation also failed: {e2}")
+            print("✅ Database tables created")
+            
+        _database_initialized = True
+        
+    except Exception as e:
+        print(f"❌ Database initialization failed: {e}")
+        # Try to create tables anyway
+        with app.app_context():
+            try:
+                db.create_all()
+                print("✅ Database tables created (fallback)")
+                _database_initialized = True
+            except Exception as e2:
+                print(f"❌ Fallback table creation also failed: {e2}")
+
+# Initialize database
+initialize_database_once()
 
 # Initialize WebSocket service
 live_odds_service = LiveOddsWebSocketService(socketio)

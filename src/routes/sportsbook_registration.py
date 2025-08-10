@@ -11,10 +11,17 @@ import json
 
 sportsbook_bp = Blueprint('sportsbook', __name__)
 
-DATABASE_PATH = 'src/database/app.db'
+DATABASE_PATH = os.getenv('DATABASE_PATH', 'src/database/app.db')
+
+# Resolve absolute path for consistency
+if not os.path.isabs(DATABASE_PATH):
+    DATABASE_PATH = os.path.abspath(DATABASE_PATH)
+
+print(f"🔍 Sportsbook registration database path: {DATABASE_PATH}")
 
 def get_db_connection():
     """Get database connection with timeout and retry"""
+    print(f"🔍 Connecting to database: {DATABASE_PATH}")
     max_retries = 3
     retry_delay = 1  # seconds
     

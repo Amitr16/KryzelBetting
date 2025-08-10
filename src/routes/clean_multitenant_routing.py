@@ -14,8 +14,15 @@ clean_multitenant_bp = Blueprint('clean_multitenant', __name__)
 # Database configuration - use environment variable or default to local path
 DATABASE_PATH = os.getenv('DATABASE_PATH', 'src/database/app.db')
 
+# Resolve absolute path for consistency
+if not os.path.isabs(DATABASE_PATH):
+    DATABASE_PATH = os.path.abspath(DATABASE_PATH)
+
+print(f"🔍 Clean multitenant routing database path: {DATABASE_PATH}")
+
 def get_db_connection():
     """Get database connection"""
+    print(f"🔍 Connecting to database: {DATABASE_PATH}")
     conn = sqlite3.connect(DATABASE_PATH)
     conn.row_factory = sqlite3.Row
     return conn

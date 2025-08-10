@@ -10,7 +10,7 @@ from datetime import datetime
 
 branding_bp = Blueprint('branding', __name__)
 
-DATABASE_PATH = 'src/database/app.db'
+DATABASE_PATH = os.getenv('DATABASE_PATH', 'src/database/app.db')
 
 def get_db_connection():
     """Get database connection"""

@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 
 comprehensive_admin_bp = Blueprint('comprehensive_admin', __name__)
 
-DATABASE_PATH = 'src/database/app.db'
+DATABASE_PATH = os.getenv('DATABASE_PATH', 'src/database/app.db')
 
 def get_db_connection():
     """Get database connection"""

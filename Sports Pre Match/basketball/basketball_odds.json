@@ -3,7 +3,7 @@
     "sport": "basketball",
     "display_name": "Basketball",
     "icon": "🏀",
-    "fetch_timestamp": "2025-08-11T07:10:32.024727",
+    "fetch_timestamp": "2025-08-11T07:12:28.244514",
     "date_range": [
       "10.08.2025",
       "12.08.2025"
@@ -12,7 +12,7 @@
   "odds_data": {
     "scores": {
       "sport": "basketball",
-      "ts": "1754838347",
+      "ts": "1754838647",
       "categories": [
         {
           "name": "Brazil: Lbf Women - Play Offs",
@@ -17441,7 +17441,7 @@
             {
               "id": "954102",
               "nbaid": "0",
-              "status": "1st Quarter",
+              "status": "3rd Quarter",
               "date": "10.08.2025",
               "time": "22:00",
               "localteam": {
@@ -37284,18 +37284,18 @@
                     {
                       "id": "16",
                       "name": "bet365",
-                      "stop": "True",
-                      "ts": "1754837981",
+                      "stop": "False",
+                      "ts": "1754838646",
                       "odds": [
                         {
                           "name": "Odd",
                           "value": "1.83",
-                          "stop": "True"
+                          "stop": "False"
                         },
                         {
                           "name": "Even",
                           "value": "1.83",
-                          "stop": "True"
+                          "stop": "False"
                         }
                       ]
                     }
@@ -63828,7 +63828,7 @@
             {
               "id": "966055",
               "nbaid": "0",
-              "status": "Half Time",
+              "status": "3rd Quarter",
               "date": "10.08.2025",
               "time": "22:00",
               "localteam": {
@@ -86722,8 +86722,8 @@
         },
         {
           "name": "Europe: Eurobasket U20 B Women - Play Offs",
-          "gid": "5594",
-          "id": "5594",
+          "gid": "5563",
+          "id": "5563",
           "matches": [
             {
               "id": "983427",
