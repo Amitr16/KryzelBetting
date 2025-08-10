@@ -8,10 +8,12 @@ import sqlite3
 from datetime import datetime, timedelta
 from functools import wraps
 import json
+import os
 
 superadmin_bp = Blueprint('superadmin', __name__)
 
-DATABASE_PATH = 'src/database/app.db'
+# Database configuration - use environment variable or default to local path
+DATABASE_PATH = os.getenv('DATABASE_PATH', 'src/database/app.db')
 
 def get_db_connection():
     """Get database connection"""

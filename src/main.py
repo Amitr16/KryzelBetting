@@ -47,7 +47,10 @@ socketio = SocketIO(app, cors_allowed_origins="*", async_mode='threading')
 
 # Configuration
 app.config['SECRET_KEY'] = os.getenv('SECRET_KEY', 'goalserve-sportsbook-secret-key-change-in-production')
-app.config['SQLALCHEMY_DATABASE_URI'] = f"sqlite:///{os.path.join(os.path.dirname(__file__), 'database', 'app.db')}"
+
+# Database configuration - use environment variable or default to local path
+database_path = os.getenv('DATABASE_PATH', os.path.join(os.path.dirname(__file__), 'database', 'app.db'))
+app.config['SQLALCHEMY_DATABASE_URI'] = f"sqlite:///{database_path}"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 # Session configuration
@@ -102,6 +105,15 @@ app.register_blueprint(tenant_auth_bp)
 
 # Initialize database
 db.init_app(app)
+
+# Initialize database for deployment
+try:
+    from src.init_db import init_database
+    database_path = init_database()
+    print(f"✅ Database initialized at: {database_path}")
+except Exception as e:
+    print(f"⚠️ Database initialization warning: {e}")
+
 with app.app_context():
     db.create_all()
 

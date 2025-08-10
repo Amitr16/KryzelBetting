@@ -11,7 +11,8 @@ import os
 
 clean_multitenant_bp = Blueprint('clean_multitenant', __name__)
 
-DATABASE_PATH = 'src/database/app.db'
+# Database configuration - use environment variable or default to local path
+DATABASE_PATH = os.getenv('DATABASE_PATH', 'src/database/app.db')
 
 def get_db_connection():
     """Get database connection"""

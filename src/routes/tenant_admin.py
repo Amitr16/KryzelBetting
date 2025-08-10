@@ -16,10 +16,12 @@ from reportlab.platypus import SimpleDocTemplate, Table, TableStyle, Paragraph, 
 from reportlab.lib.units import inch
 import openpyxl
 from openpyxl.styles import Font, PatternFill, Alignment
+import os
 
 tenant_admin_bp = Blueprint('tenant_admin', __name__)
 
-DATABASE_PATH = 'src/database/app.db'
+# Database configuration - use environment variable or default to local path
+DATABASE_PATH = os.getenv('DATABASE_PATH', 'src/database/app.db')
 
 def get_db_connection():
     """Get database connection"""

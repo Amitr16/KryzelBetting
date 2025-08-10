@@ -16,7 +16,8 @@ logger = logging.getLogger(__name__)
 
 tenant_auth_bp = Blueprint('tenant_auth', __name__)
 
-DATABASE_PATH = 'src/database/app.db'
+# Database configuration - use environment variable or default to local path
+DATABASE_PATH = os.getenv('DATABASE_PATH', 'src/database/app.db')
 JWT_SECRET_KEY = os.getenv('JWT_SECRET_KEY', 'your-secret-key-change-in-production')
 
 def get_db_connection():

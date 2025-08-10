@@ -7,3 +7,9 @@ services:
     envVars:
       - key: PYTHON_VERSION
         value: 3.11.0
+      - key: DATABASE_PATH
+        value: /opt/render/project/src/database/app.db
+      - key: SECRET_KEY
+        value: goalserve-sportsbook-secret-key-change-in-production
+      - key: JWT_SECRET_KEY
+        value: your-secret-key-change-in-production
