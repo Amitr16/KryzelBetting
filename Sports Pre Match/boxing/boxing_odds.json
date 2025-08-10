@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "sport": "boxing",
+    "display_name": "Boxing",
+    "icon": "🥊",
+    "fetch_timestamp": "2025-08-10T12:02:55.079302",
+    "date_range": [
+      "09.08.2025",
+      "11.08.2025"
+    ]
+  },
+  "odds_data": {
+    "scores": {
+      "sport": "boxing",
+      "ts": "0",
+      "categories": []
+    }
+  }
+}

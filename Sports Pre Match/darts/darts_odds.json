@@ -1,0 +1,5402 @@
+{
+  "metadata": {
+    "sport": "darts",
+    "display_name": "Darts",
+    "icon": "🎯",
+    "fetch_timestamp": "2025-08-10T23:10:22.829625",
+    "date_range": [
+      "09.08.2025",
+      "11.08.2025"
+    ]
+  },
+  "odds_data": {
+    "scores": {
+      "sport": "darts",
+      "ts": "1754807149",
+      "categories": [
+        {
+          "name": "World: Modus Super Series",
+          "gid": "1174",
+          "id": "1174",
+          "matches": [
+            {
+              "id": "161718",
+              "tb": "false",
+              "time": "11:15",
+              "formatted_date": "11.08.2025",
+              "status": "Not Started",
+              "player_1": {
+                "id": "2729",
+                "name": "G. Usher",
+                "winner": "false",
+                "totalscore": "",
+                "s5": "",
+                "s4": "",
+                "s3": "",
+                "s2": "",
+                "s1": "",
+                "game_score": "",
+                "serve": "false"
+              },
+              "player_2": {
+                "id": "4656",
+                "name": "J. van Schie",
+                "winner": "false",
+                "totalscore": "",
+                "s5": "",
+                "s4": "",
+                "s3": "",
+                "s2": "",
+                "s1": "",
+                "game_score": "",
+                "serve": "false"
+              },
+              "odds": [
+                {
+                  "id": "2",
+                  "value": "Home/Away",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754789325",
+                      "odds": [
+                        {
+                          "name": "Home",
+                          "value": "1.72",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "Away",
+                          "value": "2.00",
+                          "stop": "False"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "5",
+                  "value": "Over/Under",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754789325",
+                      "odds": [
+                        {
+                          "type": "total",
+                          "name": "4.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.10",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "7.00",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "5.5",
+                          "ismain": "True",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.50",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "2.50",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "6.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "2.75",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.40",
+                              "stop": "False"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "81",
+                  "value": "Correct Score",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754789325",
+                      "odds": [
+                        {
+                          "name": "4:0",
+                          "value": "13.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "4:1",
+                          "value": "5.50",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "0:4",
+                          "value": "13.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "1:4",
+                          "value": "8.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "2:4",
+                          "value": "4.75",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "4:2",
+                          "value": "6.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "3:4",
+                          "value": "6.50",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "4:3",
+                          "value": "4.33",
+                          "stop": "False"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "22124",
+                  "value": "Total - Home",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754791185",
+                      "odds": [
+                        {
+                          "type": "total",
+                          "name": "2.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "4.50",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.18",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "3.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "11.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.05",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "0.5",
+                          "ismain": "True",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.22",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "4.00",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "4.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "29.00",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "5.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "67.00",
+                              "stop": "False"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "22125",
+                  "value": "Total - Away",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754791185",
+                      "odds": [
+                        {
+                          "type": "total",
+                          "name": "2.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "5.50",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.14",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "3.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "15.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.03",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "0.5",
+                          "ismain": "True",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.28",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "3.50",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "4.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "41.00",
+                              "stop": "False"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "161717",
+              "tb": "false",
+              "time": "10:55",
+              "formatted_date": "11.08.2025",
+              "status": "Not Started",
+              "player_1": {
+                "id": "3344",
+                "name": "S. McGuirk",
+                "winner": "false",
+                "totalscore": "",
+                "s5": "",
+                "s4": "",
+                "s3": "",
+                "s2": "",
+                "s1": "",
+                "game_score": "",
+                "serve": "false"
+              },
+              "player_2": {
+                "id": "4412",
+                "name": "J. van der Velde",
+                "winner": "false",
+                "totalscore": "",
+                "s5": "",
+                "s4": "",
+                "s3": "",
+                "s2": "",
+                "s1": "",
+                "game_score": "",
+                "serve": "false"
+              },
+              "odds": [
+                {
+                  "id": "2",
+                  "value": "Home/Away",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754789325",
+                      "odds": [
+                        {
+                          "name": "Home",
+                          "value": "1.53",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "Away",
+                          "value": "2.37",
+                          "stop": "False"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "5",
+                  "value": "Over/Under",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754789325",
+                      "odds": [
+                        {
+                          "type": "total",
+                          "name": "4.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.10",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "7.00",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "5.5",
+                          "ismain": "True",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.53",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "2.37",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "6.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "3.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.36",
+                              "stop": "False"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "81",
+                  "value": "Correct Score",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754789325",
+                      "odds": [
+                        {
+                          "name": "4:0",
+                          "value": "11.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "4:1",
+                          "value": "4.75",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "0:4",
+                          "value": "17.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "1:4",
+                          "value": "10.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "2:4",
+                          "value": "5.50",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "4:2",
+                          "value": "5.50",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "3:4",
+                          "value": "7.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "4:3",
+                          "value": "4.33",
+                          "stop": "False"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "22124",
+                  "value": "Total - Home",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754795428",
+                      "odds": [
+                        {
+                          "type": "total",
+                          "name": "2.5",
+                          "ismain": "True",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "4.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.22",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "3.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "10.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.06",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "0.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.20",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "4.33",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "4.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "23.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.01",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "5.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "67.00",
+                              "stop": "False"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "22125",
+                  "value": "Total - Away",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754795428",
+                      "odds": [
+                        {
+                          "type": "total",
+                          "name": "2.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "6.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.12",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "3.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "17.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.02",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "0.5",
+                          "ismain": "True",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.33",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "3.25",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "4.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "51.00",
+                              "stop": "False"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "161711",
+              "tb": "false",
+              "time": "09:10",
+              "formatted_date": "11.08.2025",
+              "status": "Not Started",
+              "player_1": {
+                "id": "2931",
+                "name": "S. Taylor",
+                "winner": "false",
+                "totalscore": "",
+                "s5": "",
+                "s4": "",
+                "s3": "",
+                "s2": "",
+                "s1": "",
+                "game_score": "",
+                "serve": "false"
+              },
+              "player_2": {
+                "id": "2729",
+                "name": "G. Usher",
+                "winner": "false",
+                "totalscore": "",
+                "s5": "",
+                "s4": "",
+                "s3": "",
+                "s2": "",
+                "s1": "",
+                "game_score": "",
+                "serve": "false"
+              },
+              "odds": [
+                {
+                  "id": "2",
+                  "value": "Home/Away",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754789325",
+                      "odds": [
+                        {
+                          "name": "Home",
+                          "value": "1.90",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "Away",
+                          "value": "1.80",
+                          "stop": "False"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "5",
+                  "value": "Over/Under",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754789325",
+                      "odds": [
+                        {
+                          "type": "total",
+                          "name": "4.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.10",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "7.00",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "5.5",
+                          "ismain": "True",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.50",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "2.50",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "6.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "2.75",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.40",
+                              "stop": "False"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "81",
+                  "value": "Correct Score",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754789325",
+                      "odds": [
+                        {
+                          "name": "4:0",
+                          "value": "15.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "4:1",
+                          "value": "6.50",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "0:4",
+                          "value": "11.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "1:4",
+                          "value": "7.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "2:4",
+                          "value": "4.33",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "4:2",
+                          "value": "7.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "3:4",
+                          "value": "6.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "4:3",
+                          "value": "4.75",
+                          "stop": "False"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "22124",
+                  "value": "Total - Home",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754792704",
+                      "odds": [
+                        {
+                          "type": "total",
+                          "name": "2.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "7.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.10",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "3.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "19.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.02",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "0.5",
+                          "ismain": "True",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.33",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "3.25",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "4.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "51.00",
+                              "stop": "False"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "22125",
+                  "value": "Total - Away",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754792704",
+                      "odds": [
+                        {
+                          "type": "total",
+                          "name": "2.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "4.50",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.18",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "3.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "11.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.05",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "0.5",
+                          "ismain": "True",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.22",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "4.00",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "4.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "29.00",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "5.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "67.00",
+                              "stop": "False"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "161710",
+              "tb": "false",
+              "time": "08:55",
+              "formatted_date": "11.08.2025",
+              "status": "Not Started",
+              "player_1": {
+                "id": "4656",
+                "name": "J. van Schie",
+                "winner": "false",
+                "totalscore": "",
+                "s5": "",
+                "s4": "",
+                "s3": "",
+                "s2": "",
+                "s1": "",
+                "game_score": "",
+                "serve": "false"
+              },
+              "player_2": {
+                "id": "4412",
+                "name": "J. van der Velde",
+                "winner": "false",
+                "totalscore": "",
+                "s5": "",
+                "s4": "",
+                "s3": "",
+                "s2": "",
+                "s1": "",
+                "game_score": "",
+                "serve": "false"
+              },
+              "odds": [
+                {
+                  "id": "2",
+                  "value": "Home/Away",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754789325",
+                      "odds": [
+                        {
+                          "name": "Home",
+                          "value": "1.61",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "Away",
+                          "value": "2.20",
+                          "stop": "False"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "5",
+                  "value": "Over/Under",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754789325",
+                      "odds": [
+                        {
+                          "type": "total",
+                          "name": "4.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.10",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "7.00",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "5.5",
+                          "ismain": "True",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.50",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "2.50",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "6.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "2.75",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.40",
+                              "stop": "False"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "81",
+                  "value": "Correct Score",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754789325",
+                      "odds": [
+                        {
+                          "name": "4:0",
+                          "value": "11.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "4:1",
+                          "value": "5.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "0:4",
+                          "value": "15.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "1:4",
+                          "value": "9.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "2:4",
+                          "value": "5.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "4:2",
+                          "value": "6.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "3:4",
+                          "value": "7.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "4:3",
+                          "value": "4.33",
+                          "stop": "False"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "22124",
+                  "value": "Total - Home",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754790274",
+                      "odds": [
+                        {
+                          "type": "total",
+                          "name": "2.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "5.50",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.14",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "3.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "15.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.03",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "0.5",
+                          "ismain": "True",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.28",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "3.50",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "4.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "41.00",
+                              "stop": "False"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "22125",
+                  "value": "Total - Away",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754790274",
+                      "odds": [
+                        {
+                          "type": "total",
+                          "name": "2.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "6.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.12",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "3.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "17.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.02",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "0.5",
+                          "ismain": "True",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.30",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "3.40",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "4.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "51.00",
+                              "stop": "False"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "161709",
+              "tb": "false",
+              "time": "08:35",
+              "formatted_date": "11.08.2025",
+              "status": "Not Started",
+              "player_1": {
+                "id": "3344",
+                "name": "S. McGuirk",
+                "winner": "false",
+                "totalscore": "",
+                "s5": "",
+                "s4": "",
+                "s3": "",
+                "s2": "",
+                "s1": "",
+                "game_score": "",
+                "serve": "false"
+              },
+              "player_2": {
+                "id": "4390",
+                "name": "D. Coulson",
+                "winner": "false",
+                "totalscore": "",
+                "s5": "",
+                "s4": "",
+                "s3": "",
+                "s2": "",
+                "s1": "",
+                "game_score": "",
+                "serve": "false"
+              },
+              "odds": [
+                {
+                  "id": "2",
+                  "value": "Home/Away",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754789325",
+                      "odds": [
+                        {
+                          "name": "Home",
+                          "value": "1.83",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "Away",
+                          "value": "1.83",
+                          "stop": "False"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "5",
+                  "value": "Over/Under",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754789325",
+                      "odds": [
+                        {
+                          "type": "total",
+                          "name": "4.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.10",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "7.00",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "5.5",
+                          "ismain": "True",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.50",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "2.50",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "6.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "2.75",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.40",
+                              "stop": "False"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "81",
+                  "value": "Correct Score",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754789325",
+                      "odds": [
+                        {
+                          "name": "4:0",
+                          "value": "15.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "4:1",
+                          "value": "6.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "0:4",
+                          "value": "12.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "1:4",
+                          "value": "7.50",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "2:4",
+                          "value": "4.50",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "4:2",
+                          "value": "6.50",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "3:4",
+                          "value": "6.50",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "4:3",
+                          "value": "4.50",
+                          "stop": "False"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "22124",
+                  "value": "Total - Home",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754790274",
+                      "odds": [
+                        {
+                          "type": "total",
+                          "name": "2.5",
+                          "ismain": "True",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "4.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.22",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "3.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "10.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.06",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "0.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.18",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "4.50",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "4.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "23.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.01",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "5.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "51.00",
+                              "stop": "False"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "22125",
+                  "value": "Total - Away",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754790274",
+                      "odds": [
+                        {
+                          "type": "total",
+                          "name": "2.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "5.50",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.14",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "3.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "15.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.03",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "0.5",
+                          "ismain": "True",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.28",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "3.50",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "4.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "41.00",
+                              "stop": "False"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "161721",
+              "tb": "false",
+              "time": "12:05",
+              "formatted_date": "11.08.2025",
+              "status": "Not Started",
+              "player_1": {
+                "id": "4412",
+                "name": "J. van der Velde",
+                "winner": "false",
+                "totalscore": "",
+                "s5": "",
+                "s4": "",
+                "s3": "",
+                "s2": "",
+                "s1": "",
+                "game_score": "",
+                "serve": "false"
+              },
+              "player_2": {
+                "id": "2729",
+                "name": "G. Usher",
+                "winner": "false",
+                "totalscore": "",
+                "s5": "",
+                "s4": "",
+                "s3": "",
+                "s2": "",
+                "s1": "",
+                "game_score": "",
+                "serve": "false"
+              },
+              "odds": [
+                {
+                  "id": "2",
+                  "value": "Home/Away",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754789325",
+                      "odds": [
+                        {
+                          "name": "Home",
+                          "value": "1.90",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "Away",
+                          "value": "1.80",
+                          "stop": "False"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "5",
+                  "value": "Over/Under",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754789325",
+                      "odds": [
+                        {
+                          "type": "total",
+                          "name": "4.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.10",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "7.00",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "5.5",
+                          "ismain": "True",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.50",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "2.50",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "6.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "2.75",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.40",
+                              "stop": "False"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "81",
+                  "value": "Correct Score",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754789325",
+                      "odds": [
+                        {
+                          "name": "4:0",
+                          "value": "15.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "4:1",
+                          "value": "6.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "0:4",
+                          "value": "11.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "1:4",
+                          "value": "7.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "2:4",
+                          "value": "4.33",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "4:2",
+                          "value": "7.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "3:4",
+                          "value": "6.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "4:3",
+                          "value": "4.50",
+                          "stop": "False"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "22124",
+                  "value": "Total - Home",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754794315",
+                      "odds": [
+                        {
+                          "type": "total",
+                          "name": "2.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "6.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.12",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "3.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "17.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.02",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "0.5",
+                          "ismain": "True",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.30",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "3.40",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "4.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "51.00",
+                              "stop": "False"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "22125",
+                  "value": "Total - Away",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754794315",
+                      "odds": [
+                        {
+                          "type": "total",
+                          "name": "2.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "4.50",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.18",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "3.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "11.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.05",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "0.5",
+                          "ismain": "True",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.22",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "4.00",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "4.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "29.00",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "5.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "67.00",
+                              "stop": "False"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "161720",
+              "tb": "false",
+              "time": "11:50",
+              "formatted_date": "11.08.2025",
+              "status": "Not Started",
+              "player_1": {
+                "id": "2931",
+                "name": "S. Taylor",
+                "winner": "false",
+                "totalscore": "",
+                "s5": "",
+                "s4": "",
+                "s3": "",
+                "s2": "",
+                "s1": "",
+                "game_score": "",
+                "serve": "false"
+              },
+              "player_2": {
+                "id": "3344",
+                "name": "S. McGuirk",
+                "winner": "false",
+                "totalscore": "",
+                "s5": "",
+                "s4": "",
+                "s3": "",
+                "s2": "",
+                "s1": "",
+                "game_score": "",
+                "serve": "false"
+              },
+              "odds": [
+                {
+                  "id": "2",
+                  "value": "Home/Away",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754789325",
+                      "odds": [
+                        {
+                          "name": "Home",
+                          "value": "2.10",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "Away",
+                          "value": "1.66",
+                          "stop": "False"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "5",
+                  "value": "Over/Under",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754789325",
+                      "odds": [
+                        {
+                          "type": "total",
+                          "name": "4.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.10",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "7.00",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "5.5",
+                          "ismain": "True",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.50",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "2.50",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "6.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "3.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.36",
+                              "stop": "False"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "81",
+                  "value": "Correct Score",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754789325",
+                      "odds": [
+                        {
+                          "name": "4:0",
+                          "value": "17.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "4:1",
+                          "value": "7.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "0:4",
+                          "value": "10.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "1:4",
+                          "value": "6.50",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "2:4",
+                          "value": "4.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "4:2",
+                          "value": "7.50",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "3:4",
+                          "value": "6.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "4:3",
+                          "value": "4.75",
+                          "stop": "False"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "22124",
+                  "value": "Total - Home",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754791185",
+                      "odds": [
+                        {
+                          "type": "total",
+                          "name": "2.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "7.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.10",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "3.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "19.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.02",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "0.5",
+                          "ismain": "True",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.33",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "3.25",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "4.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "51.00",
+                              "stop": "False"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "22125",
+                  "value": "Total - Away",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754791185",
+                      "odds": [
+                        {
+                          "type": "total",
+                          "name": "2.5",
+                          "ismain": "True",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "4.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.22",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "3.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "10.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.06",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "0.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.20",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "4.33",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "4.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "23.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.01",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "5.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "67.00",
+                              "stop": "False"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "161719",
+              "tb": "false",
+              "time": "11:30",
+              "formatted_date": "11.08.2025",
+              "status": "Not Started",
+              "player_1": {
+                "id": "4412",
+                "name": "J. van der Velde",
+                "winner": "false",
+                "totalscore": "",
+                "s5": "",
+                "s4": "",
+                "s3": "",
+                "s2": "",
+                "s1": "",
+                "game_score": "",
+                "serve": "false"
+              },
+              "player_2": {
+                "id": "4390",
+                "name": "D. Coulson",
+                "winner": "false",
+                "totalscore": "",
+                "s5": "",
+                "s4": "",
+                "s3": "",
+                "s2": "",
+                "s1": "",
+                "game_score": "",
+                "serve": "false"
+              },
+              "odds": [
+                {
+                  "id": "2",
+                  "value": "Home/Away",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754789325",
+                      "odds": [
+                        {
+                          "name": "Home",
+                          "value": "2.10",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "Away",
+                          "value": "1.66",
+                          "stop": "False"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "5",
+                  "value": "Over/Under",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754789325",
+                      "odds": [
+                        {
+                          "type": "total",
+                          "name": "4.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.10",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "7.00",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "5.5",
+                          "ismain": "True",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.50",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "2.50",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "6.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "3.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.36",
+                              "stop": "False"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "81",
+                  "value": "Correct Score",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754789325",
+                      "odds": [
+                        {
+                          "name": "4:0",
+                          "value": "19.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "4:1",
+                          "value": "7.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "0:4",
+                          "value": "10.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "1:4",
+                          "value": "6.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "2:4",
+                          "value": "4.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "4:2",
+                          "value": "7.50",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "3:4",
+                          "value": "6.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "4:3",
+                          "value": "5.00",
+                          "stop": "False"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "22124",
+                  "value": "Total - Home",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754807148",
+                      "odds": [
+                        {
+                          "type": "total",
+                          "name": "2.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "6.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.12",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "3.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "17.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.02",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "0.5",
+                          "ismain": "True",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.33",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "3.25",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "4.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "51.00",
+                              "stop": "False"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "22125",
+                  "value": "Total - Away",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754807148",
+                      "odds": [
+                        {
+                          "type": "total",
+                          "name": "2.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "5.50",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.14",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "3.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "17.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.02",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "0.5",
+                          "ismain": "True",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.28",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "3.50",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "4.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "41.00",
+                              "stop": "False"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "161714",
+              "tb": "false",
+              "time": "10:05",
+              "formatted_date": "11.08.2025",
+              "status": "Not Started",
+              "player_1": {
+                "id": "4412",
+                "name": "J. van der Velde",
+                "winner": "false",
+                "totalscore": "",
+                "s5": "",
+                "s4": "",
+                "s3": "",
+                "s2": "",
+                "s1": "",
+                "game_score": "",
+                "serve": "false"
+              },
+              "player_2": {
+                "id": "2931",
+                "name": "S. Taylor",
+                "winner": "false",
+                "totalscore": "",
+                "s5": "",
+                "s4": "",
+                "s3": "",
+                "s2": "",
+                "s1": "",
+                "game_score": "",
+                "serve": "false"
+              },
+              "odds": [
+                {
+                  "id": "2",
+                  "value": "Home/Away",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754789325",
+                      "odds": [
+                        {
+                          "name": "Home",
+                          "value": "1.72",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "Away",
+                          "value": "2.00",
+                          "stop": "False"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "5",
+                  "value": "Over/Under",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754789325",
+                      "odds": [
+                        {
+                          "type": "total",
+                          "name": "4.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.10",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "7.00",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "5.5",
+                          "ismain": "True",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.50",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "2.50",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "6.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "2.75",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.40",
+                              "stop": "False"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "81",
+                  "value": "Correct Score",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754789325",
+                      "odds": [
+                        {
+                          "name": "4:0",
+                          "value": "13.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "4:1",
+                          "value": "5.50",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "0:4",
+                          "value": "13.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "1:4",
+                          "value": "8.50",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "2:4",
+                          "value": "4.75",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "4:2",
+                          "value": "6.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "3:4",
+                          "value": "6.50",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "4:3",
+                          "value": "4.33",
+                          "stop": "False"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "22124",
+                  "value": "Total - Home",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754789325",
+                      "odds": [
+                        {
+                          "type": "total",
+                          "name": "2.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "6.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.12",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "3.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "17.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.02",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "0.5",
+                          "ismain": "True",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.30",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "3.40",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "4.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "51.00",
+                              "stop": "False"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "22125",
+                  "value": "Total - Away",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754789325",
+                      "odds": [
+                        {
+                          "type": "total",
+                          "name": "2.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "7.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.10",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "3.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "19.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.02",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "0.5",
+                          "ismain": "True",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.33",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "3.25",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "4.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "51.00",
+                              "stop": "False"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "161713",
+              "tb": "false",
+              "time": "09:45",
+              "formatted_date": "11.08.2025",
+              "status": "Not Started",
+              "player_1": {
+                "id": "2729",
+                "name": "G. Usher",
+                "winner": "false",
+                "totalscore": "",
+                "s5": "",
+                "s4": "",
+                "s3": "",
+                "s2": "",
+                "s1": "",
+                "game_score": "",
+                "serve": "false"
+              },
+              "player_2": {
+                "id": "3344",
+                "name": "S. McGuirk",
+                "winner": "false",
+                "totalscore": "",
+                "s5": "",
+                "s4": "",
+                "s3": "",
+                "s2": "",
+                "s1": "",
+                "game_score": "",
+                "serve": "false"
+              },
+              "odds": [
+                {
+                  "id": "2",
+                  "value": "Home/Away",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754789325",
+                      "odds": [
+                        {
+                          "name": "Home",
+                          "value": "1.83",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "Away",
+                          "value": "1.83",
+                          "stop": "False"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "5",
+                  "value": "Over/Under",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754789325",
+                      "odds": [
+                        {
+                          "type": "total",
+                          "name": "4.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.10",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "7.00",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "5.5",
+                          "ismain": "True",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.50",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "2.50",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "6.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "2.75",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.40",
+                              "stop": "False"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "81",
+                  "value": "Correct Score",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754789325",
+                      "odds": [
+                        {
+                          "name": "4:0",
+                          "value": "15.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "4:1",
+                          "value": "6.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "0:4",
+                          "value": "12.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "1:4",
+                          "value": "7.50",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "2:4",
+                          "value": "4.33",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "4:2",
+                          "value": "6.50",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "3:4",
+                          "value": "6.50",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "4:3",
+                          "value": "4.50",
+                          "stop": "False"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "22124",
+                  "value": "Total - Home",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754790745",
+                      "odds": [
+                        {
+                          "type": "total",
+                          "name": "2.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "4.50",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.18",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "3.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "11.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.05",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "0.5",
+                          "ismain": "True",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.22",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "4.00",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "4.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "29.00",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "5.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "67.00",
+                              "stop": "False"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "22125",
+                  "value": "Total - Away",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754790745",
+                      "odds": [
+                        {
+                          "type": "total",
+                          "name": "2.5",
+                          "ismain": "True",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "4.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.22",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "3.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "10.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.06",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "0.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.18",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "4.50",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "4.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "23.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.01",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "5.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "51.00",
+                              "stop": "False"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "161712",
+              "tb": "false",
+              "time": "09:30",
+              "formatted_date": "11.08.2025",
+              "status": "Not Started",
+              "player_1": {
+                "id": "4390",
+                "name": "D. Coulson",
+                "winner": "false",
+                "totalscore": "",
+                "s5": "",
+                "s4": "",
+                "s3": "",
+                "s2": "",
+                "s1": "",
+                "game_score": "",
+                "serve": "false"
+              },
+              "player_2": {
+                "id": "4656",
+                "name": "J. van Schie",
+                "winner": "false",
+                "totalscore": "",
+                "s5": "",
+                "s4": "",
+                "s3": "",
+                "s2": "",
+                "s1": "",
+                "game_score": "",
+                "serve": "false"
+              },
+              "odds": [
+                {
+                  "id": "2",
+                  "value": "Home/Away",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754789325",
+                      "odds": [
+                        {
+                          "name": "Home",
+                          "value": "1.61",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "Away",
+                          "value": "2.20",
+                          "stop": "False"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "5",
+                  "value": "Over/Under",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754789325",
+                      "odds": [
+                        {
+                          "type": "total",
+                          "name": "4.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.10",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "7.00",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "5.5",
+                          "ismain": "True",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.50",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "2.50",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "6.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "2.75",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.40",
+                              "stop": "False"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "81",
+                  "value": "Correct Score",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754789325",
+                      "odds": [
+                        {
+                          "name": "4:0",
+                          "value": "11.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "4:1",
+                          "value": "5.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "0:4",
+                          "value": "15.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "1:4",
+                          "value": "9.50",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "2:4",
+                          "value": "5.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "4:2",
+                          "value": "5.50",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "3:4",
+                          "value": "7.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "4:3",
+                          "value": "4.33",
+                          "stop": "False"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "22124",
+                  "value": "Total - Home",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754789438",
+                      "odds": [
+                        {
+                          "type": "total",
+                          "name": "2.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "5.50",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.14",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "3.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "15.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.03",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "0.5",
+                          "ismain": "True",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.28",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "3.50",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "4.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "41.00",
+                              "stop": "False"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "22125",
+                  "value": "Total - Away",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754789438",
+                      "odds": [
+                        {
+                          "type": "total",
+                          "name": "2.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "5.50",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.14",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "3.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "15.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.03",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "0.5",
+                          "ismain": "True",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.28",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "3.50",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "4.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "41.00",
+                              "stop": "False"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "161715",
+              "tb": "false",
+              "time": "10:20",
+              "formatted_date": "11.08.2025",
+              "status": "Not Started",
+              "player_1": {
+                "id": "4390",
+                "name": "D. Coulson",
+                "winner": "false",
+                "totalscore": "",
+                "s5": "",
+                "s4": "",
+                "s3": "",
+                "s2": "",
+                "s1": "",
+                "game_score": "",
+                "serve": "false"
+              },
+              "player_2": {
+                "id": "2729",
+                "name": "G. Usher",
+                "winner": "false",
+                "totalscore": "",
+                "s5": "",
+                "s4": "",
+                "s3": "",
+                "s2": "",
+                "s1": "",
+                "game_score": "",
+                "serve": "false"
+              },
+              "odds": [
+                {
+                  "id": "2",
+                  "value": "Home/Away",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754789325",
+                      "odds": [
+                        {
+                          "name": "Home",
+                          "value": "1.61",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "Away",
+                          "value": "2.20",
+                          "stop": "False"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "5",
+                  "value": "Over/Under",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754789325",
+                      "odds": [
+                        {
+                          "type": "total",
+                          "name": "4.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.10",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "7.00",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "5.5",
+                          "ismain": "True",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.50",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "2.50",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "6.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "2.75",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.40",
+                              "stop": "False"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "81",
+                  "value": "Correct Score",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754789325",
+                      "odds": [
+                        {
+                          "name": "4:0",
+                          "value": "11.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "4:1",
+                          "value": "5.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "0:4",
+                          "value": "15.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "1:4",
+                          "value": "9.50",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "2:4",
+                          "value": "5.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "4:2",
+                          "value": "5.50",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "3:4",
+                          "value": "7.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "4:3",
+                          "value": "4.33",
+                          "stop": "False"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "22124",
+                  "value": "Total - Home",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754793821",
+                      "odds": [
+                        {
+                          "type": "total",
+                          "name": "2.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "5.50",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.14",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "3.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "15.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.03",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "0.5",
+                          "ismain": "True",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.28",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "3.50",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "4.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "41.00",
+                              "stop": "False"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "22125",
+                  "value": "Total - Away",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754793821",
+                      "odds": [
+                        {
+                          "type": "total",
+                          "name": "2.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "4.50",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.18",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "3.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "11.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.05",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "0.5",
+                          "ismain": "True",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.22",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "4.00",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "4.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "29.00",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "5.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "67.00",
+                              "stop": "False"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "161716",
+              "tb": "false",
+              "time": "10:40",
+              "formatted_date": "11.08.2025",
+              "status": "Not Started",
+              "player_1": {
+                "id": "4656",
+                "name": "J. van Schie",
+                "winner": "false",
+                "totalscore": "",
+                "s5": "",
+                "s4": "",
+                "s3": "",
+                "s2": "",
+                "s1": "",
+                "game_score": "",
+                "serve": "false"
+              },
+              "player_2": {
+                "id": "2931",
+                "name": "S. Taylor",
+                "winner": "false",
+                "totalscore": "",
+                "s5": "",
+                "s4": "",
+                "s3": "",
+                "s2": "",
+                "s1": "",
+                "game_score": "",
+                "serve": "false"
+              },
+              "odds": [
+                {
+                  "id": "2",
+                  "value": "Home/Away",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754789325",
+                      "odds": [
+                        {
+                          "name": "Home",
+                          "value": "1.57",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "Away",
+                          "value": "2.25",
+                          "stop": "False"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "5",
+                  "value": "Over/Under",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754789325",
+                      "odds": [
+                        {
+                          "type": "total",
+                          "name": "4.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.10",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "7.00",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "5.5",
+                          "ismain": "True",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.50",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "2.50",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "6.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "2.75",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.40",
+                              "stop": "False"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "81",
+                  "value": "Correct Score",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754789325",
+                      "odds": [
+                        {
+                          "name": "4:0",
+                          "value": "11.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "4:1",
+                          "value": "4.75",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "0:4",
+                          "value": "15.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "1:4",
+                          "value": "9.50",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "2:4",
+                          "value": "5.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "4:2",
+                          "value": "5.50",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "3:4",
+                          "value": "7.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "4:3",
+                          "value": "4.33",
+                          "stop": "False"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "22124",
+                  "value": "Total - Home",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754792984",
+                      "odds": [
+                        {
+                          "type": "total",
+                          "name": "2.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "5.50",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.14",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "3.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "17.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.02",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "0.5",
+                          "ismain": "True",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.28",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "3.50",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "4.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "41.00",
+                              "stop": "False"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "22125",
+                  "value": "Total - Away",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754792984",
+                      "odds": [
+                        {
+                          "type": "total",
+                          "name": "2.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "7.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.10",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "3.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "19.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.02",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "0.5",
+                          "ismain": "True",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.33",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "3.25",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "4.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "51.00",
+                              "stop": "False"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "161723",
+              "tb": "false",
+              "time": "12:40",
+              "formatted_date": "11.08.2025",
+              "status": "Not Started",
+              "player_1": {
+                "id": "4390",
+                "name": "D. Coulson",
+                "winner": "false",
+                "totalscore": "",
+                "s5": "",
+                "s4": "",
+                "s3": "",
+                "s2": "",
+                "s1": "",
+                "game_score": "",
+                "serve": "false"
+              },
+              "player_2": {
+                "id": "2931",
+                "name": "S. Taylor",
+                "winner": "false",
+                "totalscore": "",
+                "s5": "",
+                "s4": "",
+                "s3": "",
+                "s2": "",
+                "s1": "",
+                "game_score": "",
+                "serve": "false"
+              },
+              "odds": [
+                {
+                  "id": "2",
+                  "value": "Home/Away",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754791409",
+                      "odds": [
+                        {
+                          "name": "Home",
+                          "value": "1.44",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "Away",
+                          "value": "2.62",
+                          "stop": "False"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "5",
+                  "value": "Over/Under",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754791409",
+                      "odds": [
+                        {
+                          "type": "total",
+                          "name": "4.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.11",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "6.50",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "5.5",
+                          "ismain": "True",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.53",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "2.37",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "6.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "3.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.36",
+                              "stop": "False"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "81",
+                  "value": "Correct Score",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754791409",
+                      "odds": [
+                        {
+                          "name": "4:0",
+                          "value": "10.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "4:1",
+                          "value": "4.33",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "0:4",
+                          "value": "19.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "1:4",
+                          "value": "11.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "2:4",
+                          "value": "6.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "4:2",
+                          "value": "5.50",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "3:4",
+                          "value": "7.50",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "4:3",
+                          "value": "4.33",
+                          "stop": "False"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "22124",
+                  "value": "Total - Home",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754793637",
+                      "odds": [
+                        {
+                          "type": "total",
+                          "name": "2.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "6.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.12",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "3.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "17.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.02",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "0.5",
+                          "ismain": "True",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.30",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "3.40",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "4.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "41.00",
+                              "stop": "False"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "22125",
+                  "value": "Total - Away",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754793637",
+                      "odds": [
+                        {
+                          "type": "total",
+                          "name": "2.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "7.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.10",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "3.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "19.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.02",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "0.5",
+                          "ismain": "True",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.36",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "3.00",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "4.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "51.00",
+                              "stop": "False"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "161722",
+              "tb": "false",
+              "time": "12:25",
+              "formatted_date": "11.08.2025",
+              "status": "Not Started",
+              "player_1": {
+                "id": "3344",
+                "name": "S. McGuirk",
+                "winner": "false",
+                "totalscore": "",
+                "s5": "",
+                "s4": "",
+                "s3": "",
+                "s2": "",
+                "s1": "",
+                "game_score": "",
+                "serve": "false"
+              },
+              "player_2": {
+                "id": "4656",
+                "name": "J. van Schie",
+                "winner": "false",
+                "totalscore": "",
+                "s5": "",
+                "s4": "",
+                "s3": "",
+                "s2": "",
+                "s1": "",
+                "game_score": "",
+                "serve": "false"
+              },
+              "odds": [
+                {
+                  "id": "2",
+                  "value": "Home/Away",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754791409",
+                      "odds": [
+                        {
+                          "name": "Home",
+                          "value": "1.66",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "Away",
+                          "value": "2.10",
+                          "stop": "False"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "5",
+                  "value": "Over/Under",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754791409",
+                      "odds": [
+                        {
+                          "type": "total",
+                          "name": "4.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.10",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "7.00",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "5.5",
+                          "ismain": "True",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.50",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "2.50",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "6.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "2.75",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.40",
+                              "stop": "False"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "81",
+                  "value": "Correct Score",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754791409",
+                      "odds": [
+                        {
+                          "name": "4:0",
+                          "value": "13.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "4:1",
+                          "value": "5.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "0:4",
+                          "value": "15.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "1:4",
+                          "value": "8.50",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "2:4",
+                          "value": "5.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "4:2",
+                          "value": "6.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "3:4",
+                          "value": "6.50",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "4:3",
+                          "value": "4.33",
+                          "stop": "False"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "22124",
+                  "value": "Total - Home",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754795428",
+                      "odds": [
+                        {
+                          "type": "total",
+                          "name": "2.5",
+                          "ismain": "True",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "4.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.22",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "3.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "10.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.06",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "0.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.18",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "4.50",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "4.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "23.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.01",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "5.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "51.00",
+                              "stop": "False"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "22125",
+                  "value": "Total - Away",
+                  "stop": "false",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754795428",
+                      "odds": [
+                        {
+                          "type": "total",
+                          "name": "2.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "5.50",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.14",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "3.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "15.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.03",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "0.5",
+                          "ismain": "True",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.28",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "3.50",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "4.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "41.00",
+                              "stop": "False"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Debug Sports Loading</title>
+</head>
+<body>
+    <h1>Debug Sports Loading</h1>
+    <div id="debugOutput"></div>
+    <button onclick="testLoadSports()">Test Load Sports</button>
+    
+    <script>
+        async function testLoadSports() {
+            const output = document.getElementById('debugOutput');
+            output.innerHTML = '<p>Testing sports loading...</p>';
+            
+            try {
+                // Check if user is logged in
+                const token = localStorage.getItem('token');
+                output.innerHTML += `<p>Token: ${token ? 'Present' : 'Missing'}</p>`;
+                
+                if (!token) {
+                    output.innerHTML += '<p style="color: red;">No token found - user not logged in!</p>';
+                    return;
+                }
+                
+                // Test the sports API
+                const response = await fetch('/api/sports/sports', {
+                    headers: {
+                        'Authorization': `Bearer ${token}`
+                    }
+                });
+                
+                output.innerHTML += `<p>Response status: ${response.status}</p>`;
+                
+                if (response.ok) {
+                    const sportsData = await response.json();
+                    output.innerHTML += `<p>Sports data received: ${Object.keys(sportsData).length} sports</p>`;
+                    output.innerHTML += `<pre>${JSON.stringify(sportsData, null, 2)}</pre>`;
+                } else {
+                    const errorData = await response.json();
+                    output.innerHTML += `<p style="color: red;">API Error: ${JSON.stringify(errorData)}</p>`;
+                }
+                
+            } catch (error) {
+                output.innerHTML += `<p style="color: red;">Error: ${error.message}</p>`;
+            }
+        }
+        
+        // Auto-test on page load
+        window.onload = testLoadSports;
+    </script>
+</body>
+</html>

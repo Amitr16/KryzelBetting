@@ -1,0 +1,595 @@
+{
+  "metadata": {
+    "sport": "futsal",
+    "display_name": "Futsal",
+    "icon": "⚽",
+    "fetch_timestamp": "2025-08-10T23:10:05.595263",
+    "date_range": [
+      "09.08.2025",
+      "11.08.2025"
+    ]
+  },
+  "odds_data": {
+    "scores": {
+      "sport": "futsal",
+      "ts": "1754808295",
+      "categories": [
+        {
+          "name": "Brazil: Lnf",
+          "gid": "1017",
+          "id": "1017",
+          "matches": [
+            {
+              "id": "92399",
+              "status": "57",
+              "date": "Aug 10",
+              "formatted_date": "10.08.2025",
+              "time": "14:00",
+              "venue": "",
+              "static_id": "0",
+              "fix_id": "0",
+              "localteam": {
+                "id": "1171",
+                "name": "Joinville",
+                "goals": "?"
+              },
+              "visitorteam": {
+                "id": "1180",
+                "name": "Minas",
+                "goals": "?"
+              },
+              "events": "",
+              "ht": {
+                "score": ""
+              },
+              "odds": [
+                {
+                  "id": "1",
+                  "value": "3Way Result",
+                  "stop": "False",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "True",
+                      "ts": "1754805342",
+                      "odds": [
+                        {
+                          "name": "Home",
+                          "value": "1.30",
+                          "stop": "True"
+                        },
+                        {
+                          "name": "Draw",
+                          "value": "5.50",
+                          "stop": "True"
+                        },
+                        {
+                          "name": "Away",
+                          "value": "6.00",
+                          "stop": "True"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "2",
+                  "value": "Home/Away",
+                  "stop": "False",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "True",
+                      "ts": "1754805342",
+                      "odds": [
+                        {
+                          "name": "Home",
+                          "value": "1.14",
+                          "stop": "True"
+                        },
+                        {
+                          "name": "Away",
+                          "value": "5.00",
+                          "stop": "True"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "4",
+                  "value": "Asian Handicap",
+                  "stop": "False",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "True",
+                      "ts": "1754805342",
+                      "odds": [
+                        {
+                          "type": "handicap",
+                          "name": "-1.5",
+                          "ismain": "False",
+                          "stop": "True",
+                          "odds": [
+                            {
+                              "name": "Home",
+                              "value": "1.53",
+                              "stop": "True"
+                            },
+                            {
+                              "name": "Away",
+                              "value": "2.37",
+                              "stop": "True"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "5",
+                  "value": "Over/Under",
+                  "stop": "False",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "True",
+                      "ts": "1754805342",
+                      "odds": [
+                        {
+                          "type": "total",
+                          "name": "5.5",
+                          "ismain": "False",
+                          "stop": "True",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "2.10",
+                              "stop": "True"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.66",
+                              "stop": "True"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "12",
+                  "value": "HT/FT Double",
+                  "stop": "False",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "True",
+                      "ts": "1754805342",
+                      "odds": [
+                        {
+                          "name": "Krona Futsal Joinville SC/Minas",
+                          "value": "20.00",
+                          "stop": "True"
+                        },
+                        {
+                          "name": "Minas/Krona Futsal Joinville SC",
+                          "value": "12.00",
+                          "stop": "True"
+                        },
+                        {
+                          "name": "Minas/Minas",
+                          "value": "10.00",
+                          "stop": "True"
+                        },
+                        {
+                          "name": "Minas/Draw",
+                          "value": "22.00",
+                          "stop": "True"
+                        },
+                        {
+                          "name": "Draw/Minas",
+                          "value": "16.00",
+                          "stop": "True"
+                        },
+                        {
+                          "name": "Draw/Krona Futsal Joinville SC",
+                          "value": "5.50",
+                          "stop": "True"
+                        },
+                        {
+                          "name": "Krona Futsal Joinville SC/Draw",
+                          "value": "20.00",
+                          "stop": "True"
+                        },
+                        {
+                          "name": "Krona Futsal Joinville SC/Krona Futsal Joinville SC",
+                          "value": "1.75",
+                          "stop": "True"
+                        },
+                        {
+                          "name": "Draw/Draw",
+                          "value": "12.00",
+                          "stop": "True"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "92396",
+              "status": "21:00",
+              "date": "Aug 10",
+              "formatted_date": "10.08.2025",
+              "time": "21:00",
+              "venue": "",
+              "static_id": "0",
+              "fix_id": "0",
+              "localteam": {
+                "id": "1181",
+                "name": "ACMF/Campo Mourao",
+                "goals": "?"
+              },
+              "visitorteam": {
+                "id": "1175",
+                "name": "Carlos Barbosa",
+                "goals": "?"
+              },
+              "events": "",
+              "ht": {
+                "score": ""
+              },
+              "odds": [
+                {
+                  "id": "1",
+                  "value": "3Way Result",
+                  "stop": "False",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754801672",
+                      "odds": [
+                        {
+                          "name": "Home",
+                          "value": "2.10",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "Draw",
+                          "value": "4.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "Away",
+                          "value": "2.62",
+                          "stop": "False"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "2",
+                  "value": "Home/Away",
+                  "stop": "False",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754801672",
+                      "odds": [
+                        {
+                          "name": "Home",
+                          "value": "1.66",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "Away",
+                          "value": "2.10",
+                          "stop": "False"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "4",
+                  "value": "Asian Handicap",
+                  "stop": "False",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754801672",
+                      "odds": [
+                        {
+                          "type": "handicap",
+                          "name": "-0.5",
+                          "ismain": "True",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Home",
+                              "value": "2.10",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Away",
+                              "value": "1.66",
+                              "stop": "False"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "5",
+                  "value": "Over/Under",
+                  "stop": "False",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754791662",
+                      "odds": [
+                        {
+                          "type": "total",
+                          "name": "4.5",
+                          "ismain": "True",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "2.00",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.72",
+                              "stop": "False"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "12",
+                  "value": "HT/FT Double",
+                  "stop": "False",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754797306",
+                      "odds": [
+                        {
+                          "name": "ACMF/Campo Mourao/Carlos Barbosa",
+                          "value": "14.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "Carlos Barbosa/ACMF/Campo Mourao",
+                          "value": "13.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "Draw/Carlos Barbosa",
+                          "value": "8.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "Carlos Barbosa/Draw",
+                          "value": "18.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "Carlos Barbosa/Carlos Barbosa",
+                          "value": "4.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "ACMF/Campo Mourao/ACMF/Campo Mourao",
+                          "value": "3.10",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "ACMF/Campo Mourao/Draw",
+                          "value": "18.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "Draw/ACMF/Campo Mourao",
+                          "value": "6.50",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "Draw/Draw",
+                          "value": "8.50",
+                          "stop": "False"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Japan: F.League",
+          "gid": "1037",
+          "id": "1037",
+          "matches": [
+            {
+              "id": "92763",
+              "status": "04:00",
+              "date": "Aug 11",
+              "formatted_date": "11.08.2025",
+              "time": "04:00",
+              "venue": "",
+              "static_id": "0",
+              "fix_id": "0",
+              "localteam": {
+                "id": "1345",
+                "name": "Fugador Sumida",
+                "goals": "?"
+              },
+              "visitorteam": {
+                "id": "1347",
+                "name": "Vasagey Oita",
+                "goals": "?"
+              },
+              "events": "",
+              "ht": {
+                "score": ""
+              },
+              "odds": [
+                {
+                  "id": "1",
+                  "value": "3Way Result",
+                  "stop": "False",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754801963",
+                      "odds": [
+                        {
+                          "name": "Home",
+                          "value": "2.10",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "Draw",
+                          "value": "4.33",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "Away",
+                          "value": "2.62",
+                          "stop": "False"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "2",
+                  "value": "Home/Away",
+                  "stop": "False",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754808294",
+                      "odds": [
+                        {
+                          "name": "Home",
+                          "value": "1.66",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "Away",
+                          "value": "2.10",
+                          "stop": "False"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "4",
+                  "value": "Asian Handicap",
+                  "stop": "False",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754802053",
+                      "odds": [
+                        {
+                          "type": "handicap",
+                          "name": "-0.5",
+                          "ismain": "True",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Home",
+                              "value": "2.10",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Away",
+                              "value": "1.66",
+                              "stop": "False"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "5",
+                  "value": "Over/Under",
+                  "stop": "False",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754802053",
+                      "odds": [
+                        {
+                          "type": "total",
+                          "name": "4.5",
+                          "ismain": "True",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.80",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.90",
+                              "stop": "False"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

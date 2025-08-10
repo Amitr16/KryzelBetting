@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-08-05T21:23:13.580419",
+  "total_sports_matches": 169,
+  "total_odds_matches": 0,
+  "unique_sports": 2,
+  "unique_odds_categories": 0,
+  "sports_with_matches": {
+    "sport_soccernew/home": 167,
+    "sport_futsal/home": 2
+  },
+  "odds_categories_with_matches": {}
+}

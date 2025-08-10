@@ -1,0 +1,2 @@
+[33ma8524aa[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Fix security: Remove hardcoded Google OAuth credentials and JWT secrets
+[33m8b43619[m Initial commit: Flask betting app with production deployment files

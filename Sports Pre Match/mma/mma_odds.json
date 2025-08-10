@@ -1,0 +1,194 @@
+{
+  "metadata": {
+    "sport": "mma",
+    "display_name": "MMA",
+    "icon": "🥋",
+    "fetch_timestamp": "2025-08-10T16:44:06.830904",
+    "date_range": [
+      "09.08.2025",
+      "11.08.2025"
+    ]
+  },
+  "odds_data": {
+    "scores": {
+      "sport": "mma",
+      "ts": "1754761359",
+      "categories": [
+        {
+          "name": "UFC Fight Night: Dolidze vs. Hernandez",
+          "gid": "101147",
+          "id": "101147",
+          "matches": [
+            {
+              "id": "101149",
+              "status": "Final",
+              "date": "10.08.2025",
+              "time": "01:45",
+              "localteam": {
+                "id": "84295",
+                "name": "Anthony Hernandez",
+                "winner": "false",
+                "reason": "",
+                "round": ""
+              },
+              "awayteam": {
+                "id": "84929",
+                "name": "Roman Dolidze",
+                "winner": "false",
+                "reason": "",
+                "round": ""
+              },
+              "odds": [
+                {
+                  "id": "2",
+                  "value": "Home/Away",
+                  "stop": "False",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754761358",
+                      "odds": [
+                        {
+                          "name": "Away",
+                          "value": "3.75",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "Home",
+                          "value": "1.28",
+                          "stop": "False"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "4",
+                  "value": "Asian Handicap",
+                  "stop": "False",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754754171",
+                      "odds": [
+                        {
+                          "type": "handicap",
+                          "name": "+5.5",
+                          "ismain": "True",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Away",
+                              "value": "2.20",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Home",
+                              "value": "1.61",
+                              "stop": "False"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "5",
+                  "value": "Over/Under",
+                  "stop": "False",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754754208",
+                      "odds": [
+                        {
+                          "type": "total",
+                          "name": "1.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.27",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "3.60",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "2.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.55",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "2.35",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "3.5",
+                          "ismain": "True",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "1.83",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.83",
+                              "stop": "False"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "total",
+                          "name": "4.5",
+                          "ismain": "False",
+                          "stop": "False",
+                          "odds": [
+                            {
+                              "name": "Over",
+                              "value": "2.35",
+                              "stop": "False"
+                            },
+                            {
+                              "name": "Under",
+                              "value": "1.55",
+                              "stop": "False"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
