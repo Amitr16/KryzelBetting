@@ -3,10 +3,10 @@
     "sport": "rugbyleague",
     "display_name": "Rugby League",
     "icon": "🏉",
-    "fetch_timestamp": "2025-08-10T23:09:58.673048",
+    "fetch_timestamp": "2025-08-11T00:08:48.978201",
     "date_range": [
-      "09.08.2025",
-      "11.08.2025"
+      "10.08.2025",
+      "12.08.2025"
     ]
   },
   "odds_data": {
@@ -21,7 +21,7 @@
           "matches": [
             {
               "id": "103956",
-              "status": "Not Started",
+              "status": "Finished",
               "date": "10.08.2025",
               "time": "14:00",
               "localteam": {
@@ -1093,7 +1093,7 @@
             },
             {
               "id": "103955",
-              "status": "Not Started",
+              "status": "Finished",
               "date": "10.08.2025",
               "time": "14:00",
               "localteam": {
@@ -1345,7 +1345,7 @@
             },
             {
               "id": "103958",
-              "status": "Not Started",
+              "status": "Finished",
               "date": "10.08.2025",
               "time": "14:00",
               "localteam": {
@@ -1545,7 +1545,7 @@
           "matches": [
             {
               "id": "103832",
-              "status": "Not Started",
+              "status": "Finished",
               "date": "10.08.2025",
               "time": "14:00",
               "localteam": {
@@ -1697,7 +1697,7 @@
             },
             {
               "id": "103833",
-              "status": "Not Started",
+              "status": "Finished",
               "date": "10.08.2025",
               "time": "14:00",
               "localteam": {
@@ -1890,7 +1890,7 @@
             },
             {
               "id": "103829",
-              "status": "Not Started",
+              "status": "Finished",
               "date": "10.08.2025",
               "time": "14:00",
               "localteam": {
@@ -2090,7 +2090,7 @@
           "matches": [
             {
               "id": "103671",
-              "status": "2nd Half",
+              "status": "Finished",
               "date": "10.08.2025",
               "time": "14:00",
               "localteam": {

@@ -7,7 +7,8 @@ from datetime import datetime
 from enum import Enum
 import json
 
-db = SQLAlchemy()
+# Import db instance from betting.py to avoid conflicts
+from .betting import db
 
 class BetStatus(Enum):
     PENDING = "pending"
@@ -277,4 +278,51 @@ bet_slip_bets = db.Table('bet_slip_bets',
     db.Column('bet_slip_id', db.Integer, db.ForeignKey('bet_slips.id'), primary_key=True),
     db.Column('bet_id', db.Integer, db.ForeignKey('bets.id'), primary_key=True)
 )
+
+class SportsbookTheme(db.Model):
+    """Theme customization for sportsbook operators"""
+    __tablename__ = 'sportsbook_themes'
+    
+    id = db.Column(db.Integer, primary_key=True)
+    sportsbook_operator_id = db.Column(db.Integer, db.ForeignKey('sportsbook_operators.id'), nullable=False)
+    theme_name = db.Column(db.String(100), default='default')
+    primary_color = db.Column(db.String(7), default='#1e40af')
+    secondary_color = db.Column(db.String(7), default='#3b82f6')
+    accent_color = db.Column(db.String(7), default='#f59e0b')
+    background_color = db.Column(db.String(7), default='#ffffff')
+    text_color = db.Column(db.String(7), default='#1f2937')
+    font_family = db.Column(db.String(100), default='Inter, sans-serif')
+    logo_url = db.Column(db.String(500))
+    banner_image_url = db.Column(db.String(500))
+    custom_css = db.Column(db.Text)
+    layout_style = db.Column(db.String(50), default='modern')
+    button_style = db.Column(db.String(50), default='rounded')
+    card_style = db.Column(db.String(50), default='shadow')
+    created_at = db.Column(db.DateTime, default=datetime.utcnow)
+    updated_at = db.Column(db.DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
+    
+    # Relationships
+    sportsbook_operator = db.relationship('SportsbookOperator', backref='themes')
+
+class ThemeTemplate(db.Model):
+    """Pre-built theme templates for sportsbook operators"""
+    __tablename__ = 'theme_templates'
+    
+    id = db.Column(db.Integer, primary_key=True)
+    template_name = db.Column(db.String(100), nullable=False)
+    display_name = db.Column(db.String(100), nullable=False)
+    description = db.Column(db.Text)
+    preview_image_url = db.Column(db.String(500))
+    primary_color = db.Column(db.String(7), nullable=False)
+    secondary_color = db.Column(db.String(7), nullable=False)
+    accent_color = db.Column(db.String(7), nullable=False)
+    background_color = db.Column(db.String(7), nullable=False)
+    text_color = db.Column(db.String(7), nullable=False)
+    font_family = db.Column(db.String(100), nullable=False)
+    layout_style = db.Column(db.String(50), nullable=False)
+    button_style = db.Column(db.String(50), nullable=False)
+    card_style = db.Column(db.String(50), nullable=False)
+    custom_css = db.Column(db.Text)
+    is_premium = db.Column(db.Boolean, default=False)
+    created_at = db.Column(db.DateTime, default=datetime.utcnow)
 

@@ -20,12 +20,23 @@ def init_database():
     
     # Create database file if it doesn't exist
     if not os.path.exists(database_path):
-        # Create empty database file
+        # Create empty database file with proper permissions
         conn = sqlite3.connect(database_path)
         conn.close()
         print(f"✅ Created database file: {database_path}")
     else:
         print(f"✅ Database file already exists: {database_path}")
+    
+    # Verify database file is writable
+    try:
+        test_conn = sqlite3.connect(database_path)
+        test_conn.execute("CREATE TABLE IF NOT EXISTS test_table (id INTEGER)")
+        test_conn.execute("DROP TABLE test_table")
+        test_conn.close()
+        print(f"✅ Database file is writable: {database_path}")
+    except Exception as e:
+        print(f"❌ Database file is not writable: {e}")
+        raise
     
     return database_path
 

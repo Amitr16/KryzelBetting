@@ -7,7 +7,9 @@ from flask import Flask, send_from_directory, request, redirect, session
 from flask_cors import CORS
 from flask_socketio import SocketIO
 from flask_session import Session
+# Import database and models
 from src.models.betting import db
+from src.models.multitenant_models import *  # Import all models including SportsbookOperator
 from src.routes.auth import auth_bp
 from src.routes.json_sports import json_sports_bp
 from src.routes.sports import sports_bp
@@ -111,11 +113,26 @@ try:
     from src.init_db import init_database
     database_path = init_database()
     print(f"✅ Database initialized at: {database_path}")
+    
+    # Ensure database is ready before creating tables
+    with app.app_context():
+        # Force database connection to ensure file exists
+        db.engine.connect()
+        print("✅ Database connection established")
+        
+        # Create all tables
+        db.create_all()
+        print("✅ Database tables created")
+        
 except Exception as e:
-    print(f"⚠️ Database initialization warning: {e}")
-
-with app.app_context():
-    db.create_all()
+    print(f"❌ Database initialization failed: {e}")
+    # Try to create tables anyway
+    with app.app_context():
+        try:
+            db.create_all()
+            print("✅ Database tables created (fallback)")
+        except Exception as e2:
+            print(f"❌ Fallback table creation also failed: {e2}")
 
 # Initialize WebSocket service
 live_odds_service = LiveOddsWebSocketService(socketio)

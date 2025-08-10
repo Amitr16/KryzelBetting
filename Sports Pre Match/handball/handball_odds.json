@@ -3,10 +3,10 @@
     "sport": "handball",
     "display_name": "Handball",
     "icon": "🤾",
-    "fetch_timestamp": "2025-08-10T23:11:17.267139",
+    "fetch_timestamp": "2025-08-11T00:08:39.274962",
     "date_range": [
-      "09.08.2025",
-      "11.08.2025"
+      "10.08.2025",
+      "12.08.2025"
     ]
   },
   "odds_data": {
@@ -8181,7 +8181,7 @@
             },
             {
               "id": "378089",
-              "status": "2nd Half",
+              "status": "Finished",
               "date": "10.08.2025",
               "time": "14:00",
               "localteam": {
@@ -8951,7 +8951,7 @@
             },
             {
               "id": "378092",
-              "status": "2nd Half",
+              "status": "Finished",
               "date": "10.08.2025",
               "time": "14:00",
               "localteam": {
@@ -10283,7 +10283,7 @@
             },
             {
               "id": "371980",
-              "status": "1st Half",
+              "status": "2nd Half",
               "date": "10.08.2025",
               "time": "15:00",
               "localteam": {

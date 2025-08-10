@@ -3,16 +3,16 @@
     "sport": "futsal",
     "display_name": "Futsal",
     "icon": "⚽",
-    "fetch_timestamp": "2025-08-10T23:10:05.595263",
+    "fetch_timestamp": "2025-08-11T00:08:53.050803",
     "date_range": [
-      "09.08.2025",
-      "11.08.2025"
+      "10.08.2025",
+      "12.08.2025"
     ]
   },
   "odds_data": {
     "scores": {
       "sport": "futsal",
-      "ts": "1754808295",
+      "ts": "1754810228",
       "categories": [
         {
           "name": "Brazil: Lnf",
@@ -21,7 +21,7 @@
           "matches": [
             {
               "id": "92399",
-              "status": "57",
+              "status": "FT",
               "date": "Aug 10",
               "formatted_date": "10.08.2025",
               "time": "14:00",
@@ -580,6 +580,66 @@
                               "stop": "False"
                             }
                           ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "12",
+                  "value": "HT/FT Double",
+                  "stop": "False",
+                  "bookmakers": [
+                    {
+                      "id": "16",
+                      "name": "bet365",
+                      "stop": "False",
+                      "ts": "1754810227",
+                      "odds": [
+                        {
+                          "name": "Draw/Draw",
+                          "value": "9.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "Vasagey Oita/Vasagey Oita",
+                          "value": "3.80",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "Vasagey Oita/Draw",
+                          "value": "18.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "Draw/Vasagey Oita",
+                          "value": "8.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "Vasagey Oita/Fugador Sumida",
+                          "value": "13.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "Draw/Fugador Sumida",
+                          "value": "7.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "Fugador Sumida/Vasagey Oita",
+                          "value": "14.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "Fugador Sumida/Draw",
+                          "value": "18.00",
+                          "stop": "False"
+                        },
+                        {
+                          "name": "Fugador Sumida/Fugador Sumida",
+                          "value": "3.10",
+                          "stop": "False"
                         }
                       ]
                     }
