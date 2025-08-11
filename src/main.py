@@ -325,6 +325,34 @@ def monitoring_dashboard():
     except Exception as e:
         return {'error': str(e)}, 500
 
+@app.route('/api/debug/sportsbooks', methods=['GET'])
+def debug_sportsbooks():
+    """Debug endpoint to check what sportsbooks exist in the database"""
+    try:
+        from src.models.multitenant_models import SportsbookOperator
+        with app.app_context():
+            sportsbooks = SportsbookOperator.query.all()
+            sportsbook_list = []
+            for sb in sportsbooks:
+                sportsbook_list.append({
+                    'id': sb.id,
+                    'subdomain': sb.subdomain,
+                    'sportsbook_name': sb.sportsbook_name,
+                    'is_active': sb.is_active,
+                    'created_at': sb.created_at.isoformat() if sb.created_at else None
+                })
+            
+            return {
+                'status': 'success',
+                'count': len(sportsbook_list),
+                'sportsbooks': sportsbook_list
+            }
+    except Exception as e:
+        return {
+            'status': 'error',
+            'message': str(e)
+        }, 500
+
 @app.errorhandler(404)
 def not_found(error):
     return {'error': 'Not found'}, 404
