@@ -29,22 +29,29 @@ def get_db_connection():
 
 def validate_subdomain(subdomain):
     """Validate subdomain and return operator info"""
+    print(f"🔍 validate_subdomain called with: {subdomain}")
     conn = get_db_connection()
     
-    operator = conn.execute("""
+    query = """
         SELECT id, sportsbook_name, login, subdomain, is_active, email
         FROM sportsbook_operators 
         WHERE subdomain = ?
-    """, (subdomain,)).fetchone()
+    """
+    print(f"🔍 Executing query: {query.strip()} with params: ({subdomain},)")
     
+    operator = conn.execute(query, (subdomain,)).fetchone()
+    print(f"🔍 Query result: {operator}")
     conn.close()
     
     if not operator:
+        print(f"❌ No operator found for subdomain: {subdomain}")
         return None, "Sportsbook not found"
     
     if not operator['is_active']:
+        print(f"❌ Operator found but disabled: {operator}")
         return None, "This sportsbook is currently disabled"
     
+    print(f"✅ Operator found and active: {operator}")
     return dict(operator), None
 
 # Customer betting interface - clean URL
@@ -408,7 +415,9 @@ def sportsbook_login(subdomain):
 @clean_multitenant_bp.route('/<subdomain>/admin')
 @clean_multitenant_bp.route('/<subdomain>/admin/')
 def sportsbook_admin(subdomain):
-    """Serve rich admin interface directly at /<subdomain>/admin"""
+    """Sportsbook admin dashboard - redirects to login if not authenticated"""
+    print(f"🔍 clean_multitenant_bp: /<subdomain>/admin called with subdomain: {subdomain}")
+    
     # Check if admin is authenticated using the correct session keys
     from flask import session
     if not (session.get('operator_id') and session.get('operator_subdomain') == subdomain):
@@ -421,7 +430,9 @@ def sportsbook_admin(subdomain):
 # Admin login page
 @clean_multitenant_bp.route('/<subdomain>/admin/login')
 def sportsbook_admin_login(subdomain):
-    """Serve admin login page"""
+    """Admin login page for sportsbook operators"""
+    print(f"🔍 clean_multitenant_bp: /<subdomain>/admin/login called with subdomain: {subdomain}")
+    
     operator, error = validate_subdomain(subdomain)
     if not operator:
         return f"Error: {error}", 404

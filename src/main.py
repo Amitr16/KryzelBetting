@@ -92,26 +92,42 @@ from src.routes.rich_superadmin_interface1 import rich_superadmin_bp
 # Import theme customization blueprint
 from src.routes.theme_customization import theme_bp
 
-# Register blueprints in correct order - rich admin first
+# Add debug logging for blueprint registration
+print("🔍 Registering blueprints...")
 app.register_blueprint(rich_admin_bp)  # Rich admin interface first
+print("✅ Registered rich_admin_bp")
 app.register_blueprint(rich_superadmin_bp)
+print("✅ Registered rich_superadmin_bp")
 app.register_blueprint(theme_bp)  # Theme customization routes
+print("✅ Registered theme_bp")
 app.register_blueprint(auth_bp, url_prefix='/api/auth')
+print("✅ Registered auth_bp")
 app.register_blueprint(json_sports_bp, url_prefix='/api/sports')
+print("✅ Registered json_sports_bp")
 app.register_blueprint(sports_bp, url_prefix='/api')
+print("✅ Registered sports_bp")
 app.register_blueprint(betting_bp, url_prefix='/api/betting')
+print("✅ Registered betting_bp")
 app.register_blueprint(prematch_odds_bp, url_prefix='/api/prematch-odds')
+print("✅ Registered prematch_odds_bp")
 # app.register_blueprint(multitenant_bp)  # Disable old multitenant routing - REMOVED
 app.register_blueprint(clean_multitenant_bp)  # New clean URL routing - REGISTER BEFORE sportsbook_bp - FIXES ADMIN 404
+print("✅ Registered clean_multitenant_bp")
 app.register_blueprint(sportsbook_bp, url_prefix='/api')  # Move this AFTER clean_multitenant_bp
+print("✅ Registered sportsbook_bp")
 app.register_blueprint(superadmin_bp)
-# app.register_blueprint(tenant_admin_bp)  # Disable conflicting admin routes - REMOVED
+print("✅ Registered superadmin_bp")
+app.register_blueprint(tenant_admin_bp)
+print("✅ Registered tenant_admin_bp")
 app.register_blueprint(branding_bp)
+print("✅ Registered branding_bp")
 app.register_blueprint(tenant_auth_bp)
-
-# Register comprehensive admin blueprints (but lower priority) - ALL DISABLED
-# app.register_blueprint(comprehensive_admin_bp)  # Disable basic admin - REMOVED
-# app.register_blueprint(comprehensive_superadmin_bp)  # Disable basic super admin - REMOVED
+print("✅ Registered tenant_auth_bp")
+app.register_blueprint(comprehensive_admin_bp)
+print("✅ Registered comprehensive_admin_bp")
+app.register_blueprint(comprehensive_superadmin_bp)
+print("✅ Registered comprehensive_superadmin_bp")
+print("🔍 All blueprints registered successfully!")
 
 # Initialize database
 db.init_app(app)
@@ -397,13 +413,18 @@ def serve_login():
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')
 def serve(path):
+    # Debug logging to trace route interception
+    print(f"🔍 Catch-all route intercepted: '{path}'")
+    
     # Don't serve static files for API routes
     if path.startswith('api/'):
+        print(f"❌ API route intercepted: {path}")
         return "API endpoint not found", 404
     
     # Don't intercept any admin routes - let blueprints handle them completely
     # Check for both /admin/ and /<subdomain>/admin/ patterns
     if path.startswith('admin/') or '/admin/' in path:
+        print(f"❌ Admin route intercepted by catch-all: {path}")
         return "Admin route should be handled by blueprint", 404
     
         # Handle sportsbook routes - these are handled by the multitenant blueprint
@@ -454,6 +475,38 @@ def serve(path):
         else:
             logging.error(f"index.html not found at {index_path}")
             return "index.html not found", 404
+
+@app.route('/api/fix/krz-sportsbook', methods=['POST'])
+def fix_krz_sportsbook():
+    """Temporary endpoint to fix the krz sportsbook is_active field"""
+    try:
+        from src.models.multitenant_models import SportsbookOperator
+        with app.app_context():
+            # Find the krz sportsbook
+            sportsbook = SportsbookOperator.query.filter_by(subdomain='krz').first()
+            if sportsbook:
+                sportsbook.is_active = True
+                db.session.commit()
+                return {
+                    'status': 'success',
+                    'message': 'krz sportsbook is now active',
+                    'sportsbook': {
+                        'id': sportsbook.id,
+                        'subdomain': sportsbook.subdomain,
+                        'sportsbook_name': sportsbook.sportsbook_name,
+                        'is_active': sportsbook.is_active
+                    }
+                }
+            else:
+                return {
+                    'status': 'error',
+                    'message': 'krz sportsbook not found'
+                }, 404
+    except Exception as e:
+        return {
+            'status': 'error',
+            'message': str(e)
+        }, 500
 
 if __name__ == '__main__':
     print("🚀 Starting GoalServe Sports Betting Platform...")

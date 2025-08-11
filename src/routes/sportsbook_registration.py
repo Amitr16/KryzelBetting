@@ -195,14 +195,15 @@ def register_sportsbook():
         cursor = conn.cursor()
         cursor.execute("""
             INSERT INTO sportsbook_operators 
-            (sportsbook_name, login, password_hash, email, subdomain, settings, created_at, updated_at)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+            (sportsbook_name, login, password_hash, email, subdomain, is_active, settings, created_at, updated_at)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
         """, (
             sportsbook_name,
             login,
             password_hash,
             email,
             subdomain,
+            True,  # Set is_active to True by default
             json.dumps(default_settings),
             datetime.utcnow(),
             datetime.utcnow()
