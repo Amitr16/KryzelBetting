@@ -3,7 +3,7 @@
     "sport": "futsal",
     "display_name": "Futsal",
     "icon": "⚽",
-    "fetch_timestamp": "2025-08-11T07:11:23.881461",
+    "fetch_timestamp": "2025-08-11T10:34:52.510823",
     "date_range": [
       "10.08.2025",
       "12.08.2025"
@@ -12,7 +12,7 @@
   "odds_data": {
     "scores": {
       "sport": "futsal",
-      "ts": "1754829029",
+      "ts": "1754849184",
       "categories": [
         {
           "name": "Brazil: Lnf",
@@ -266,11 +266,11 @@
                       "id": "16",
                       "name": "bet365",
                       "stop": "False",
-                      "ts": "1754820407",
+                      "ts": "1754848604",
                       "odds": [
                         {
                           "name": "Home",
-                          "value": "2.10",
+                          "value": "1.80",
                           "stop": "False"
                         },
                         {
@@ -280,7 +280,7 @@
                         },
                         {
                           "name": "Away",
-                          "value": "2.62",
+                          "value": "3.00",
                           "stop": "False"
                         }
                       ]
@@ -296,16 +296,16 @@
                       "id": "16",
                       "name": "bet365",
                       "stop": "False",
-                      "ts": "1754820407",
+                      "ts": "1754848604",
                       "odds": [
                         {
                           "name": "Home",
-                          "value": "1.66",
+                          "value": "1.44",
                           "stop": "False"
                         },
                         {
                           "name": "Away",
-                          "value": "2.10",
+                          "value": "2.62",
                           "stop": "False"
                         }
                       ]
@@ -321,7 +321,7 @@
                       "id": "16",
                       "name": "bet365",
                       "stop": "False",
-                      "ts": "1754820407",
+                      "ts": "1754848604",
                       "odds": [
                         {
                           "type": "handicap",
@@ -331,12 +331,12 @@
                           "odds": [
                             {
                               "name": "Home",
-                              "value": "2.10",
+                              "value": "1.80",
                               "stop": "False"
                             },
                             {
                               "name": "Away",
-                              "value": "1.66",
+                              "value": "1.90",
                               "stop": "False"
                             }
                           ]
@@ -396,7 +396,7 @@
                         },
                         {
                           "name": "Vasagey Oita/Vasagey Oita",
-                          "value": "3.80",
+                          "value": "5.00",
                           "stop": "False"
                         },
                         {
@@ -406,22 +406,22 @@
                         },
                         {
                           "name": "Draw/Vasagey Oita",
-                          "value": "8.00",
+                          "value": "9.50",
                           "stop": "False"
                         },
                         {
                           "name": "Vasagey Oita/Fugador Sumida",
-                          "value": "13.00",
+                          "value": "12.00",
                           "stop": "False"
                         },
                         {
                           "name": "Draw/Fugador Sumida",
-                          "value": "7.00",
+                          "value": "6.00",
                           "stop": "False"
                         },
                         {
                           "name": "Fugador Sumida/Vasagey Oita",
-                          "value": "14.00",
+                          "value": "15.00",
                           "stop": "False"
                         },
                         {
@@ -431,7 +431,7 @@
                         },
                         {
                           "name": "Fugador Sumida/Fugador Sumida",
-                          "value": "3.10",
+                          "value": "2.60",
                           "stop": "False"
                         }
                       ]

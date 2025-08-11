@@ -687,8 +687,8 @@ SUPERADMIN_LOGIN_TEMPLATE = """
                 const result = await response.json();
                 
                 if (response.ok && result.success) {
-                    // Success - redirect to dashboard
-                    window.location.href = '/superadmin/dashboard';
+                    // Success - redirect to rich dashboard
+                    window.location.href = '/superadmin/rich-dashboard';
                 } else {
                     // Error
                     alert.className = 'alert alert-error';

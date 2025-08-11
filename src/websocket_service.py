@@ -14,6 +14,8 @@ class LiveOddsWebSocketService:
         self.update_thread = None
         self.update_interval = 2  # Update every 2 seconds for real-time experience
         self.critical_matches = set()  # Track matches in critical moments
+        self.last_update_time = None
+        self.total_updates = 0
         
     def start(self):
         """Start the live odds update service"""
@@ -55,6 +57,10 @@ class LiveOddsWebSocketService:
                             logger.info(f"Critical matches detected: {', '.join(current_critical_matches)}")
                         self.critical_matches = current_critical_matches
                     
+                    # Update statistics
+                    self.last_update_time = time.time()
+                    self.total_updates += 1
+                    
                     # Broadcast live odds to all connected clients
                     self.socketio.emit('live_odds_update', {
                         'sport': 'soccer',
@@ -65,9 +71,9 @@ class LiveOddsWebSocketService:
                     
                     # Log update frequency based on critical matches
                     if current_critical_matches:
-                        logger.info(f"Broadcasted {len(live_odds)} live odds updates (including {len(current_critical_matches)} critical matches)")
+                        logger.info(f"Broadcasted {len(live_odds)} live odds updates (including {len(current_critical_matches)} critical matches) - Total updates: {self.total_updates}")
                     else:
-                        logger.info(f"Broadcasted {len(live_odds)} live odds updates")
+                        logger.info(f"Broadcasted {len(live_odds)} live odds updates - Total updates: {self.total_updates}")
                 else:
                     logger.debug("No live odds available")
                     
@@ -98,6 +104,18 @@ class LiveOddsWebSocketService:
     def get_critical_matches(self):
         """Get list of matches in critical moments"""
         return list(self.critical_matches)
+    
+    def get_service_status(self):
+        """Get comprehensive service status"""
+        return {
+            'running': self.running,
+            'connected_clients': self.get_connected_clients_count(),
+            'update_interval': self.update_interval,
+            'critical_matches': list(self.critical_matches),
+            'last_update_time': self.last_update_time,
+            'total_updates': self.total_updates,
+            'thread_alive': self.update_thread.is_alive() if self.update_thread else False
+        }
 
 # WebSocket event handlers
 def init_websocket_handlers(socketio: SocketIO, live_odds_service: LiveOddsWebSocketService):

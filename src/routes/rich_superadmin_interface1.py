@@ -1398,7 +1398,7 @@ RICH_SUPERADMIN_TEMPLATE = '''
         <h1>🌟 GoalServe - Super Admin Dashboard</h1>
         <div class="admin-info">
             <span>Global Management</span>
-            <a href="/superadmin/logout" class="logout-btn">Logout</a>
+            <button onclick="logout()" class="logout-btn">Logout</button>
         </div>
     </div>
     
@@ -2400,6 +2400,17 @@ RICH_SUPERADMIN_TEMPLATE = '''
                 clearTimeout(timeout);
                 timeout = setTimeout(later, wait);
             };
+        }
+
+        // Logout function
+        async function logout() {
+            try {
+                await fetch('/api/superadmin/logout', { method: 'POST' });
+                window.location.href = '/superadmin';
+            } catch (error) {
+                console.error('Logout error:', error);
+                window.location.href = '/superadmin';
+            }
         }
     </script>
 </body>

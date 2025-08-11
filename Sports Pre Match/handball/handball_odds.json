@@ -3,7 +3,7 @@
     "sport": "handball",
     "display_name": "Handball",
     "icon": "🤾",
-    "fetch_timestamp": "2025-08-11T07:10:42.441263",
+    "fetch_timestamp": "2025-08-11T10:35:57.608381",
     "date_range": [
       "10.08.2025",
       "12.08.2025"
@@ -12,7 +12,7 @@
   "odds_data": {
     "scores": {
       "sport": "handball",
-      "ts": "1754838347",
+      "ts": "1754850348",
       "categories": [
         {
           "name": "World: World Championship U19",
@@ -856,7 +856,7 @@
                       "id": "16",
                       "name": "bet365",
                       "stop": "False",
-                      "ts": "1754820407",
+                      "ts": "1754846151",
                       "odds": [
                         {
                           "name": "Yes",
@@ -3017,7 +3017,7 @@
                       "id": "16",
                       "name": "bet365",
                       "stop": "False",
-                      "ts": "1754820407",
+                      "ts": "1754843748",
                       "odds": [
                         {
                           "name": "Odd",
@@ -4569,7 +4569,7 @@
                       "id": "16",
                       "name": "bet365",
                       "stop": "False",
-                      "ts": "1754820407",
+                      "ts": "1754839015",
                       "odds": [
                         {
                           "name": "Home",
@@ -4701,7 +4701,7 @@
                       "id": "16",
                       "name": "bet365",
                       "stop": "False",
-                      "ts": "1754820407",
+                      "ts": "1754839015",
                       "odds": [
                         {
                           "type": "handicap",
@@ -5143,7 +5143,7 @@
                       "id": "16",
                       "name": "bet365",
                       "stop": "False",
-                      "ts": "1754820407",
+                      "ts": "1754841048",
                       "odds": [
                         {
                           "type": "total",
@@ -5378,7 +5378,7 @@
                       "id": "16",
                       "name": "bet365",
                       "stop": "False",
-                      "ts": "1754820407",
+                      "ts": "1754841048",
                       "odds": [
                         {
                           "type": "handicap",
@@ -5527,7 +5527,7 @@
                       "id": "16",
                       "name": "bet365",
                       "stop": "False",
-                      "ts": "1754820407",
+                      "ts": "1754841048",
                       "odds": [
                         {
                           "name": "Home",
@@ -5845,23 +5845,23 @@
                     {
                       "id": "16",
                       "name": "bet365",
-                      "stop": "True",
-                      "ts": "1754837981",
+                      "stop": "False",
+                      "ts": "1754841048",
                       "odds": [
                         {
                           "name": "Home",
                           "value": "1.47",
-                          "stop": "True"
+                          "stop": "False"
                         },
                         {
                           "name": "Draw",
                           "value": "7.00",
-                          "stop": "True"
+                          "stop": "False"
                         },
                         {
                           "name": "Away",
                           "value": "3.50",
-                          "stop": "True"
+                          "stop": "False"
                         }
                       ]
                     }
@@ -5941,29 +5941,29 @@
                     {
                       "id": "16",
                       "name": "bet365",
-                      "stop": "True",
-                      "ts": "1754837981",
+                      "stop": "False",
+                      "ts": "1754841048",
                       "odds": [
                         {
                           "type": "handicap",
                           "name": "-2",
                           "ismain": "False",
-                          "stop": "True",
+                          "stop": "False",
                           "odds": [
                             {
                               "name": "Home",
                               "value": "2.15",
-                              "stop": "True"
+                              "stop": "False"
                             },
                             {
                               "name": "Draw",
                               "value": "10.00",
-                              "stop": "True"
+                              "stop": "False"
                             },
                             {
                               "name": "Away",
                               "value": "1.95",
-                              "stop": "True"
+                              "stop": "False"
                             }
                           ]
                         }
@@ -7521,18 +7521,18 @@
                     {
                       "id": "16",
                       "name": "bet365",
-                      "stop": "False",
-                      "ts": "1754820407",
+                      "stop": "True",
+                      "ts": "1754850347",
                       "odds": [
                         {
                           "name": "Yes",
                           "value": "4.50",
-                          "stop": "False"
+                          "stop": "True"
                         },
                         {
                           "name": "No",
                           "value": "1.16",
-                          "stop": "False"
+                          "stop": "True"
                         }
                       ]
                     }

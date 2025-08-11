@@ -3,7 +3,7 @@
     "sport": "table_tennis",
     "display_name": "Table Tennis",
     "icon": "🏓",
-    "fetch_timestamp": "2025-08-11T07:11:27.039386",
+    "fetch_timestamp": "2025-08-11T10:34:54.996575",
     "date_range": [
       "10.08.2025",
       "12.08.2025"
@@ -12,7 +12,7 @@
   "odds_data": {
     "scores": {
       "sport": "table_tennis",
-      "ts": "1754836186",
+      "ts": "1754843749",
       "categories": [
         {
           "name": "Others - Men: Wtt Champions Yokohama (Japan)",
@@ -22,7 +22,7 @@
             {
               "id": "2530202",
               "tb": "false",
-              "time": "02:15",
+              "time": "02:30",
               "formatted_date": "11.08.2025",
               "status": "Not Started",
               "player_1": {
@@ -794,7 +794,7 @@
                       "id": "16",
                       "name": "bet365",
                       "stop": "False",
-                      "ts": "1754820407",
+                      "ts": "1754843748",
                       "odds": [
                         {
                           "name": "Odd",

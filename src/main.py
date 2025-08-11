@@ -18,6 +18,7 @@ from src.routes.prematch_odds import prematch_odds_bp
 from src.websocket_service import LiveOddsWebSocketService, init_websocket_handlers
 from src.bet_settlement_service import BetSettlementService
 import logging
+import time
 from datetime import datetime
 
 # Configure logging
@@ -220,16 +221,43 @@ initialize_database_once()
 live_odds_service = LiveOddsWebSocketService(socketio)
 init_websocket_handlers(socketio, live_odds_service)
 
+# Initialize prematch odds service
+from src.prematch_odds_service import get_prematch_odds_service
+prematch_odds_service = get_prematch_odds_service()
+
 # Initialize bet settlement service
 bet_settlement_service = BetSettlementService(app)
 
-# Start the bet settlement service automatically when the module is imported
-# Temporarily disabled to prevent database locking issues
+# Start the WebSocket service automatically for production deployment
 try:
-    # bet_settlement_service.start()  # Temporarily disabled
-    logging.info("✅ Bet settlement service created but not started (disabled to prevent DB locks)")
+    live_odds_service.start()
+    print("✅ WebSocket service started automatically")
 except Exception as e:
-    logging.error(f"❌ Failed to create bet settlement service: {e}")
+    print(f"⚠️  Could not start WebSocket service automatically: {e}")
+    logging.warning(f"WebSocket service auto-start failed: {e}")
+
+# Start the prematch odds service automatically for production deployment
+try:
+    prematch_odds_service.start()
+    print("✅ Prematch odds service started automatically")
+except Exception as e:
+    print(f"⚠️  Could not start prematch odds service automatically: {e}")
+    logging.warning(f"Prematch odds service auto-start failed: {e}")
+
+# Start the bet settlement service automatically when the module is imported
+# Now enabled for production deployment
+try:
+    bet_settlement_service.start()  # Enabled for production
+    print("✅ Bet settlement service started automatically")
+    logging.info("✅ Bet settlement service started automatically")
+    
+    # Show settlement service configuration
+    print(f"🔧 Settlement service configured with {bet_settlement_service.check_interval}s check interval")
+    print(f"🔧 Settlement service will automatically settle bets every {bet_settlement_service.check_interval} seconds")
+    
+except Exception as e:
+    print(f"⚠️  Could not start bet settlement service automatically: {e}")
+    logging.error(f"❌ Failed to start bet settlement service automatically: {e}")
 
 def ensure_settlement_service_running():
     """Ensure the settlement service is running, restart if needed"""
@@ -247,12 +275,43 @@ def ensure_settlement_service_running():
 # Schedule periodic health checks for settlement service
 import atexit
 import signal
+import threading
+
+def periodic_health_check():
+    """Periodic health check for all services"""
+    while True:
+        try:
+            # Check settlement service health
+            if bet_settlement_service.running:
+                stats = bet_settlement_service.get_settlement_stats()
+                if stats.get('total_checks', 0) > 0:
+                    logging.info(f"📊 Settlement Service Health: {stats.get('total_checks')} checks, {stats.get('successful_settlements')} settlements, {stats.get('failed_settlements')} failures")
+            
+            # Check WebSocket service health
+            if live_odds_service.running:
+                logging.info(f"📊 WebSocket Service Health: {live_odds_service.get_connected_clients_count()} clients, {getattr(live_odds_service, 'total_updates', 0)} updates")
+            
+            # Check prematch odds service health
+            if prematch_odds_service.running:
+                stats = prematch_odds_service.get_stats()
+                logging.info(f"📊 Prematch Odds Service Health: {stats.get('total_sports', 0)} sports configured")
+            
+        except Exception as e:
+            logging.error(f"❌ Health check error: {e}")
+        
+        # Wait 5 minutes before next health check
+        time.sleep(300)
+
+# Start periodic health check in background
+health_check_thread = threading.Thread(target=periodic_health_check, daemon=True)
+health_check_thread.start()
 
 def cleanup_services():
     """Cleanup services on shutdown"""
     logging.info("🛑 Shutting down services...")
     bet_settlement_service.stop()
     live_odds_service.stop()
+    prematch_odds_service.stop()
 
 atexit.register(cleanup_services)
 
@@ -269,12 +328,40 @@ signal.signal(signal.SIGTERM, signal_handler)
 @app.route('/api/health', methods=['GET'])
 def health_check():
     """Health check endpoint"""
-    return {
-        'status': 'healthy',
-        'service': 'GoalServe Sports Betting Platform',
-        'version': '1.0.0',
-        'websocket_clients': live_odds_service.get_connected_clients_count()
-    }
+    try:
+        # Get settlement service stats
+        settlement_stats = bet_settlement_service.get_settlement_stats()
+        
+        return {
+            'status': 'healthy',
+            'service': 'GoalServe Sports Betting Platform',
+            'version': '1.0.0',
+            'websocket_clients': live_odds_service.get_connected_clients_count(),
+            'prematch_odds_running': prematch_odds_service.running,
+            'settlement_running': bet_settlement_service.running,
+            'services': {
+                'websocket': live_odds_service.running,
+                'prematch_odds': prematch_odds_service.running,
+                'settlement': bet_settlement_service.running
+            },
+            'settlement_details': {
+                'running': settlement_stats.get('service_running', False),
+                'total_checks': settlement_stats.get('total_checks', 0),
+                'successful_settlements': settlement_stats.get('successful_settlements', 0),
+                'failed_settlements': settlement_stats.get('failed_settlements', 0),
+                'pending_bets': settlement_stats.get('pending_bets', 0)
+            }
+        }
+    except Exception as e:
+        return {
+            'status': 'error',
+            'message': str(e),
+            'services': {
+                'websocket': live_odds_service.running,
+                'prematch_odds': prematch_odds_service.running,
+                'settlement': bet_settlement_service.running
+            }
+        }, 500
 
 @app.route('/api/websocket/status', methods=['GET'])
 def websocket_status():
@@ -284,7 +371,9 @@ def websocket_status():
         'connected_clients': live_odds_service.get_connected_clients_count(),
         'update_interval': live_odds_service.update_interval,
         'critical_matches': live_odds_service.get_critical_matches(),
-        'current_update_frequency': '1 second' if live_odds_service.critical_matches else f'{live_odds_service.update_interval} seconds'
+        'current_update_frequency': '1 second' if live_odds_service.critical_matches else f'{live_odds_service.update_interval} seconds',
+        'last_update': getattr(live_odds_service, 'last_update_time', 'Never'),
+        'total_updates': getattr(live_odds_service, 'total_updates', 0)
     }
 
 @app.route('/api/websocket/start', methods=['POST'])
@@ -302,6 +391,40 @@ def stop_websocket_service():
     try:
         live_odds_service.stop()
         return {'status': 'stopped', 'message': 'Live odds WebSocket service stopped'}
+    except Exception as e:
+        return {'status': 'error', 'message': str(e)}, 500
+
+@app.route('/api/websocket/test', methods=['POST'])
+def test_websocket_service():
+    """Test the WebSocket service by manually triggering a live odds fetch"""
+    try:
+        if not live_odds_service.running:
+            return {'status': 'error', 'message': 'WebSocket service is not running'}, 400
+        
+        # Manually trigger a live odds fetch
+        from src.goalserve_client import OptimizedGoalServeClient
+        client = OptimizedGoalServeClient()
+        live_odds = client.get_live_odds('soccer')
+        
+        if live_odds:
+            # Broadcast the test update
+            live_odds_service.socketio.emit('live_odds_update', {
+                'sport': 'soccer',
+                'odds': live_odds,
+                'timestamp': time.time(),
+                'critical_matches': [],
+                'test_update': True
+            })
+            
+            return {
+                'status': 'success', 
+                'message': f'Test update broadcasted with {len(live_odds)} matches',
+                'matches_count': len(live_odds),
+                'timestamp': time.time()
+            }
+        else:
+            return {'status': 'warning', 'message': 'No live odds available for testing'}, 404
+            
     except Exception as e:
         return {'status': 'error', 'message': str(e)}, 500
 
@@ -341,49 +464,174 @@ def force_settle_match(match_name):
     except Exception as e:
         return {'status': 'error', 'message': str(e)}, 500
 
+@app.route('/api/prematch-odds/status', methods=['GET'])
+def prematch_odds_status():
+    """Get prematch odds service status"""
+    return {
+        'service_running': prematch_odds_service.running,
+        'update_interval': prematch_odds_service.update_interval,
+        'last_update': getattr(prematch_odds_service, 'last_update_time', 'Never'),
+        'total_updates': getattr(prematch_odds_service, 'total_updates', 0)
+    }
+
+@app.route('/api/prematch-odds/start', methods=['POST'])
+def start_prematch_odds_service():
+    """Start the prematch odds service"""
+    try:
+        prematch_odds_service.start()
+        return {'status': 'started', 'message': 'Prematch odds service started'}
+    except Exception as e:
+        return {'status': 'error', 'message': str(e)}, 500
+
+@app.route('/api/prematch-odds/stop', methods=['POST'])
+def stop_prematch_odds_service():
+    """Stop the prematch odds service"""
+    try:
+        prematch_odds_service.stop()
+        return {'status': 'stopped', 'message': 'Prematch odds service stopped'}
+    except Exception as e:
+        return {'status': 'error', 'message': str(e)}, 500
+
+@app.route('/api/prematch-odds/test', methods=['POST'])
+def test_prematch_odds_service():
+    """Test the prematch odds service by manually triggering an update"""
+    try:
+        if not prematch_odds_service.running:
+            return {'status': 'error', 'message': 'Prematch odds service is not running'}, 400
+        
+        # Manually trigger an update for all sports
+        success_count = 0
+        for sport_name in prematch_odds_service.sports_config.keys():
+            try:
+                success = prematch_odds_service._fetch_single_sport_odds(sport_name)
+                if success:
+                    success_count += 1
+            except Exception as e:
+                logging.error(f"Error testing {sport_name}: {e}")
+        
+        return {
+            'status': 'success',
+            'message': f'Prematch odds service updated manually - {success_count}/{len(prematch_odds_service.sports_config)} sports updated'
+        }
+    except Exception as e:
+        return {'status': 'error', 'message': str(e)}, 500
+
+@app.route('/api/prematch-odds/files', methods=['GET'])
+def get_prematch_odds_files():
+    """Get current prematch odds files status"""
+    try:
+        files = prematch_odds_service.get_recent_files(limit=50)  # Get all recent files
+        
+        # Group by sport
+        sport_files = {}
+        for file_info in files:
+            sport = file_info['sport']
+            if sport not in sport_files:
+                sport_files[sport] = []
+            sport_files[sport].append(file_info)
+        
+        return {
+            'status': 'success',
+            'total_files': len(files),
+            'sports': sport_files,
+            'base_folder': str(prematch_odds_service.base_folder),
+            'service_running': prematch_odds_service.running
+        }
+    except Exception as e:
+        return {'status': 'error', 'message': str(e)}, 500
+
+@app.route('/api/prematch-odds/force-update', methods=['POST'])
+def force_prematch_odds_update():
+    """Force update all sports prematch odds"""
+    try:
+        if not prematch_odds_service.running:
+            return {'status': 'error', 'message': 'Prematch odds service is not running'}, 400
+        
+        # Force update all sports
+        results = {}
+        for sport_name in prematch_odds_service.sports_config.keys():
+            try:
+                success = prematch_odds_service._fetch_single_sport_odds(sport_name)
+                results[sport_name] = {
+                    'success': success,
+                    'status': 'Updated' if success else 'Failed'
+                }
+            except Exception as e:
+                results[sport_name] = {
+                    'success': False,
+                    'status': f'Error: {str(e)}'
+                }
+        
+        success_count = sum(1 for r in results.values() if r['success'])
+        total_count = len(results)
+        
+        return {
+            'status': 'success',
+            'message': f'Force update completed - {success_count}/{total_count} sports updated',
+            'results': results,
+            'summary': {
+                'total_sports': total_count,
+                'successful_updates': success_count,
+                'failed_updates': total_count - success_count
+            }
+        }
+    except Exception as e:
+        return {'status': 'error', 'message': str(e)}, 500
+
 @app.route('/api/monitoring/dashboard', methods=['GET'])
 def monitoring_dashboard():
     """Comprehensive monitoring dashboard"""
     try:
-        # Get settlement service stats
+        # Get settlement service stats using the service's method
         settlement_stats = bet_settlement_service.get_settlement_stats()
         
         # Get WebSocket service stats
-        websocket_stats = {
-            'service_running': live_odds_service.running,
-            'connected_clients': live_odds_service.get_connected_clients_count(),
-            'update_interval': live_odds_service.update_interval,
-            'critical_matches': live_odds_service.get_critical_matches()
-        }
+        websocket_stats = live_odds_service.get_service_status()
+        
+        # Get prematch odds service stats
+        prematch_odds_stats = prematch_odds_service.get_stats()
         
         # Get database stats
-        from src.models.betting import Bet, User, Transaction
-        with app.app_context():
-            db_stats = {
-                'total_users': User.query.count(),
-                'total_bets': Bet.query.count(),
-                'pending_bets': Bet.query.filter_by(status='pending').count(),
-                'won_bets': Bet.query.filter_by(status='won').count(),
-                'lost_bets': Bet.query.filter_by(status='lost').count(),
-                'void_bets': Bet.query.filter_by(status='void').count(),
-                'total_transactions': Transaction.query.count()
-            }
+        try:
+            with app.app_context():
+                from src.models.multitenant_models import SportsbookOperator, BetSlip
+                from src.models.betting import db
+                
+                # Get database file info
+                db_path = app.config['SQLALCHEMY_DATABASE_URI'].replace('sqlite:///', '')
+                if os.path.exists(db_path):
+                    db_stats = {
+                        'file_size': os.path.getsize(db_path),
+                        'last_modified': datetime.fromtimestamp(os.path.getmtime(db_path)).isoformat(),
+                        'sportsbooks_count': SportsbookOperator.query.count(),
+                        'bets_count': BetSlip.query.count()
+                    }
+                else:
+                    db_stats = {'error': 'Database file not found'}
+        except Exception as e:
+            db_stats = {'error': str(e)}
         
         return {
-            'timestamp': datetime.utcnow().isoformat(),
+            'status': 'success',
+            'timestamp': datetime.now().isoformat(),
             'services': {
                 'settlement_service': settlement_stats,
-                'websocket_service': websocket_stats
+                'websocket_service': websocket_stats,
+                'prematch_odds_service': prematch_odds_stats
             },
             'database': db_stats,
             'system': {
                 'python_version': sys.version,
-                'platform': sys.platform
+                'working_directory': os.getcwd(),
+                'static_folder': app.static_folder
             }
         }
         
     except Exception as e:
-        return {'error': str(e)}, 500
+        return {
+            'status': 'error',
+            'message': str(e)
+        }, 500
 
 @app.route('/api/debug/sportsbooks', methods=['GET'])
 def debug_sportsbooks():
@@ -598,6 +846,14 @@ if __name__ == '__main__':
         print(f"❌ Failed to start WebSocket service: {e}")
         logging.error(f"Failed to start WebSocket service: {e}")
     
+    # Start the prematch odds service
+    try:
+        prematch_odds_service.start()
+        print("✅ Prematch odds service started successfully")
+    except Exception as e:
+        print(f"❌ Failed to start Prematch odds service: {e}")
+        logging.error(f"Failed to start Prematch odds service: {e}")
+
     # Start the automatic bet settlement service
     try:
         bet_settlement_service.start()
