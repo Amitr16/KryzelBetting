@@ -156,6 +156,29 @@ def initialize_database_once():
             db.create_all()
             print("✅ Database tables created")
             
+            # Create default superadmin user
+            try:
+                from src.models.multitenant_models import SuperAdmin
+                from werkzeug.security import generate_password_hash
+                
+                # Check if superadmin already exists
+                existing_superadmin = SuperAdmin.query.filter_by(username='superadmin').first()
+                if not existing_superadmin:
+                    superadmin = SuperAdmin(
+                        username='superadmin',
+                        password_hash=generate_password_hash('KryzelAdmin!@#123'),
+                        email='superadmin@goalserve.com',
+                        is_active=True,
+                        permissions='{"all": true}'
+                    )
+                    db.session.add(superadmin)
+                    db.session.commit()
+                    print("✅ Default superadmin created (username: superadmin, password: KryzelAdmin!@#123)")
+                else:
+                    print("ℹ️  Superadmin already exists")
+            except Exception as e:
+                print(f"⚠️  Could not create superadmin: {e}")
+            
         _database_initialized = True
         
     except Exception as e:
@@ -165,6 +188,27 @@ def initialize_database_once():
             try:
                 db.create_all()
                 print("✅ Database tables created (fallback)")
+                
+                # Try to create superadmin in fallback mode too
+                try:
+                    from src.models.multitenant_models import SuperAdmin
+                    from werkzeug.security import generate_password_hash
+                    
+                    existing_superadmin = SuperAdmin.query.filter_by(username='superadmin').first()
+                    if not existing_superadmin:
+                        superadmin = SuperAdmin(
+                            username='superadmin',
+                            password_hash=generate_password_hash('KryzelAdmin!@#123'),
+                            email='superadmin@goalserve.com',
+                            is_active=True,
+                            permissions='{"all": true}'
+                        )
+                        db.session.add(superadmin)
+                        db.session.commit()
+                        print("✅ Default superadmin created in fallback mode")
+                except Exception as e3:
+                    print(f"⚠️  Could not create superadmin in fallback mode: {e3}")
+                
                 _database_initialized = True
             except Exception as e2:
                 print(f"❌ Fallback table creation also failed: {e2}")
@@ -362,6 +406,34 @@ def debug_sportsbooks():
                 'status': 'success',
                 'count': len(sportsbook_list),
                 'sportsbooks': sportsbook_list
+            }
+    except Exception as e:
+        return {
+            'status': 'error',
+            'message': str(e)
+        }, 500
+
+@app.route('/api/debug/superadmin', methods=['GET'])
+def debug_superadmin():
+    """Debug endpoint to check superadmin in database"""
+    try:
+        from src.models.multitenant_models import SuperAdmin
+        with app.app_context():
+            superadmins = SuperAdmin.query.all()
+            superadmin_list = []
+            for sa in superadmins:
+                superadmin_list.append({
+                    'id': sa.id,
+                    'username': sa.username,
+                    'email': sa.email,
+                    'is_active': sa.is_active,
+                    'created_at': sa.created_at.isoformat() if sa.created_at else None
+                })
+            
+            return {
+                'status': 'success',
+                'count': len(superadmin_list),
+                'superadmins': superadmin_list
             }
     except Exception as e:
         return {
