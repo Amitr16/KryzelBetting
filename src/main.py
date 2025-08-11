@@ -374,7 +374,8 @@ def serve(path):
         return "API endpoint not found", 404
     
     # Don't intercept any admin routes - let blueprints handle them completely
-    if path.startswith('admin/'):
+    # Check for both /admin/ and /<subdomain>/admin/ patterns
+    if path.startswith('admin/') or '/admin/' in path:
         return "Admin route should be handled by blueprint", 404
     
         # Handle sportsbook routes - these are handled by the multitenant blueprint
